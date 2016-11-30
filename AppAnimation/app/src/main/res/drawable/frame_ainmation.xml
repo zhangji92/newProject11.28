@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pet0" android:duration="200"/>
+    <item android:drawable="@drawable/pet1" android:duration="200"/>
+    <item android:drawable="@drawable/pet2" android:duration="200"/>
+    <item android:drawable="@drawable/pet3" android:duration="200"/>
+    <item android:drawable="@drawable/pet4" android:duration="200"/>
+    <item android:drawable="@drawable/pet5" android:duration="200"/>
+    <item android:drawable="@drawable/pet6" android:duration="200"/>
+    <item android:drawable="@drawable/pet7" android:duration="200"/>
+    <item android:drawable="@drawable/pet8" android:duration="200"/>
+    <item android:drawable="@drawable/pet9" android:duration="200"/>
+    <item android:drawable="@drawable/pet10" android:duration="200"/>
+    <item android:drawable="@drawable/pet11" android:duration="200"/>
+    <item android:drawable="@drawable/pet12" android:duration="200"/>
+    <item android:drawable="@drawable/pet13" android:duration="200"/>
+    <item android:drawable="@drawable/pet14" android:duration="200"/>
+</animation-list>

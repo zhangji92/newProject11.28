@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Return"
+        android:src="@drawable/pet0" />
+    <!--偏移-->
+    <Button
+        android:id="@+id/deviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:text="偏移" />
+    <!--偏移-->
+    <Button
+        android:id="@+id/deviation_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deviation"
+        android:text="偏移XML" />
+    <!--改变背景-->
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_toEndOf="@id/deviation"
+        android:text="改变背景" />
+    <Button
+        android:id="@+id/back_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:layout_toEndOf="@id/deviation"
+        android:text="改变背景XML" />
+    <!--集合动画-->
+    <Button
+        android:id="@+id/aggregate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_toEndOf="@id/back"
+        android:text="集合动画" />
+    <Button
+        android:id="@+id/aggregate_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aggregate"
+        android:layout_toEndOf="@id/back_xml"
+        android:text="集合动画XML" />
+</RelativeLayout>

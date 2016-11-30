@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_animator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/pet0" />
+    <!--让View既可以缩小、又能够淡出-->
+    <Button
+        android:id="@+id/scale_animator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_animator"
+        android:text="缩小淡出" />
+    <!--垂直-->
+    <Button
+        android:id="@+id/vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_animator"
+        android:layout_toEndOf="@id/scale_animator"
+        android:text="垂直" />
+    <!--平移缩放-->
+    <Button
+        android:id="@+id/move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_animator"
+        android:layout_toEndOf="@id/vertical"
+        android:text="平移" />
+    <!--平移缩放-->
+    <Button
+        android:id="@+id/parabola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_animator"
+        android:layout_toEndOf="@id/move"
+        android:text="抛物线" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parabola"
+        android:text="删除" />
+
+    <Button
+        android:id="@+id/meanwhile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parabola"
+        android:layout_toEndOf="@id/delete"
+        android:text="同时执行" />
+
+    <Button
+        android:id="@+id/successively"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parabola"
+        android:layout_toEndOf="@id/meanwhile"
+        android:text="依次执行" />
+
+    <Button
+        android:id="@+id/meanwhile_successively"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parabola"
+        android:layout_toEndOf="@id/successively"
+        android:text="同时依次执行" />
+
+    <Button
+        android:id="@+id/delete2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/successively"
+        android:text="删除2" />
+    <Button
+        android:id="@+id/parabola2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/successively"
+        android:layout_toEndOf="@id/delete2"
+        android:text="抛物线2" />
+    <Button
+        android:id="@+id/move_library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/successively"
+        android:layout_toEndOf="@id/parabola2"
+        android:text="移动_库" />
+</RelativeLayout>

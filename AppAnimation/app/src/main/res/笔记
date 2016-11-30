@@ -1,0 +1,64 @@
+View
+ViewGroup extends View
+View动画
+Animation:
+平移(TraslateAnimation)、旋转(RotateAnimation)、缩放（ScaleAnimation）、透明（AlphaAnimation）
+练习：
+每题3分。
+(1)写一个平移动画 TraslateAnimation
+(2)理解偏移量
+相对于控件实际位置的距离。
+(3)动画监听,将控件移动到动画结束后的位置。
+(4)xml中定义一个平移动画
+
+(5)xml中定义一个缩放动画
+(6)xml中定义一个旋转动画
+(7)xml中定义一个透明动画
+
+(8)代码创建缩放动画
+（9）代码创建旋转动画
+（10）代码创建透明动画
+
+（11）代码创建组合动画
+(12)xml中创建组合动画
+
+预习：
+ 属性动画
+
+ 1，定义帧动画
+ (1)在drawable下定义资源文件，root element: animation-list
+ (2)将drawable作为view的背景并通过drawable来播放。
+ 2，LayoutAnimation
+ 3，Activity切换动画
+ 4，属性动画
+ 练习：每题2分。
+ （1）定义帧动画
+ （2）定义LayoutAnimation动画.
+ (3)为activity定义切换动画。效果类似6bu6.
+ （4）属性动画 改变一个对象的traslationY属性，让其沿y轴向上平移一段距离，它的高度。
+ （5）属性动画，改变一个对象背景色的属性，3s内让其从0xFFFF8080到0XFF8080FF。动画无限循环且翻转。
+ （6）属性动画，动画集合，5s内对view的旋转、平移、缩放、透明度进行改变。
+ （7）将上三个属性动画用xml实现。
+
+ 属性动画(通过动画的方式改变对象的属性)
+ 1，常用属性：
+ Duration动画的持续时间，默认300ms。
+ 常用类 ValueAnimator 、ObjectAnimator、AnimatorSet
+ 2，插值器和估值器
+ 3，属性动画监听器
+ AnimatorUpdateListener 监听整个动画过程
+ AnimatorListener  监听开始、结束、重复、取消
+ AnimatorListenerAdapter
+
+
+
+
+ 练习 每题2'共16分。
+ （1）利用objectAnimator,能够让View既可以缩小、又能够淡出（3个属性scaleX,scaleY,alpha）
+ (2)利用objectAnimator,想实现抛物线的效果，水平方向100px/s，垂直方向加速度200px/s*s
+ (3)使用propertyValuesHolder,实现控件的平移、缩放。
+ (4)利用ValuesAnimator,想实现抛物线的效果，水平方向100px/s，垂直方向加速度200px/s*s
+ (5) 删除某个个元素，希望是个淡出的效果，动画执行完，最终要删掉该元素。 用AnimatorListener以及AnimatorListenerAdapter分别实现。
+ （6）AnimationSet 使用playTogether两个动画同时执行。将视图在x和y方向均扩大一倍。
+ （7）AnimationSet 使用playSequentially依次执行。将视图在x和y方向均扩大一倍。
+ (8)测试 animSet.play().with();链式编程 ，1（宽度增大一倍），2(高度增大一部)，3（距离x轴200px） 动画同时执行，4(恢复到原点)在3的后面。

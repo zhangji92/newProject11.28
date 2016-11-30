@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutAnimation="@anim/anim_layout">
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View" />
+
+        <Button
+            android:id="@+id/intent_activity1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:text="跳转页面1" />
+        <Button
+            android:id="@+id/intent_activity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intent_activity1"
+            android:text="跳转页面2" />
+        <Button
+            android:id="@+id/TranslateAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/intent_activity2"
+            android:text="平移动画" />
+
+        <!--帧动画-->
+        <Button
+            android:id="@+id/frameAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TranslateAnimation"
+            android:layout_toEndOf="@id/TranslateAnimation"
+            android:text="点击变成帧动画" />
+
+        <Button
+            android:id="@+id/offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TranslateAnimation"
+            android:text="偏移量" />
+
+        <Button
+            android:id="@+id/XML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/offset"
+            android:text="XML动画" />
+
+        <Button
+            android:id="@+id/ScaleAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/XML"
+            android:text="缩放动画" />
+
+        <Button
+            android:id="@+id/RotateAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ScaleAnimation"
+            android:text="旋转动画" />
+
+        <Button
+            android:id="@+id/AlphaAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RotateAnimation"
+            android:text="透明动画" />
+
+        <Button
+            android:id="@+id/combination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AlphaAnimation"
+            android:text="组合动画" />
+    </RelativeLayout>
+</ScrollView>
