@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/fragment1_tooblar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent ="10%"
+        android:background="@color/fragment_tooblar"
+        >
+     <TextView
+         android:id="@+id/fragment_text1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:textSize="16sp"
+         android:gravity="center"
+         android:textColor="@color/buttom_back"
+         />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/fragment1_tooblar"
+        android:id="@+id/fragment1_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent ="15%"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <ListView
+        android:id="@+id/home_list"
+        android:layout_below="@id/fragment1_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent ="75%"
+        android:divider="@color/buttom_back"
+        android:dividerHeight="5dp"
+        >
+    </ListView>
+</android.support.percent.PercentRelativeLayout>

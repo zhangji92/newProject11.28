@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeijingPlayer.iml" filepath="$PROJECT_DIR$/BeijingPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afinal/afinal.iml" filepath="$PROJECT_DIR$/afinal/afinal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radiuimage/radiuimage.iml" filepath="$PROJECT_DIR$/radiuimage/radiuimage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refreshview/refreshview.iml" filepath="$PROJECT_DIR$/refreshview/refreshview.iml" />
+    </modules>
+  </component>
+</project>

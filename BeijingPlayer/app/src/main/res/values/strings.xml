@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">北京娱乐</string>
+
+    <!--底部按钮-->
+    <string name="buttom_menu1">首页</string>
+    <string name="buttom_menu2">同城</string>
+    <string name="buttom_menu3">优惠</string>
+    <string name="buttom_menu4">我的</string>
+
+    <!--fragment2-->
+    <string name="fragment2_text1">6bu6</string>
+    <string name="fragment2_text2">酒水代理</string>
+    <string name="fragment2_text3">仅限代理商进入</string>
+    <string name="fragment2_text4">招聘专区</string>
+    <string name="fragment2_text5">求职应聘专区</string>
+    <string name="fragment2_text6">场所</string>
+    <string name="fragment2_text7">拼桌</string>
+    <string name="fragment2_text8">快拍</string>
+    <string name="fragment2_text9">达人</string>
+    <string name="fragment2_text10">附近在玩</string>
+
+    <!--fragment3-->
+    <string name="fragment3_text1">优惠专区</string>
+    <string name="fragment3_text2">筛选</string>
+    <string name="fragment3_text3">距离</string>
+
+    <!--fragment4-->
+    <string name="fragment4_text1">我的</string>
+    <string name="fragment4_text2">关注</string>
+    <string name="fragment4_text3">粉丝</string>
+    <string name="fragment4_text4">我的快拍</string>
+    <string name="fragment4_text5">我的收藏</string>
+    <string name="fragment4_text6">我的订单</string>
+    <string name="fragment4_text7">我的拼桌</string>
+    <string name="fragment4_text8">我的简历</string>
+    <string name="fragment4_text9">邀请好友</string>
+    <string name="fragment4_text10">我的消息</string>
+    <string name="fragment4_login">登录/注册</string>
+
+    <!--注册页面-->
+    <string name="register_text1">注册</string>
+    <string name="register_text2">请输入您的手机号</string>
+    <string name="register_text3">请输入验证码</string>
+    <string name="register_text4">密码</string>
+    <string name="register_text5">我已阅读并同意用户协议</string>
+    <string name="register_text6">已有账号?立即登录</string>
+    <string name="register_text7">立即注册</string>
+    <string name="register_yanzhen">获取验证码</string>
+
+    <!--登录页面-->
+    <string name="login_text1">登录</string>
+    <string name="login_text2">密码</string>
+    <string name="login_text3">记住账号</string>
+    <string name="login_text4">没有账号?立即注册</string>
+    <string name="login_text5">登录</string>
+    <string name="login_text6">忘记密码</string>
+
+    <!--设置-->
+    <string name="set_text1">个人中心</string>
+    <string name="set_text2">保存</string>
+    <string name="set_text3">头像</string>
+    <string name="set_text4">用户名:</string>
+    <string name="set_text5">昵称:</string>
+    <string name="set_text5.1">男</string>
+    <string name="set_text5.2">女</string>
+    <string name="set_text6">性别:</string>
+    <string name="set_text7">年龄:</string>
+    <string name="set_text8">地址:</string>
+    <string name="set_text9">退出登录</string>
+
+    <!--快拍页面-->
+    <string name="kuaipai_text1">热门推荐</string>
+
+    <!--场所页面-->
+    <string name="changsuo_tooblar">场所</string>
+    <string name="changsuo_shaixuan">筛选</string>
+    <string name="changsuo_juli">距离</string>
+    <string name="changsuo_pingjia">评价</string>
+    <string name="changsuo_xiaoliang">销量</string>
+
+</resources>

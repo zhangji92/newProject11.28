@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.beijingplayer.KuaipaiActivity">
+    <RelativeLayout
+        android:id="@+id/kuaipai_tooblar"
+        android:background="@color/fragment_tooblar"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/kuaipai_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/all_back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/kuaipai_tooblartext"
+            android:layout_toRightOf="@id/kuaipai_bank"
+            android:layout_toLeftOf="@+id/kuaipai_tooblarimg"
+            android:text="@string/fragment2_text8"
+            android:textColor="@color/buttom_back"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@id/kuaipai_tooblarimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/kuaipai_img"
+            />
+    </RelativeLayout>
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/kuaipai_text1"
+        android:textColor="@color/buttom_back"
+        android:background="@color/fragment_tooblar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/kuaipai_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </android.support.v4.view.ViewPager>
+    <GridView
+        android:padding="10dp"
+        android:id="@+id/kuaipai_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        >
+    </GridView>
+
+</LinearLayout>

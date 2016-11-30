@@ -1,0 +1,59 @@
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <RelativeLayout
+        android:id="@+id/fragment3_tooblar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent ="10%"
+        android:background="@color/fragment_tooblar"
+        >
+        <TextView
+            android:id="@+id/fragmen3_text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/buttom_back"
+            android:text="@string/fragment3_text1"
+            />
+    </RelativeLayout>
+   <Spinner
+       android:layout_below="@id/fragment3_tooblar"
+       android:id="@+id/fragment3_spinner1"
+       android:layout_width="0dp"
+       app:layout_widthPercent="50%"
+       android:entries="@array/choose"
+       android:layout_height="wrap_content">
+
+   </Spinner>
+    <Spinner
+        android:layout_toRightOf="@id/fragment3_spinner1"
+        android:layout_below="@id/fragment3_tooblar"
+        android:id="@+id/fragment3_spinner2"
+        android:layout_width="0dp"
+        app:layout_widthPercent="50%"
+        android:entries="@array/distance"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <ListView
+        android:layout_below="@id/fragment3_spinner1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fragment3_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/fragment2_text1"
+        android:dividerHeight="1dp"
+        >
+
+    </ListView>
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

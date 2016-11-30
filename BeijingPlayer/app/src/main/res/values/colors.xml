@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="buttom_back">#f4efef</color>
+    <color name="textcolor">#464141</color>
+
+    <!--fragment1   -->
+    <color name="fragment_tooblar">#df0808</color>
+    <!--home_list-->
+    <color name="home_list">#44000000</color>
+    <!--fragment2-->
+    <color name="fragment2_text1">#0a0909</color>
+    <color name="fragment2_text2">#6e6969</color>
+    <color name="fragment2_back">#dcdbdb</color>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/fragment_tooblar</item>
+        <item name="colorAccent">@color/home_list</item>
+
+    </style>
+    <style name="aaaaa" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/fragment_tooblar</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/loading</item>
+    </style>
+
+</resources>

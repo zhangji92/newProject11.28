@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/player_list_img"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:id="@+id/player_list_linear1"
+        android:layout_toRightOf="@id/player_list_img"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/fragment2_text1"
+            android:id="@+id/player_list_text1"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:ellipsize="end"/>
+        <TextView
+            android:textColor="@color/fragment2_text1"
+            android:id="@+id/player_list_text2"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/player_list_text3"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/player_list_text4"
+            android:layout_marginTop="5dp"
+            android:textSize="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableStart="@drawable/player_list"
+            android:id="@+id/player_list_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="12222km"
+            />
+
+
+</RelativeLayout>

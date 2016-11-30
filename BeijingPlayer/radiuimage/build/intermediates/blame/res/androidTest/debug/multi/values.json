@@ -1,0 +1,197 @@
+[
+    {
+        "outputFile": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1111,
+                    "endColumn": 44,
+                    "endOffset": 1151
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1111,
+                        "endColumn": 44,
+                        "endOffset": 1151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1156,
+                    "endColumn": 68,
+                    "endOffset": 1220
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1156,
+                        "endColumn": 68,
+                        "endOffset": 1220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1225,
+                    "endColumn": 93,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1225,
+                        "endColumn": 93,
+                        "endOffset": 1314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 70,
+                    "endOffset": 1385
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1319,
+                        "endColumn": 70,
+                        "endOffset": 1385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1390,
+                    "endColumn": 203,
+                    "endOffset": 1589
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1390,
+                        "endColumn": 203,
+                        "endOffset": 1589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1594,
+                    "endColumn": 81,
+                    "endOffset": 1671
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1594,
+                        "endColumn": 81,
+                        "endOffset": 1671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1676,
+                    "endColumn": 73,
+                    "endOffset": 1745
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1676,
+                        "endColumn": 73,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1750,
+                    "endColumn": 111,
+                    "endOffset": 1857
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1750,
+                        "endColumn": 111,
+                        "endOffset": 1857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1862,
+                    "endColumn": 73,
+                    "endOffset": 1931
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1862,
+                        "endColumn": 73,
+                        "endOffset": 1931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1936,
+                    "endColumn": 115,
+                    "endOffset": 2047
+                },
+                "from": {
+                    "file": "D:\\Android\\android-workspace\\BeijingPlayer\\radiuimage\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1936,
+                        "endColumn": 115,
+                        "endOffset": 2047
+                    }
+                }
+            }
+        ]
+    }
+]
