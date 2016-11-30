@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AddressBook</string>
+
+    <!--添加页面-->
+    <string name="add_quxiao">取消</string>
+    <string name="add_new">新建联系人</string>
+    <string name="add_sure">确定</string>
+    <string name="add_name">姓名</string>
+    <string name="add_gongsi">公司</string>
+    <string name="add_photo">电话</string>
+    <string name="add_email">邮件</string>
+</resources>

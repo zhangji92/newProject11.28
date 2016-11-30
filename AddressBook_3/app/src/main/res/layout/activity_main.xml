@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_back"
+    tools:context="com.example.yan.addressbook.MainActivity">
+   <RelativeLayout
+       android:id="@+id/main_layout1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimaryDark"
+       android:gravity="center"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="联系人"
+           android:textSize="20sp"
+           android:padding="10dp"
+           android:textColor="@color/main_tooblar_textcolor"
+           />
+
+   </RelativeLayout>
+
+   <ListView
+       android:layout_below="@id/main_layout1"
+       android:id="@+id/main_list"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="20dp"
+       android:divider="@color/main_back"
+       android:dividerHeight="0.3dp"
+       android:background="@color/main_tooblar_textcolor"
+       >
+   </ListView>
+    <ImageView
+        android:id="@+id/main_tianjia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</RelativeLayout>
