@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularView">
+        <attr name="color_circular" format="color"></attr>
+        <attr name="back_circular" format="reference"></attr>
+    </declare-styleable>
+</resources>
