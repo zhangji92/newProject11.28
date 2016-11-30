@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="img">logo</string>
+    <string name="bnt">点击移动</string>
+    <string name="bnt2">重写ImageView</string>
+    <string name="bnt3">弹性滑动</string>
+    <string name="intent">跳转页面</string>
+</resources>

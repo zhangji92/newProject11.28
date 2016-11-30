@@ -1,0 +1,85 @@
+(1)Android四层架构：
+1，Linux内核层
+     Android系统基于Linux2.6内核的，这一层为Android设备的各种硬件提供了底层
+   驱动，如显示驱动、音频驱动、照相机驱动、蓝牙驱动、Wi-Fi驱动等。
+2，系统运行库层（LIBRARIES）
+   这一层通过一些c/c++库来为Android系统提供了主要的特性支持。如SQLite库提供了数据的支持，
+OpenGL/ES库提供了3D绘图的支持，Webkit库提供了浏览器内核的支持等。
+3，应用框架层(Application FrameWork)
+   这一层主要提供构建应用程序时可能用到的各种API,Android自带的一些核心应用就是使用这
+些API完成的，开发者也可以通过使用这些API来构建自己的应用程序。
+4，应用层
+  所有安装在手机上的应用程序都属于这一层的，比如系统自带的联系人、短信等程序，或者
+  应用市场下载的小游戏，当然还包括你自己开发的程序。
+
+(2)View System
+ View基础知识
+ View是控件，ViewGroup 包括LinearLayout  RelativeLayout  ListView GridView
+
+
+练习
+(1)简述Android四层架构及作用。
+
+(2) 简述什么是View，ViewGroup包括那些？ View与ViewGroup关系？
+View 是控件，
+ViewGroup 包括LinearLayout  RelativeLayout  ListView GridView
+View继承ViewGroup
+
+(3)自定义MyRelativeLayout,继承自RelativeLayout,画出继承树？
+    Object-View-ViewGroup-RelativeLayout
+
+(4)View的位置参数代表什么意思？如何获取四个参数？
+
+
+(5)x,y,translationX,translationY代表什么含义？
+  x,y是View左上角的x,y坐标
+  translationX，translationY是View左上角相对于副布局的偏移量
+
+ (6)x left translationX 关系
+    x=left+translationX
+ (7)测试MotionEvent事件。ACTION_DOWN,ACTION_MOVE,ACTION_UP
+
+(8)MotionEvent，x,y,rawX,rawY各自含义？
+    x,y相对于当前View左上角的x,y坐标，rawX,rawY是返回手机屏幕左上角x,y的坐标
+
+(9)获取TouchSlop常量值。
+ViewConfiguration.get(this).getScaledTouchSlop();
+
+
+1,VelocityTracker
+在一段时间内划过的像素数。
+2,DestureDetector
+3,Scroller弹性滑动
+          scrollTo(int x, int y)方法:
+          *   将一个视图的内容移动到指定位置.此时偏移量 mScrollX,mScrollY就分别等于x,y.
+          *   默认情况下 mScrollX和mScrollY均为0
+
+          scrollTo(int x,int y)和scrollBy(int x,int y)方法的坐标说明
+           *   比如我们对于一个TextView调用scrollTo(0,25)
+           *   那么该TextView中的content(比如显示的文字:Hello)会怎么移动呢?
+           *   向下移动25个单位?不,恰好相反.
+           *   这是为什么呢?
+           *   因为调用这两个方法会导致视图重绘.
+           *   即调用public void invalidate(int l, int t, int r, int b)方法.
+           *   此处的l,t,r,b四个参数就表示View原来的坐标.
+           *   在该方法中最终会调用:
+           *   tmpr.set(l - scrollX, t - scrollY, r - scrollX, b - scrollY);
+           *   p.invalidateChild(this, tmpr);
+           *   其中tmpr是ViewParent,tmpr是Rect,this是原来的View.
+           *   通过这两行代码就把View在一个Rect中重绘.
+           *   请注意第一行代码:
+           *   原来的l和r均减去了scrollX
+           *   原来的t和b均减去了scrollY
+           *   就是说scrollX如果是正值,那么重绘后的View的宽度反而减少了;反之同理
+           *   就是说scrollY如果是正值,那么重绘后的View的高度反而减少了;反之同理
+           *   所以,TextView调用scrollTo(0,25)和我们的理解相反
+
+4，scrollTo/scrooBy 内部规则，mScroollX,mScrollY改变规则：
+
+作业 每题2分，共12分。
+(1)根据VelocityTrcker,计算手指的滑动速度。注意，要将其回收。
+(2)测试DestureDetector的用法。并明确各个回调方法的作用。
+（3）测试scrllTo/scrollBy用法。将view移动到(50,50)处。
+(4)利用scroller实现view的滑动,要求：将当前view移动到(50,50)处。
+(5)实现view跟手滑动效果。
+(6)使用延时策略实现view的弹性滑动。1000ms内将view的内容移动到(50,50)处。
