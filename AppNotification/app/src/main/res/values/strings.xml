@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppNotification</string>
+    <string name="notification">发送通知</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="message">短信测试</string>
+    <string name="camera">调用相机</string>
+    <string name="chart">调用图库</string>
+    <string name="media">播放音频</string>
+    <string name="start">开始</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="video">播放视频</string>
+</resources>
