@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppSharedPreferences</string>
+    <string name="user">用户名:</string>
+    <string name="pass">密码:</string>
+    <string name="login">登陆</string>
+    <string name="box">记住账号</string>
+</resources>
