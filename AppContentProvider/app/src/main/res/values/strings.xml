@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ContentProvider</string>
+    <string name="read">读取联系人</string>
+</resources>
