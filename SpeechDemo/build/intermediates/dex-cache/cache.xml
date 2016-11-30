@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\SpeechDemo\app\libs\Msc.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="994d12017bc2c9ba570180cde5500689d134e6e6">
+        <dex dex="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_6346ed4a739d8cd1f78e2695219eac13bc97091b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\SpeechDemo\app\libs\Sunflower.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ac359ea6c32534b2b835948f15984bd0586a7a8">
+        <dex dex="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_d8dc1f7192c37fd579bc0789e83994d651b6aedb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d2127cd2cfd2914411586b7436cb918c9e5e6550">
+        <dex dex="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0dbde55871209c3ea68df2b1553048c6caaeb0ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_099cbd6d114024195b193012e6d1c6258ad44672\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0ef52168bca8f1befee0819d954546628374ded6">
+        <dex dex="D:\Android\android-workspace\SpeechDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_20d793b420625423e8be491073a28371f5ef311d\classes.dex" />
+    </item>
+
+</items>

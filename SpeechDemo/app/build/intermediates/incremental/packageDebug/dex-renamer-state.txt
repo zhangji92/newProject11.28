@@ -1,0 +1,7 @@
+#Tue Nov 29 17:34:38 CST 2016
+base.0=D\:\\Android\\android-workspace\\SpeechDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0dbde55871209c3ea68df2b1553048c6caaeb0ff
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Android\\android-workspace\\SpeechDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_20d793b420625423e8be491073a28371f5ef311d\\classes.dex
+base.1=D\:\\Android\\android-workspace\\SpeechDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_20d793b420625423e8be491073a28371f5ef311d
+file.0=D\:\\Android\\android-workspace\\SpeechDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0dbde55871209c3ea68df2b1553048c6caaeb0ff\\classes.dex
