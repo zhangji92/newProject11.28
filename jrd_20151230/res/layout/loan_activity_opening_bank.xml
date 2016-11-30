@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/autocompleate_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:layout_marginTop="@dimen/loan_10dip">
+
+        <AutoCompleteTextView
+            android:id="@+id/autocompleateTV"
+            style="@style/loan_input_edittext_style"
+            android:layout_centerVertical="true"
+            android:background="@drawable/loan_edittext_bg_shape"
+            android:dropDownHeight="match_parent"
+            android:dropDownVerticalOffset="0dp"
+            android:paddingEnd="0dp"
+            android:paddingLeft="@dimen/loan_15dip"
+            android:paddingRight="0dp"
+            android:paddingStart="@dimen/loan_15dip"
+            android:popupBackground="@drawable/loan_autotv_popupwindow_shape"
+            android:scrollbarStyle="insideInset"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/loan_15dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:src="@drawable/loan_earch" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/loan_opencard_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+
+    <include layout="@layout/loan_no_data_layout" />
+
+</com.jrd.loan.widget.WindowView>

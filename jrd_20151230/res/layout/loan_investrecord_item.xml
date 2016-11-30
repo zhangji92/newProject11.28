@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:background="@color/loan_tab_background_normal"
+        android:orientation="vertical"
+        android:padding="@dimen/loan_10dip">
+
+        <TextView
+            android:id="@+id/loan_nameandcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_5dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:singleLine="true"
+            android:text="优质快消品经销商融资项目J14122201"
+            android:textColor="#818181"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="投资金额"
+                    android:textColor="#818181"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+
+                <TextView
+                    android:id="@+id/loan_investAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="3000"
+                    android:textColor="#818181"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="收益率"
+                    android:textColor="#818181"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|bottom">
+
+                    <TextView
+                        android:id="@+id/loan_moneyRate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="7"
+                        android:textColor="#818181"
+                        android:textSize="@dimen/loan_textsize_16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="%"
+                        android:textColor="#818181"
+                        android:textSize="@dimen/loan_textsize_12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/loan_collectAmount_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="代收金额"
+                    android:textColor="#818181"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right|bottom">
+
+                    <TextView
+                        android:id="@+id/loan_collectAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:singleLine="true"
+                        android:text="10"
+                        android:textColor="#818181"
+                        android:textSize="@dimen/loan_textsize_16sp" />
+
+                    <TextView
+                        android:id="@+id/loan_per_cent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="%"
+                        android:textColor="#818181"
+                        android:textSize="@dimen/loan_textsize_12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

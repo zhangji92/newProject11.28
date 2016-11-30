@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/loan_title_bar_height"
+    android:background="@color/loan_tab_background_normal">
+
+    <FrameLayout
+        android:id="@+id/leftBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="@dimen/loan_btn_lenght"
+            android:layout_height="@dimen/loan_title_bar_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginLeft="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginRight="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginStart="@dimen/loan_title_bar_btn_margin"
+            android:background="@null"
+            android:clickable="false"
+            android:drawableLeft="@drawable/loan_btn_back"
+            android:drawableStart="@drawable/loan_btn_back"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/loan_str_back"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+        <ImageView
+            android:id="@+id/imageLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/loan_15dip"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_marginStart="@dimen/loan_15dip"
+            android:contentDescription="@null"
+            android:src="@drawable/loan_close_iamge"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/loan_titlebar_menu_padding"
+        android:paddingRight="@dimen/loan_titlebar_menu_padding"
+        android:singleLine="true"
+        android:textColor="@color/loan_title_bar_textColor"
+        android:textSize="@dimen/loan_titlebar_textsize" />
+
+    <FrameLayout
+        android:id="@+id/rightBtnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/loan_15dip"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_marginStart="@dimen/loan_15dip"
+            android:contentDescription="@null"
+            android:src="@drawable/loan_current_pocket_menu" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="@dimen/loan_btn_lenght"
+            android:layout_height="@dimen/loan_title_bar_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginLeft="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginRight="@dimen/loan_title_bar_btn_margin"
+            android:layout_marginStart="@dimen/loan_title_bar_btn_margin"
+            android:background="@null"
+            android:clickable="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/loan_str_back"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_titlebar_menu_textsize" />
+    </FrameLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.jrd.loan.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/loan_main_refreshscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ptrAnimationStyle="flip"
+        app:ptrMode="both" >
+
+        <LinearLayout
+            android:id="@+id/currentPocketLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 顶部Banner广告 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_150dip"
+                android:orientation="vertical" >
+
+                <com.jrd.loan.widget.MyBanner
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <com.autoscroll.viewpager.AutoScrollViewPager
+                        android:id="@+id/picslooper"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true" />
+
+                    <com.autoscroll.viewpager.CircleIndicator
+                        android:id="@+id/pageIndexor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true" />
+                </com.jrd.loan.widget.MyBanner>
+
+                <ImageView
+                    android:id="@+id/banner_iamge"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/loan_banner_default"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+
+            <!-- 活期口袋年利率 -->
+
+            <RelativeLayout
+                android:id="@+id/circleLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <com.jrd.loan.widget.RoundProgressBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circlePro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    app:roundColor="@color/loan_circle_color"
+                    app:roundProgressColor="@color/loan_current_pocket_ring_color"
+                    app:roundWidth="5dip" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <!-- 今日利率 -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/loan_10dip"
+                        android:text="@string/loan_tody_rate"
+                        android:textColor="#575556"
+                        android:textSize="@dimen/loan_textsize_15sp" />
+
+                    <!-- 利率7.5 -->
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical" >
+
+                        <TextView
+                            android:id="@+id/rateToady"
+                            style="@style/loan_title2_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/loan_current_pocket_ring_color"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            style="@style/loan_title2_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@id/rateToady"
+                            android:layout_marginTop="5dip"
+                            android:layout_toRightOf="@id/rateToady"
+                            android:text="%"
+                            android:textColor="@color/loan_current_pocket_ring_color"
+                            android:textSize="30sp" />
+                    </RelativeLayout>
+
+                    <!-- 可投金额 -->
+
+                    <TextView
+                        android:id="@+id/canInvestMoney"
+                        style="@style/loan_title2_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/loan_current_pocket_icon" />
+            </RelativeLayout>
+
+            <!-- 无限期 按日计息 灵活存取 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dip"
+                    android:src="@drawable/loan_infinit_date" />
+
+                <TextView
+                    style="@style/loan_title2_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="15dip"
+                    android:text="@string/loan_infinit_date" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dip"
+                    android:src="@drawable/loan_fate_each_day" />
+
+                <TextView
+                    style="@style/loan_title2_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="15dip"
+                    android:text="@string/loan_fate_each_day" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dip"
+                    android:src="@drawable/loan_save_deposite_prompt" />
+
+                <TextView
+                    style="@style/loan_title2_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/loan_save_deposite_prompt" />
+            </LinearLayout>
+
+            <!-- 立即投标 -->
+
+            <Button
+                android:id="@+id/btnBidNow"
+                style="@style/loan_next_click_btn_style"
+                android:text="@string/loan_bid_now" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loan_40dip"
+                layout="@layout/loan_recharge_pinganyinhang_warning" />
+        </LinearLayout>
+    </com.jrd.loan.pulltorefresh.library.PullToRefreshScrollView>
+
+    <include
+        android:id="@+id/noNetworkLayout"
+        layout="@layout/loan_no_network_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

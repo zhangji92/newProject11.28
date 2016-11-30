@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/loan_color_blue_bg"
+        android:paddingBottom="@dimen/loan_20dip"
+        android:paddingTop="@dimen/loan_20dip">
+
+        <RelativeLayout
+            android:id="@+id/loan_return_dateLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_20dip"
+            android:layout_marginRight="@dimen/loan_20dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_return_yearTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="2015"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_return_mounthTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loan_return_yearTV"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/loan_25dip"
+                android:drawableEnd="@drawable/loan_date_select_img"
+                android:drawablePadding="@dimen/loan_5dip"
+                android:drawableRight="@drawable/loan_date_select_img"
+                android:text="2015"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </RelativeLayout>
+
+        <View style="@style/loan_horizontal_white_style" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_end_text_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="已回款总额（元）"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_return_endTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loan_end_text_hint"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/loan_25dip"
+                android:text="0.00"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </RelativeLayout>
+
+        <View style="@style/loan_horizontal_white_style" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_not_text_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="未回款总额（元）"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_return_notTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loan_not_text_hint"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/loan_25dip"
+                android:text="0.00"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.jrd.loan.widget.XListView
+        android:id="@+id/loan_return_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+    <include layout="@layout/loan_no_data_layout" />
+
+</com.jrd.loan.widget.WindowView>

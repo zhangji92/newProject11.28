@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/loan_20dip"
+    android:gravity="center_horizontal|bottom"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/loan_warning_img"
+        android:drawablePadding="@dimen/loan_5dip"
+        android:drawableStart="@drawable/loan_warning_img"
+        android:gravity="center_vertical"
+        android:text="@string/loan_sate_tips"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="阳光保险"
+        android:textColor="@color/loan_current_text_color_blue"
+        android:textSize="@dimen/loan_textsize_12sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="承保"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/loan_15dip"
+        android:text="绑卡信息确认"
+        android:textColor="@color/loan_color_black"
+        android:textSize="@dimen/loan_textsize_18sp" />
+
+    <TextView
+        android:id="@+id/loan_bankCardInfo_nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:id="@+id/loan_bankCardInfo_idnumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_30dip"
+        android:layout_marginRight="@dimen/loan_30dip"
+        android:layout_marginTop="@dimen/loan_20dip"
+        android:text="每个账号只可将一张银行卡绑定为快捷卡，请使用常用银行卡进行绑定。绑定后，提现只能提至快捷卡，且无法自助修改，请您务必准确填写。"
+        android:textColor="@color/loan_color_red_light"
+        android:textSize="@dimen/loan_textsize_12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/loan_bankCardInfo_cancelBtn"
+            style="@style/loan_dialog_left_btn_style"
+            android:text="返回修改" />
+
+        <Button
+            android:id="@+id/loan_bankCardInfo_enterBtn"
+            style="@style/loan_dialog_right_btn_style"
+            android:text="我已确认" />
+    </LinearLayout>
+
+</LinearLayout>

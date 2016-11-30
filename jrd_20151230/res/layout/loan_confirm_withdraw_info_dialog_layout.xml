@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/loan_15dip"
+        android:text="确认提现信息"
+        android:textColor="@color/loan_color_black"
+        android:textSize="@dimen/loan_textsize_18sp" />
+
+    <TextView
+        android:id="@+id/loan_withdrawInfo_amountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:id="@+id/loan_withdrawInfo_costTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:id="@+id/loan_withdrawInfo_reailtyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:id="@+id/loan_withdrawInfo_nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <TextView
+        android:id="@+id/loan_withdrawInfo_numberTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_40dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="TextView"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <LinearLayout
+        android:id="@+id/loan_withdrawInfo_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loan_withdrawInfo_openTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_40dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:text="TextView"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_withdrawInfo_addressTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_40dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:text="TextView"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginTop="@dimen/loan_20dip" />
+
+    <EditText
+        android:id="@+id/etTransPasswd"
+        style="@style/loan_current_edit_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_50dip"
+        android:gravity="center"
+        android:hint="@string/loan_please_input_trade_pwd"
+        android:inputType="textPassword"
+        android:paddingLeft="0dp" />
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/loan_bankCardInfo_cancelBtn"
+            style="@style/loan_dialog_left_btn_style"
+            android:text="返回修改" />
+
+        <Button
+            android:id="@+id/loan_bankCardInfo_enterBtn"
+            style="@style/loan_dialog_right_btn_style"
+            android:text="我已确认" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_10dip"
+        android:layout_marginLeft="@dimen/loan_30dip"
+        android:layout_marginRight="@dimen/loan_30dip"
+        android:text="为了顺利提现，请确认您的银行卡信息无误"
+        android:textColor="@color/loan_current_text_color_gray"
+        android:textSize="@dimen/loan_textsize_12sp" />
+</LinearLayout>

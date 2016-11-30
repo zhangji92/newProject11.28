@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <com.jrd.loan.widget.LoanRefreshScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/loan_color_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/loan_assets_piechart"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="@dimen/loan_10dip"></com.github.mikephil.charting.charts.PieChart>
+
+            <View
+                style="@style/loan_verticalline_left_right_blank_style"
+                android:layout_marginTop="@dimen/loan_20dip" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_45dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_marginStart="@dimen/loan_15dip"
+                    android:text="待收本金"
+                    android:textColor="@color/loan_gray_text"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+
+                <TextView
+                    android:id="@+id/loan_assets_principal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="12,3456,789"
+                    android:textColor="@color/loan_color_assets_pink"
+                    android:textSize="@dimen/loan_textsize_20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/loan_15dip"
+                    android:layout_marginRight="@dimen/loan_15dip"
+                    android:src="@drawable/loan_cir_pink" />
+            </RelativeLayout>
+
+            <View style="@style/loan_verticalline_left_right_blank_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_45dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_marginStart="@dimen/loan_15dip"
+                    android:text="待收收益"
+                    android:textColor="@color/loan_gray_text"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+
+                <TextView
+                    android:id="@+id/loan_assets_income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="12,3456,789"
+                    android:textColor="@color/loan_color_assets_pink"
+                    android:textSize="@dimen/loan_textsize_20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/loan_15dip"
+                    android:layout_marginRight="@dimen/loan_15dip"
+                    android:src="@drawable/loan_cir_blue" />
+            </RelativeLayout>
+
+            <View style="@style/loan_verticalline_left_right_blank_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_45dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_marginStart="@dimen/loan_15dip"
+                    android:text="可用余额"
+                    android:textColor="@color/loan_gray_text"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+
+                <TextView
+                    android:id="@+id/loan_assets_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="12,3456,789"
+                    android:textColor="@color/loan_color_assets_pink"
+                    android:textSize="@dimen/loan_textsize_20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/loan_15dip"
+                    android:layout_marginRight="@dimen/loan_15dip"
+                    android:src="@drawable/loan_cir_green" />
+            </RelativeLayout>
+
+            <View style="@style/loan_verticalline_left_right_blank_style" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_45dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_marginStart="@dimen/loan_15dip"
+                    android:text="冻结金额"
+                    android:textColor="@color/loan_gray_text"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+
+                <TextView
+                    android:id="@+id/loan_assets_frozen_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="12,3456,789"
+                    android:textColor="@color/loan_color_assets_pink"
+                    android:textSize="@dimen/loan_textsize_20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/loan_15dip"
+                    android:layout_marginRight="@dimen/loan_15dip"
+                    android:src="@drawable/loan_cir_gray" />
+            </RelativeLayout>
+
+            <View
+                style="@style/loan_verticalline_left_right_blank_style"
+                android:layout_marginBottom="@dimen/loan_10dip" />
+        </LinearLayout>
+    </com.jrd.loan.widget.LoanRefreshScrollView>
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="@dimen/loan_55dip" -->
+<!--         android:background="@color/loan_color_blue_bg"> -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_vertical" -->
+<!--             android:orientation="vertical" -->
+<!--             android:paddingEnd="0dp" -->
+<!--             android:paddingLeft="@dimen/loan_20dip" -->
+<!--             android:paddingRight="0dp" -->
+<!--             android:paddingStart="@dimen/loan_20dip"> -->
+
+<!--             <TextView -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="累计投资（元）" -->
+<!--                 android:textColor="@color/loan_color_white" -->
+<!--                 android:textSize="@dimen/loan_textsize_16sp" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/loan_assets_total_invest_amount" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="12,3456,789" -->
+<!--                 android:textColor="@color/loan_color_white" -->
+<!--                 android:textSize="@dimen/loan_textsize_20sp" /> -->
+<!--         </LinearLayout> -->
+
+<!--         <View style="@style/loan_horizontalline_style" /> -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_vertical" -->
+<!--             android:orientation="vertical" -->
+<!--             android:paddingEnd="0dp" -->
+<!--             android:paddingLeft="@dimen/loan_20dip" -->
+<!--             android:paddingRight="0dp" -->
+<!--             android:paddingStart="@dimen/loan_20dip"> -->
+
+<!--             <TextView -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="累计收益（元）" -->
+<!--                 android:textColor="@color/loan_color_white" -->
+<!--                 android:textSize="@dimen/loan_textsize_16sp" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/loan_assets_total_income_amount" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="12,3456,789" -->
+<!--                 android:textColor="@color/loan_color_white" -->
+<!--                 android:textSize="@dimen/loan_textsize_20sp" /> -->
+<!--         </LinearLayout> -->
+<!--     </LinearLayout> -->
+
+</com.jrd.loan.widget.WindowView>

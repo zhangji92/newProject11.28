@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_10dip"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:text="认证支付" />
+
+    <include layout="@layout/loan_recharge_amount_layout" />
+
+    <TextView
+        android:id="@+id/loan_recharge_auth_bankNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_10dip"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:text="中国交通银行 借记卡" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="姓名        " />
+
+        <TextView
+            android:id="@+id/loan_recharge_auth_personNameTV"
+            style="@style/loan_current_item_text_values_style"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="身份证号" />
+
+        <TextView
+            android:id="@+id/loan_recharge_auth_cardNumTV"
+            style="@style/loan_current_item_text_values_style"
+            android:text="" />
+    </LinearLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="手机号    " />
+
+        <EditText
+            android:id="@+id/loan_recharge_auth_phoneNumEdit"
+            style="@style/loan_current_edit_style"
+            android:hint="请输入银行预留手机号" />
+    </LinearLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="验证码    " />
+
+        <EditText
+            android:id="@+id/loan_recharge_auth_codeEdit"
+            style="@style/loan_current_edit_style"
+            android:layout_weight="1"
+            android:hint="请输入短信验证码" />
+
+        <Button
+            android:id="@+id/loan_recharge_auth_codeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_textsize_12sp" />
+    </LinearLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <Button
+        android:id="@+id/loan_recharge_auth_nextBtn"
+        style="@style/loan_current_next_btn_style"
+        android:text="下一步" />
+
+</LinearLayout>

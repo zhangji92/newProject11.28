@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/loan_CloseOntouch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/loan_parent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:background="@color/loan_divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/loan_item_menu_height"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:gravity="center_vertical"
+                android:text="从"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:id="@+id/loan_current_pocket"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/loan_item_menu_height"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/loan_arrow_black"
+                android:gravity="center_vertical"
+                android:padding="@dimen/loan_10dip"
+                android:text="活期口袋·本金"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/loan_item_menu_height"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:gravity="center_vertical"
+                android:text="到"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_item_menu_height"
+                android:gravity="center_vertical"
+                android:padding="@dimen/loan_10dip"
+                android:text="@string/loan_my_account_balances"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:background="@color/loan_divider_line_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:text="@string/loan_TransferAmount"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <EditText
+                android:id="@+id/loan_rollOutMoney"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_weight="1"
+                android:background="@color/loan_tab_background_normal"
+                android:gravity="center"
+                android:hint="@string/loan_input_amount"
+                android:maxLength="10"
+                android:numeric="decimal"
+                android:singleLine="true"
+                android:textColor="@color/loan_current_text_color_black"
+                android:textColorHint="@color/loan_current_text_color_gray"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_allTurnOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:gravity="right"
+                android:text="@string/loan_all_turn_out"
+                android:textColor="@color/loan_color_btn_normal"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:background="@color/loan_divider_line_color"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:text="@string/loan_counter_fee"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:id="@+id/loan_withdrawalsFeeMoney"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="0元"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:background="@color/loan_divider_line_color"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/loan_practicalDeduction"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="@dimen/loan_10dip"
+            android:paddingRight="@dimen/loan_10dip"
+            android:text="@string/loan_deduct_0"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:background="@color/loan_divider_line_color" />
+
+        <TextView
+            android:id="@+id/loan_availableCash"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="@dimen/loan_10dip"
+            android:paddingRight="@dimen/loan_10dip"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <TextView
+            android:id="@+id/loan_sysRemainderAmtCanTakeOut"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_item_menu_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="@dimen/loan_10dip"
+            android:paddingRight="@dimen/loan_10dip"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/loan_detailedIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <Button
+            android:id="@+id/loan_confirmTurnOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:layout_marginTop="@dimen/loan_20dip"
+            android:background="@drawable/loan_bid_recharge_selector"
+            android:text="@string/loan_confirm_turn_out"
+            android:textColor="@color/loan_color_white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_20dip"
+            android:layout_marginTop="@dimen/loan_80dip"
+            android:gravity="center|bottom" >
+
+            <TextView
+                android:id="@+id/loan_account_tvAssure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:drawableLeft="@drawable/loan_account_assure"
+                android:drawablePadding="@dimen/loan_3dip"
+                android:gravity="center_vertical"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.jrd.loan.widget.WindowView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/loan_investrecord_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/loan_investrecord_state_payback"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_btn_bid_state_payback"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_30dip"
+            android:background="@color/loan_divider_line_color"/>
+
+        <RadioButton
+            android:id="@+id/loan_investrecord_investment"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_investment"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_30dip"
+            android:background="@color/loan_divider_line_color"/>
+
+        <RadioButton
+            android:id="@+id/loan_investrecord_repayment_end"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_repayment_end"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_divider_line_height"
+        android:background="@color/loan_divider_line_color"/>
+
+    <FrameLayout
+        android:id="@+id/loan_investrecord_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_above="@+id/main_line"
+        android:layout_weight="1"/>
+
+    <include layout="@layout/loan_no_data_layout"/>
+</com.jrd.loan.widget.WindowView>

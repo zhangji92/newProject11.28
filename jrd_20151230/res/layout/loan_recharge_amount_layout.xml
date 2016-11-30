@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/loan_45dip"
+    android:background="@color/loan_color_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/loan_current_item_name_style"
+        android:text="充值金额" />
+
+    <TextView
+        android:id="@+id/loan_recharge_amountTV"
+        style="@style/loan_current_item_text_values_style"
+        android:text="1234654.00" />
+
+</LinearLayout>

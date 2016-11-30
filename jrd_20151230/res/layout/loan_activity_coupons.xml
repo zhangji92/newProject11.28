@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/loan_title_bar_layout"/>
+
+    <RadioGroup
+        android:id="@+id/loan_coupons_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/loan_coupons_notUsed"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_not_used"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_30dip"
+            android:background="@color/loan_divider_line_color"/>
+
+        <RadioButton
+            android:id="@+id/loan_coupons_beenUsed"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_has_been_used"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_30dip"
+            android:background="@color/loan_divider_line_color"/>
+
+        <RadioButton
+            android:id="@+id/loan_coupons_expired"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_expired"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp"/>
+    </RadioGroup>
+
+    <View style="@style/loan_vertical_item_style"/>
+
+    <FrameLayout
+        android:id="@+id/loan_coupons_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_above="@+id/main_line"
+        android:layout_weight="1"/>
+
+</LinearLayout>

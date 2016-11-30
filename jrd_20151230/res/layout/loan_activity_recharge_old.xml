@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/loan_current_recharge_listview"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/loan_current_recharge_addBankcardTV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:layout_marginTop="@dimen/loan_15dip"
+        android:background="@color/loan_color_white"
+        android:drawableRight="@drawable/loan_right_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/loan_10dip"
+        android:paddingRight="@dimen/loan_10dip"
+        android:text="添加新的银行卡作为快捷卡"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <TextView
+        android:id="@+id/loan_recharge_hintTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loan_15dip"
+        android:text="为保证您的支付便捷、交易安全，请绑定一张常用卡设为快捷卡，用作支付唯一通道。"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+
+</com.jrd.loan.widget.WindowView>

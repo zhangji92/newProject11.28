@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义滚动尺-->
+    <declare-styleable name="RulerWheel">
+
+        <!--大号刻度线颜色-->
+        <attr name="lineColorMax" format="color" />
+        <attr name="lineHeightMax" format="dimension" />
+
+        <!--中号刻度线颜色-->
+        <attr name="lineColorMid" format="color" />
+        <attr name="lineHeightMid" format="dimension" />
+
+        <!--小号刻度线颜色-->
+        <attr name="lineColorMin" format="color" />
+        <attr name="lineHeightMin" format="dimension" />
+
+        <attr name="lineColorMidFlag" format="color" />
+
+        <!--是否显示刻度值-->
+        <attr name="showScaleValue" format="boolean" />
+
+        <!--刻度宽度-->
+        <attr name="scaleWidth" format="dimension" />
+
+        <attr name="lineMidLineHeight" format="dimension" />
+        <attr name="scaleValue" format="integer" />
+
+        <!--刻度左右间距-->
+        <attr name="line_divider" format="dimension" />
+
+        <attr name="text_Size" format="integer" />
+        <attr name="text_Color" format="color" />
+
+        <attr name="def_value" format="integer" />
+        <attr name="max_value" format="integer" />
+
+        <attr name="mode">
+            <flag name="SCALE" value="0" />
+            <flag name="HALF" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/loan_10dip"
+    android:paddingBottom="@dimen/loan_10dip"
+    android:background="@drawable/loan_menu_item_selector"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loan_bid_createTime"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_weight="1"
+        android:textColor="#555656"
+        android:text="@string/loan_bid_time"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <TextView
+        android:id="@+id/loan_bid_account"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#555656"
+        android:text="@string/loan_bidder"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <TextView
+        android:id="@+id/loan_bid_investAmount"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="#555656"
+        android:text="@string/loan_bid_money"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+</LinearLayout>

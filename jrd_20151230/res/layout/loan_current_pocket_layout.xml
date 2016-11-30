@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ruler="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loan_pocket_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:clickable="true" >
+
+    <com.jrd.loan.widget.LoanRefreshScrollView
+        android:id="@+id/loan_pocket_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/loan_pocket_enterBtn" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/loan_pocket_circleLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/loan_color_white"
+                android:gravity="top"
+                android:paddingBottom="@dimen/loan_20dip"
+                android:paddingTop="@dimen/loan_20dip" >
+
+                <com.jrd.loan.widget.RoundProgressBar
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/loan_pocket_circlePro"
+                    android:layout_width="220dip"
+                    android:layout_height="220dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    app:roundColor="@color/loan_circle_color"
+                    app:roundProgressColor="@color/loan_current_pocket_ring_color"
+                    app:roundWidth="5dip" />
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="220dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/loan_year_income_rate_text"
+                        android:textColor="@color/loan_current_text_color_black_drak"
+                        android:textSize="@dimen/loan_textsize_18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" >
+
+                        <!-- 年化利率  % -->
+
+                        <TextView
+                            android:id="@+id/loan_pocket_rateTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/loan_current_text_color_orange"
+                            android:textSize="70sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="top"
+                            android:paddingTop="@dimen/loan_5dip"
+                            android:text="@string/loan_per_cent"
+                            android:textColor="@color/loan_current_text_color_orange"
+                            android:textSize="36sp" />
+                    </LinearLayout>
+
+                    <!-- 可投金额 -->
+
+                    <TextView
+                        android:id="@+id/loan_pocket_callCastTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/loan_current_text_color_black"
+                        android:textSize="@dimen/loan_textsize_14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/shiftToText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loan_pocket_circlePro"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/loan_15dip"
+                    android:text="@string/loan_this_shift_to_text"
+                    android:textColor="@color/loan_current_text_color_orange"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+
+                <!-- 本次转入 -->
+
+                <EditText
+                    android:id="@+id/loan_pocket_shiftToEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shiftToText"
+                    android:layout_centerHorizontal="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textColor="@color/loan_current_text_color_orange"
+                    android:textSize="@dimen/loan_textsize_26sp" />
+
+                <View
+                    style="@style/loan_vertical_item_style"
+                    android:layout_width="120dp"
+                    android:layout_below="@+id/loan_pocket_shiftToEdit"
+                    android:layout_centerHorizontal="true" />
+
+                <!-- 可滑动的标尺layout -->
+
+                <FrameLayout
+                    android:id="@+id/loan_pocket_touchLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loan_pocket_shiftToEdit" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/loan_ruler_bg" />
+
+                    <com.jrd.loan.widget.RulerWheel
+                        android:id="@+id/rulerWheel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        ruler:lineColorMax="@color/loan_ruler_line_color_max"
+                        ruler:lineColorMid="@color/loan_ruler_line_color_mid_and_min"
+                        ruler:lineColorMidFlag="@color/loan_current_pocket_ring_color"
+                        ruler:lineColorMin="@color/loan_ruler_line_color_mid_and_min"
+                        ruler:lineHeightMax="35dip"
+                        ruler:lineHeightMid="18dip"
+                        ruler:lineHeightMin="12dip"
+                        ruler:lineMidLineHeight="80dip"
+                        ruler:line_divider="10dip"
+                        ruler:scaleWidth="1dip"
+                        ruler:showScaleValue="true"
+                        ruler:text_Color="@color/loan_ruler_txt_color" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loan_pocket_touchLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/loan_20dip"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal" >
+
+                    <!-- 每日可赚 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/loan_5dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/loan_everyday_income" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/loan_10dip"
+                            android:text="@string/loan_day_goin_text"
+                            android:textColor="@color/loan_current_text_color_black"
+                            android:textSize="@dimen/loan_textsize_14sp" />
+
+                        <TextView
+                            android:id="@+id/loan_pocket_dayGoinTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/loan_current_text_color_orange"
+                            android:textSize="@dimen/loan_textsize_30sp" />
+                    </LinearLayout>
+
+                    <!-- 银行同期可赚 -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/loan_5dip"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/loan_bank_income" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/loan_10dip"
+                            android:text="@string/loan_bank_goin_text"
+                            android:textColor="@color/loan_current_text_color_black"
+                            android:textSize="@dimen/loan_textsize_14sp" />
+
+                        <TextView
+                            android:id="@+id/loan_pocket_bankGoinTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/loan_current_text_color_orange"
+                            android:textSize="@dimen/loan_textsize_30sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- 拖动查看详情 -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/loan_10dip"
+                android:drawableEnd="@drawable/loan_top_arrow"
+                android:drawablePadding="@dimen/loan_5dip"
+                android:drawableRight="@drawable/loan_top_arrow"
+                android:gravity="center_vertical"
+                android:text="@string/loan_touch_look_details_text"
+                android:textColor="@color/loan_current_text_color_black"
+                android:textSize="@dimen/loan_14dip" />
+
+            <include layout="@layout/loan_recharge_pinganyinhang_warning" />
+        </LinearLayout>
+    </com.jrd.loan.widget.LoanRefreshScrollView>
+
+    <!-- 同意协议并投资按钮 -->
+
+    <Button
+        android:id="@+id/loan_pocket_enterBtn"
+        style="@style/loan_btn_angle_style"
+        android:layout_alignParentBottom="true"
+        android:text="@string/loan_agreement_btn_text" />
+
+    <include
+        android:id="@+id/noNetworkLayout"
+        layout="@layout/loan_no_network_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

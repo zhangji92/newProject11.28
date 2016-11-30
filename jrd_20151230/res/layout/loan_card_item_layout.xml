@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/bank_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_20dip"
+        android:background="@drawable/loan_zhongguoyinhang_icon">
+
+        <TextView
+            android:id="@+id/bank_item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/loan_20dip"
+            android:layout_marginRight="@dimen/loan_20dip"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:text="**** 8526"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_textsize_18sp" />
+
+        <LinearLayout
+            android:id="@+id/bank_item_delete_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bank_item_text"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/bank_item_text"
+            android:layout_below="@+id/bank_item_text"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bank_item_delete_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loan_card_delete" />
+
+            <TextView
+                android:id="@+id/bank_item_delete_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:textColor="@color/loan_color_white"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="56dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="0dip">
+
+        <TextView
+            android:id="@+id/billDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转出"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/billDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015-11-02 18:32:20"
+            android:textSize="@dimen/loan_textsize_14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="0dip"
+        android:paddingRight="6dip">
+
+        <TextView
+            android:id="@+id/billMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dip"
+            android:textSize="@dimen/loan_textsize_16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/billRightArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loan_right_arrow" />
+    </LinearLayout>
+
+</LinearLayout>

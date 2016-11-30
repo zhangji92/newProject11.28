@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginTop="@dimen/loan_10dip" />
+
+
+    <FrameLayout
+        android:id="@+id/loan_withdraw_bankLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/loan_recharge_bankcard_layout" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/loan_withdraw_addbankLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/loan_addcard_include_layout" />
+    </FrameLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginTop="@dimen/loan_10dip" />
+
+    <LinearLayout style="@style/loan_current_horizontalLayout_style">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="@string/loan_withdraw_amount" />
+
+        <EditText
+            android:id="@+id/loan_withdraw_amountEdit"
+            style="@style/loan_current_edit_style"
+            android:layout_weight="1"
+            android:hint="@string/loan_please_input_withdraw_money"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/loan_withdraw_allOutTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:gravity="center"
+            android:text="@string/loan_all_turn_out"
+            android:textColor="@color/loan_current_text_color_blue"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginLeft="@dimen/loan_15dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:layout_centerVertical="true"
+            android:text="@string/loan_counter_fee" />
+
+        <TextView
+            android:id="@+id/loan_withdraw_factorageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:text="0元"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginLeft="@dimen/loan_15dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white">
+
+        <TextView
+            android:id="@+id/loan_withdraw_deductTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:text="@string/loan_deduct_0"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginLeft="@dimen/loan_15dip" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_background">
+
+        <TextView
+            android:id="@+id/loan_withdraw_amountTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_withdraw_hint_totheaccount"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <TextView
+            android:id="@+id/loan_withdraw_detailsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_details_introduce"
+            android:textColor="@color/loan_current_text_color_blue"
+            android:textSize="@dimen/loan_textsize_12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loan_withdraw_enterBtn"
+        style="@style/loan_current_next_btn_style"
+        android:text="@string/loan_confirm_turn_out" />
+
+    <include layout="@layout/loan_recharge_pinganyinhang_warning" />
+
+</com.jrd.loan.widget.WindowView>

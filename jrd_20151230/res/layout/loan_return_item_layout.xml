@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/loan_color_white"
+        android:paddingBottom="@dimen/loan_10dip">
+
+        <TextView
+            android:id="@+id/loan_return_item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/loan_15dip"
+            android:background="@color/loan_text_background_color"
+            android:paddingLeft="@dimen/loan_5dip"
+            android:paddingRight="@dimen/loan_5dip"
+            android:text="1111"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_return_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/loan_return_item_type"
+            android:layout_toRightOf="@+id/loan_return_item_type"
+            android:text="1111"
+            android:textColor="#595757"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_return_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/loan_return_item_type"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:text="1111"
+            android:textColor="#848584"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_return_item_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:text="1111"
+            android:textColor="@color/loan_color_black"
+            android:textSize="@dimen/loan_textsize_22sp" />
+
+    </RelativeLayout>
+
+    <View style="@style/loan_vertical_item_style" />
+
+</LinearLayout>

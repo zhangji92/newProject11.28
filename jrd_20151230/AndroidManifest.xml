@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jrd.loan"
+    android:versionCode="103"
+    android:versionName="1.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/loan_app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.yintong.secure.activity.BaseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 添加银行卡 -->
+        <activity
+            android:name=".myaccount.AddBankCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 选择银行卡 -->
+        <activity
+            android:name=".myaccount.SelectCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 充值 -->
+        <activity
+            android:name=".myaccount.RechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 新版充值 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 新版充值认证 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeAuthenticationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 新版充值银行展示 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeAgainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 新版充值完成 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeCompleateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 充值成功 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 充值失败 -->
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeFailureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 银行卡列表 -->
+        <activity
+            android:name=".myaccount.MyBankCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 提现 -->
+        <activity
+            android:name=".myaccount.WithdrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 新版提现 -->
+        <activity
+            android:name=".current.pocket.rehcarge.WithdrawActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <!-- 新版绑卡 -->
+        <activity
+            android:name=".current.pocket.rehcarge.BindBankCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 充值的webView -->
+        <activity
+            android:name=".activity.RechargeWebView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 新版绑卡结果界面 -->
+        <activity
+            android:name=".current.pocket.rehcarge.BindBankCardCompleateActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 新版选择银行卡界面 -->
+        <activity
+            android:name=".current.pocket.rehcarge.SelectCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 开户行 -->
+        <activity
+            android:name=".myaccount.OpeningBankAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 提现 完成 -->
+        <activity
+            android:name=".myaccount.CompleteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- webview -->
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 欢迎界面 -->
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 引导界面 -->
+        <activity
+            android:name=".GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+        <!-- 项目介绍 -->
+        <activity
+            android:name=".finance.ProjectIntroduceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 更多详情 -->
+        <activity
+            android:name=".finance.MoreDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 活期口袋详情 -->
+        <activity
+            android:name=".current.pocket.PocketDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 账户转入 -->
+        <activity
+            android:name=".myaccount.AccountSwitchToActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 转出成功 -->
+        <activity
+            android:name=".myaccount.TurnOutToSucceedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 投资成功 -->
+        <activity
+            android:name=".myaccount.InvestmentSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 投资失败 -->
+        <activity
+            android:name=".myaccount.InvestmentFailureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 账户转出 -->
+        <activity
+            android:name=".myaccount.AccountRollOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 优惠券 -->
+        <activity
+            android:name=".myaccount.CouponsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 使用优惠券 -->
+        <activity
+            android:name=".finance.CouponActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 我的资产 -->
+        <activity
+            android:name=".myaccount.MyAssetsAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 交易记录 -->
+        <activity
+            android:name=".myaccount.TradeAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 投标记录 -->
+        <activity
+            android:name=".finance.TenderRecordAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 投资记录 -->
+        <activity
+            android:name=".finance.InvestRecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 回款计划 -->
+        <activity
+            android:name=".myaccount.ReturnMoneyAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 投标成功 -->
+        <activity
+            android:name=".finance.BidSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 立即加入 -->
+        <!-- android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" -->
+        <activity
+            android:name=".finance.ImmediatelyJoinActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateVisible|adjustResize|stateHidden" />
+
+        <!-- 加入成功 -->
+        <activity
+            android:name=".finance.JoinSuccessActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!--  -->
+        <activity
+            android:name=".finance.TenderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 登录界面 windowSoftInputMode:实现点击更换图片，不可删 -->
+        <activity
+            android:name=".account.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 注册界面 -->
+        <activity
+            android:name=".account.RegistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 注册流程设置登录密码界面 -->
+        <activity
+            android:name=".account.RegistSetLoginPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 注册流程身份验证界面 -->
+        <activity
+            android:name=".account.RegistIdCheckActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 注册成功界面 -->
+        <activity
+            android:name=".account.RegistCompleteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 未登录找回登录密码界面 -->
+        <activity
+            android:name=".account.FindPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 身份认证界面 -->
+        <activity
+            android:name=".current.pocket.rehcarge.IdCheckActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 修改交易密码界面 -->
+        <activity
+            android:name=".myInfomeation.UpdateTransactionPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 个人信息界面 -->
+        <activity
+            android:name=".myInfomeation.PersonalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 个人信息各个操作成功界面 -->
+        <activity
+            android:name=".myInfomeation.AccountCompleteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 修改登录密码界面 -->
+        <activity
+            android:name=".myInfomeation.ChangeLoginPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 重置交易密码界面 -->
+        <activity
+            android:name=".myInfomeation.ResetTransactionPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 重置交易密码第二页界面 -->
+        <activity
+            android:name=".myInfomeation.ResetTransactionPswSecondActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!-- 设置交易密码界面 -->
+        <activity
+            android:name=".myInfomeation.SetTransactionPswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!--  -->
+        <activity
+            android:name=".gesture.lock.GestureEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <!--  -->
+        <activity
+            android:name=".gesture.lock.GestureVerifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 活期口袋 -->
+        <activity
+            android:name=".current.pocket.CurrentPocketActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <!-- 活期口袋 -->
+        <activity
+            android:name=".current.pocket.BillInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".current.pocket.BillInfoResult"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".current.pocket.rehcarge.ExplainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".current.pocket.rehcarge.RechargeOldActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".service.StateBarDownloadService" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55f281bae0f55a11910016ea" />
+        <meta-data
+            android:name="UMENG_CHANNEL" android:value="360zhushou" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="789e335b5b9b9418a69a92f114f50a22" />
+
+        <!-- 监听通知点击或者忽略处理的广播 -->
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false" />
+
+        <!-- 监听开机运行、网络连接变化、卸载的广播 -->
+        <receiver
+            android:name="com.umeng.message.SystemReceiver"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听消息到达的广播 -->
+        <receiver
+            android:name="com.umeng.message.MessageReceiver"
+            android:exported="false"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听宿主选举的广播 -->
+        <receiver
+            android:name="com.umeng.message.ElectionReceiver"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.ELECTION_RESULT_V4" />
+
+                <category android:name="umeng" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听注册的广播 -->
+        <!-- 【应用包名】字符串需要替换成本应用的应用包名 -->
+        <receiver
+            android:name="com.umeng.message.RegistrationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.jrd.loan.intent.action.COMMAND" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.umeng.message.UmengMessageBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Umeng的长连服务，用来建立推送的长连接的 -->
+        <!-- 【应用包名】字符串需要替换成本应用的应用包名 -->
+        <service
+            android:name="com.umeng.message.UmengService"
+            android:exported="true"
+            android:label="PushService"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="com.jrd.loan.intent.action.START" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.jrd.loan.intent.action.COCKROACH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.PING_V4" />
+
+                <category android:name="umeng" />
+            </intent-filter>
+        </service>
+
+        <!-- Umeng的消息接收服务 -->
+        <service
+            android:name="com.umeng.message.UmengIntentService"
+            android:process=":push" />
+
+        <!-- Umeng的消息路由服务 -->
+        <service
+            android:name="com.umeng.message.UmengMessageIntentReceiverService"
+            android:exported="true"
+            android:process=":push" >
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.android.agoo.client.ElectionReceiverService" />
+            </intent-filter>
+        </service>
+
+        <!-- v2.4.1添加的Service，Umeng的消息接收后的处理服务 -->
+        <service
+            android:name="com.umeng.message.UmengMessageCallbackHandlerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.umeng.messge.registercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.unregistercallback.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.message.handler.action" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.umeng.message.autoupdate.handler.action" />
+            </intent-filter>
+        </service>
+        <service android:name=".push.NotificationService" />
+        <service
+            android:name=".push.MyPushIntentService"
+            android:process=":push" />
+
+        <!-- V1.3.0添加的service，负责下载通知的资源 -->
+        <service android:name="com.umeng.message.UmengDownloadResourceService" />
+
+        <!-- V2.5.0添加的Service，用于本地通知 -->
+        <!-- 如果不使用本地通知，可以注释掉本地通知服务的配置 -->
+        <service
+            android:name="com.umeng.message.local.UmengLocalNotificationService"
+            android:exported="false" />
+
+        <activity
+            android:name=".current.pocket.rehcarge.WithdrawNewActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+
+        <service
+            android:name="com.yintong.secure.service.PayService"
+            android:exported="false" />
+        <!-- 百度定位 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- 测试用 
+      <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="zXPY7FTYnAv51c7yIxlPCYyM" />
+        -->
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="1hD1SMjwUbV8C5SN9ZzXGCZ9" />
+    </application>
+
+</manifest>

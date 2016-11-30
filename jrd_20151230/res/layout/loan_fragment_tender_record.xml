@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/loan_tender_titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_35dip"
+            android:background="@color/loan_color_white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="@dimen/loan_15dip"
+                android:paddingRight="0dp"
+                android:text="投标时间"
+                android:textColor="#3391CC"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="投标人"
+                android:textColor="#3391CC"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingLeft="0dp"
+                android:paddingRight="@dimen/loan_15dip"
+                android:singleLine="true"
+                android:text="投标金额(元)"
+                android:textColor="#3391CC"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </LinearLayout>
+
+        <View style="@style/loan_vertical_item_style" />
+
+        <com.jrd.loan.widget.XListView
+            android:id="@+id/loan_tender_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none"></com.jrd.loan.widget.XListView>
+
+        <include layout="@layout/loan_no_data_layout" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/noNetworkLayout"
+        layout="@layout/loan_no_network_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

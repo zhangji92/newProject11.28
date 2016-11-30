@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/textView3"
+            android:layout_toStartOf="@+id/textView3"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/loan_current_item_name_style"
+                android:text="建设银行（尾号2578）" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_15dip"
+                android:layout_marginStart="@dimen/loan_15dip"
+                android:text="2015-10-02 18:05:55"
+                android:textColor="@color/loan_current_text_color_gray"
+                android:textSize="@dimen/loan_textsize_12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/loan_current_item_name_style"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:text="+100.00" />
+    </RelativeLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginStart="@dimen/loan_10dip" />
+
+</com.jrd.loan.widget.WindowView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E3E3"
+    android:padding="@dimen/loan_2dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ProgressBar
+        android:id="@+id/loan_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/loan_30dip"
+        android:layout_weight="1"
+        android:max="100"
+        android:progressDrawable="@drawable/loan_progressbar_color" />
+
+    <TextView
+        android:id="@+id/loan_update_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/loan_30dip"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingLeft="@dimen/loan_5dip"
+        android:paddingRight="@dimen/loan_5dip"
+        android:textColor="#0068B6"
+        android:textSize="@dimen/loan_textsize_18sp" />
+
+</LinearLayout>

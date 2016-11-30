@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/loan_splash_background">
+
+        <FrameLayout
+            android:id="@+id/loan_splash_logoLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/loan_splash_searchImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/loan_20dip"
+            android:background="@drawable/loan_splash_logo">
+
+            <ImageView
+                android:id="@+id/loan_splash_textImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:visibility="invisible"
+                android:src="@drawable/loan_splash__text" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/loan_splash_searchImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:src="@drawable/loan_splash_search" />
+    </RelativeLayout>
+
+</merge>

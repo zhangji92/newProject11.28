@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/loan_coupons_layoutId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.jrd.loan.widget.XListView
+            android:id="@+id/loan_coupons_ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#F4F3F3"
+            android:divider="#00000000"/>
+        <include layout="@layout/loan_no_data_layout" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/couponsLayout"
+        layout="@layout/loan_no_network_layout"
+        android:visibility="gone"/>
+
+</RelativeLayout>

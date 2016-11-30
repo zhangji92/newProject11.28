@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_120dip"
+        android:background="@color/loan_color_background"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loan_regist_complete_pinkarrow" />
+
+        <TextView
+            android:id="@+id/loan_compleate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_5dip"
+            android:layout_marginStart="@dimen/loan_5dip"
+            android:text="@string/loan_withdraw_compleate"
+            android:textColor="@color/loan_text_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loan_compleate_enterBtn"
+        style="@style/loan_circular_enterbtn_style"
+        android:text="@string/loan_base_enter" />
+
+</com.jrd.loan.widget.WindowView>

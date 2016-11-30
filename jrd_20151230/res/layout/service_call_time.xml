@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/loan_40dip"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/loan_personal_cu_loinpsw_tv"
+        style="@style/loan_click_tv_style"
+        android:textColor="@color/loan_color_transtips_gray"
+        android:textSize="@dimen/loan_textsize_14sp"
+        android:hint="@string/loan_contactcustomerservice_tips"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/loan_5dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loan_personal_cu_loinpsw_tv"
+        android:layout_marginBottom="@dimen/loan_40dip"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/loan_personal_cu_loinpsw_callandtips_tv"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/loan_customerservice_tips_callandtime"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_textsize_16sp"
+            android:drawableLeft="@drawable/loan_account_callandtime_icon" />
+
+        <TextView
+            android:id="@+id/loan_personal_cu_loinpsw_tips_tv"
+            android:text="@string/loan_customerservice_tips_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_5dip"
+            android:layout_marginStart="@dimen/loan_5dip"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/loan_account_customerservice_callandtime_tv"
+            android:text="@string/loan_customerservice_time"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+</RelativeLayout>

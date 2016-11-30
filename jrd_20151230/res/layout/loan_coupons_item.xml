@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/loan_coupons_item_bck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_20dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/loan_coupons_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:singleLine="true"
+            android:textColor="#818181"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <TextView
+            android:id="@+id/loan_coupons_hbDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginRight="@dimen/loan_25dip"
+            android:layout_marginTop="@dimen/loan_2dip"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#818181"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <TextView
+            android:id="@+id/loan_coupons_bagVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_5dip"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginRight="@dimen/loan_25dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textSize="@dimen/loan_textsize_18sp" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loan_coupons_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loan_coupons_item_bck"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:src="@drawable/loan_cash"
+        android:visibility="gone" />
+
+</RelativeLayout>

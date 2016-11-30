@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_divider_line_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loan_personal_reset_transactionpsw_tips_edi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_textsize_14sp"
+            android:hint="@string/loan_account_personal_reset_transactionpsw_bindcall_tips"
+            android:layout_margin="@dimen/loan_15dip" />
+
+        <LinearLayout
+            android:id="@+id/loan_personal_reset_transactionpswlin"
+            style="@style/loan_input_layout_style"
+            android:background="@color/loan_color_white"
+            android:orientation="horizontal"
+            android:layout_below="@id/loan_personal_reset_transactionpsw_tips_edi">
+
+            <ImageView
+                style="@style/loan_editable_right_style"
+                android:background="@drawable/loan_account_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/loan_personal_reset_transactionpsw_tv"
+                style="@style/loan_editable_hint_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/loan_account_regist_inputtelnumtips"
+                android:paddingTop="@dimen/loan_10dip"
+                android:paddingBottom="@dimen/loan_10dip" />
+        </LinearLayout>
+
+        <View
+            style="@style/loan_verticalline_style"
+            android:layout_below="@id/loan_personal_reset_transactionpswlin" />
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_reset_transactionpsw_vcodelin"
+            style="@style/loan_input_layout_style"
+            android:background="@color/loan_color_white"
+            android:orientation="horizontal"
+            android:layout_below="@id/loan_personal_reset_transactionpswlin">
+
+            <ImageView
+                android:id="@+id/loan_account_login_vcode_tv"
+                style="@style/loan_editable_right_style"
+                android:background="@drawable/loan_verify"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="6dip"
+                android:layout_centerVertical="true" />
+
+            <EditText
+                android:id="@+id/loan_personal_reset_transactionpsw_vcodeedi"
+                style="@style/loan_editable_hint_style"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:hint="@string/loan_account_login_smstips"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/loan_25dip"
+                android:layout_toRightOf="@id/loan_account_login_vcode_tv"
+                android:paddingTop="@dimen/loan_10dip"
+                android:paddingBottom="@dimen/loan_10dip" />
+
+            <View
+                style="@style/loan_horizontalline_style"
+                android:layout_toLeftOf="@+id/loan_personal_reset_transactionpsw_sendvcode_btn" />
+
+            <Button
+                android:id="@+id/loan_personal_reset_transactionpsw_sendvcode_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/loan_title_bar_textColor"
+                android:text="@string/loan_account_login_getCode"
+                android:background="@null"
+                android:layout_marginLeft="@dimen/loan_20dip"
+                android:layout_marginRight="@dimen/loan_20dip" />
+        </RelativeLayout>
+
+        <View style="@style/loan_verticalline_style" />
+
+        <Button
+            android:id="@+id/loan_personal_reset_transactionpsw_enterbtn"
+            style="@style/loan_next_click_btn_style"
+            android:layout_centerVertical="true"
+            android:text="@string/loan_base_next"
+            android:textSize="@dimen/loan_btn_textsize" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/loan_40dip"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/loan_personal_reset_transactionpsw_tip_tv"
+                style="@style/loan_click_tv_style"
+                android:textSize="@dimen/loan_textsize_16sp"
+                android:hint="@string/loan_contactcustomerservice_tips"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/loan_5dip" />
+
+            <LinearLayout
+                android:id="@+id/loan_account_customerservice_callandtips_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_personal_reset_transactionpsw_tip_tv"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/loan_personal_cu_loinpsw_callandtips_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loan_customerservice_tips_callandtime"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_textsize_16sp"
+                    android:drawableLeft="@drawable/loan_account_callandtime_icon" />
+
+                <TextView
+                    android:id="@+id/loan_personal_cu_loinpsw_tips_tv"
+                    android:text="@string/loan_customerservice_tips_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/loan_5dip"
+                    android:layout_marginStart="@dimen/loan_5dip"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="12sp"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/loan_account_customerservice_callandtime_tv"
+                    android:text="@string/loan_customerservice_time"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.jrd.loan.widget.WindowView>

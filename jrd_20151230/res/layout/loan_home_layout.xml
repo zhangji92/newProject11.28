@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loan_home_layoutId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_title_bar_height"
+            android:background="@color/loan_tab_background_normal"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loan_jrd" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_divider_line_height"
+            android:background="@color/loan_divider_line_color" />
+
+        <com.jrd.loan.widget.XListView
+            android:id="@+id/loan_home_ListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/noNetworkLayout"
+        layout="@layout/loan_no_network_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

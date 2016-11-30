@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menuIncomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:background="@drawable/loan_menu_item_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="@dimen/loan_pop_menu_height"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="0dip"
+            android:text="@string/loan_current_pocket_income" />
+
+        <ImageView
+            android:id="@+id/menuIncomeChoosenIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dip"
+            android:visibility="invisible"
+            android:src="@drawable/loan_bill_menu_checked" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/menuOutcomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:background="@drawable/loan_menu_item_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="@dimen/loan_pop_menu_height"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="0dip"
+            android:text="@string/loan_current_pocket_outcome" />
+
+        <ImageView
+            android:id="@+id/menuOutcomeChoosenIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dip"
+            android:visibility="invisible"
+            android:src="@drawable/loan_bill_menu_checked" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/menuProfitLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:background="@drawable/loan_menu_item_selector"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="@dimen/loan_pop_menu_height"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="0dip"
+            android:text="@string/loan_current_pocket_profit" />
+
+        <ImageView
+            android:id="@+id/menuProfitChoosenIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dip"
+            android:visibility="invisible"
+            android:src="@drawable/loan_bill_menu_checked" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_alignParentBottom="true" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/umpay_timecontrol_canclebtn"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/loan_40dip"
+        android:background="@color/loan_color_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/loan_15dip"
+        android:paddingRight="@dimen/loan_15dip">
+
+        <TextView
+            android:id="@+id/tvCancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="@color/loan_text_color_black"
+            android:textSize="@dimen/loan_textsize_18sp" />
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:text="确定"
+            android:textColor="@color/loan_text_color_black"
+            android:textSize="@dimen/loan_textsize_18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.jrd.loan.wheel.widget.WheelView
+            android:id="@+id/provinceWheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.jrd.loan.wheel.widget.WheelView
+            android:id="@+id/cityWheel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

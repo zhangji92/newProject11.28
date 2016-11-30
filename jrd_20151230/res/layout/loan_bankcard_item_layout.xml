@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loan_white_to_gray_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/loan_bankcard_item_image"
+        android:layout_width="@dimen/loan_30dip"
+        android:layout_height="@dimen/loan_30dip"
+        android:layout_margin="@dimen/loan_10dip"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/loan_bankcard_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+</LinearLayout>

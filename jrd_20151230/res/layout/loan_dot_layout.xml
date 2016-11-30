@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/dot"
+        style="@style/loan_home_banner"
+        android:background="@drawable/loan_home_banner_normal_selecter" />
+</FrameLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="loan_title_bar_height">50dip</dimen>
+    <dimen name="loan_btn_lenght">55dip</dimen>
+    <dimen name="loan_title_bar_btn_size">26dip</dimen>
+    <dimen name="loan_title_bar_btn_margin">10dip</dimen>
+    <dimen name="loan_titlebar_menu_padding">5dip</dimen>
+    <dimen name="loan_bottom_bar_height">55dip</dimen>
+    <dimen name="loan_divider_line_height">0.5dip</dimen>
+    <dimen name="loan_dialog_height">30dip</dimen>
+    <dimen name="loan_0.25dip">0.25dip</dimen>
+    <dimen name="loan_0.5dip">0.5dip</dimen>
+    <dimen name="loan_1dip">1dip</dimen>
+    <dimen name="loan_2dip">2dip</dimen>
+    <dimen name="loan_3dip">3dip</dimen>
+    <dimen name="loan_4dip">4dip</dimen>
+    <dimen name="loan_5dip">5dip</dimen>
+    <dimen name="loan_6dip">6dip</dimen>
+    <dimen name="loan_7dip">7dip</dimen>
+    <dimen name="loan_8dip">8dip</dimen>
+    <dimen name="loan_9dip">9dip</dimen>
+    <dimen name="loan_10dip">10dip</dimen>
+    <dimen name="loan_11dip">11dip</dimen>
+    <dimen name="loan_12dip">12dip</dimen>
+    <dimen name="loan_13dip">13dip</dimen>
+    <dimen name="loan_14dip">14dip</dimen>
+    <dimen name="loan_14.5dip">14.5dip</dimen>
+    <dimen name="loan_15dip">15dip</dimen>
+    <dimen name="loan_16dip">16dip</dimen>
+    <dimen name="loan_18dip">18dip</dimen>
+    <dimen name="loan_20dip">20dip</dimen>
+    <dimen name="loan_23dip">23dip</dimen>
+    <dimen name="loan_230dip">230dip</dimen>
+    <dimen name="loan_25dip">25dip</dimen>
+    <dimen name="loan_28dip">28dip</dimen>
+    <dimen name="loan_30dip">35dip</dimen>
+    <dimen name="loan_32dip">32dip</dimen>
+    <dimen name="loan_33dip">33dip</dimen>
+    <dimen name="loan_35dip">35dip</dimen>
+    <dimen name="loan_38dip">38dip</dimen>
+    <dimen name="loan_40dip">40dip</dimen>
+    <dimen name="loan_45dip">45dip</dimen>
+    <dimen name="loan_50dip">50dip</dimen>
+    <dimen name="loan_55dip">55dip</dimen>
+    <dimen name="loan_60dip">60dip</dimen>
+    <dimen name="loan_70dip">70dip</dimen>
+    <dimen name="loan_80dip">80dip</dimen>
+    <dimen name="loan_90dip">90dip</dimen>
+    <dimen name="loan_100dip">100dip</dimen>
+    <dimen name="loan_110dip">110dip</dimen>
+    <dimen name="loan_120dip">120dip</dimen>
+    <dimen name="loan_130dip">130dip</dimen>
+    <dimen name="loan_135dip">135dip</dimen>
+    <dimen name="loan_140dip">140dip</dimen>
+    <dimen name="loan_150dip">150dip</dimen>
+    <dimen name="loan_banner_height">200dip</dimen>
+    <dimen name="loan_155dip">155dip</dimen>
+    <dimen name="loan_65dip">65dip</dimen>
+    <dimen name="loan_no_network_margin_top">100dip</dimen>
+    <dimen name="loan_start_at_once_margin_bottom">60dip</dimen>
+    <dimen name="loan_start_at_once_width">120dip</dimen>
+    <dimen name="loan_start_at_once_height">30dip</dimen>
+    <dimen name="loan_btn_bid_height">56dip</dimen>
+    <dimen name="loan_dot_size">7dip</dimen>
+    <dimen name="loan_short_line_height">40dip</dimen>
+    <dimen name="loan_finance_info_height">50dip</dimen>
+    <dimen name="loan_finance_type_margin">10dip</dimen>
+    <dimen name="loan_edittext_margin">40dip</dimen>
+    <dimen name="loan_item_menu_height">50dip</dimen>
+    <dimen name="loan_bid_margin_left">15dip</dimen>
+    <dimen name="loan_bid_dis">5dip</dimen>
+    <dimen name="loan_bid_pro_name_dis">12dip</dimen>
+    <dimen name="loan_bid_info_dis">10dip</dimen>
+    <dimen name="loan_bid_dis_top">5dip</dimen>
+    <dimen name="loan_round_pro_margin_bottom">16dip</dimen>
+    <dimen name="loan_item_menu_margin_left">15dip</dimen>
+    <dimen name="loan_item_menu_margin_right">15dip</dimen>
+    <dimen name="loan_btn_circular_height">45dip</dimen>
+    <dimen name="loan_edittext_height">44dip</dimen>
+    <dimen name="loan_icon_size">14dip</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="loan_titlebar_menu_textsize">16sp</dimen>
+    <dimen name="loan_titlebar_textsize">20sp</dimen>
+    <dimen name="loan_btn_textsize">16sp</dimen>
+    <dimen name="loan_edittext_textsize">14sp</dimen>
+    <dimen name="loan_bid_year_rate_txt_size">50sp</dimen>
+    <dimen name="loan_bid_year_rate_title_txt_size">17sp</dimen>
+    <dimen name="loan_bid_year_rate_other_txt_size">16sp</dimen>
+
+    <!-- Auger字体大小 -->
+    <dimen name="loan_textsize_8sp">8sp</dimen>
+    <dimen name="loan_textsize_10sp">10sp</dimen>
+    <dimen name="loan_textsize_12sp">12sp</dimen>
+    <dimen name="loan_textsize_13sp">13sp</dimen>
+    <dimen name="loan_textsize_14sp">14sp</dimen>
+    <dimen name="loan_textsize_15sp">15sp</dimen>
+    <dimen name="loan_textsize_16sp">16sp</dimen>
+    <dimen name="loan_textsize_17sp">17sp</dimen>
+    <dimen name="loan_textsize_18sp">18sp</dimen>
+    <dimen name="loan_textsize_19sp">19sp</dimen>
+    <dimen name="loan_textsize_20sp">20sp</dimen>
+    <dimen name="loan_textsize_21sp">21sp</dimen>
+    <dimen name="loan_textsize_22sp">22sp</dimen>
+    <dimen name="loan_textsize_23sp">23sp</dimen>
+    <dimen name="loan_textsize_24sp">24sp</dimen>
+    <dimen name="loan_textsize_25sp">25sp</dimen>
+    <dimen name="loan_textsize_26sp">26sp</dimen>
+    <dimen name="loan_textsize_27sp">27sp</dimen>
+    <dimen name="loan_textsize_28sp">28sp</dimen>
+    <dimen name="loan_textsize_29sp">29sp</dimen>
+    <dimen name="loan_textsize_30sp">30sp</dimen>
+    <dimen name="loan_textsize_31sp">31sp</dimen>
+    <dimen name="loan_textsize_32sp">32sp</dimen>
+    <dimen name="loan_textsize_33sp">33sp</dimen>
+    <dimen name="loan_textsize_34sp">34sp</dimen>
+    <dimen name="loan_textsize_35sp">35sp</dimen>
+    <dimen name="loan_textsize_36sp">36sp</dimen>
+    <dimen name="loan_textsize_37sp">37sp</dimen>
+    <dimen name="loan_textsize_38sp">38sp</dimen>
+    <dimen name="loan_textsize_39sp">39sp</dimen>
+    <dimen name="loan_textsize_40sp">40sp</dimen>
+    <dimen name="loan_textsize_41sp">41sp</dimen>
+    <dimen name="loan_textsize_42sp">42sp</dimen>
+    <dimen name="loan_textsize_43sp">43sp</dimen>
+    <dimen name="loan_textsize_44sp">44sp</dimen>
+    <dimen name="loan_textsize_45sp">45sp</dimen>
+
+    <!-- 按钮圆角半径 -->
+    <dimen name="loan_image_radius_1dp">1dp</dimen>
+    <dimen name="loan_image_radius_4dp">4dp</dimen>
+    <dimen name="loan_image_radius_8dp">8dp</dimen>
+    <dimen name="loan_image_radius_16dp">16dp</dimen>
+    <dimen name="loan_coupon_width">53dip</dimen>
+    <dimen name="loan_coupon_height">106dip</dimen>
+    <dimen name="loan_dialog_corner_radius">7dip</dimen>
+    <dimen name="loan_dialog_margin">60dp</dimen>
+
+    <!-- 下拉刷新 -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 活期口袋 -->
+    <dimen name="loan_finance_type_width">110dip</dimen>
+    <dimen name="loan_finance_type_height">30dip</dimen>
+    <dimen name="loan_current_pocket_margin_top">15dip</dimen>
+    <dimen name="loan_current_pocket_btn_bid_height">40dip</dimen>
+    <dimen name="loan_pop_menu_height">48dip</dimen>
+    <dimen name="loan_vertical_line_height">34dip</dimen>
+    <dimen name="loan_bill_progress_interval">15dip</dimen>
+    <dimen name="loan_vertical_line_width">2dip</dimen>
+
+    <!-- 活期口袋滑动的尺子 -->
+    <dimen name="loan_ruler_txt_paddint_bottom">6dip</dimen>
+
+</resources>

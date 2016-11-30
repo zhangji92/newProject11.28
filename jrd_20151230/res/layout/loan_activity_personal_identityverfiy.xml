@@ -1,0 +1,89 @@
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_divider_line_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_marginTop="@dimen/loan_15dip" />
+
+    <LinearLayout
+        android:id="@+id/loan_personal_identityverfiy_account_tv"
+        style="@style/loan_input_layout_style"
+        android:background="@color/loan_color_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:text="姓    名"
+            android:textColor="@color/loan_current_text_color_black_drak"
+            android:textSize="@dimen/loan_textsize_14sp" />
+
+        <EditText
+            android:id="@+id/loan_personal_identityverfiy_name_edi"
+            style="@style/loan_editable_hint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loan_account_regist_inputnametips"
+            android:paddingBottom="@dimen/loan_10dip"
+            android:paddingTop="@dimen/loan_10dip" />
+    </LinearLayout>
+
+    <View style="@style/loan_horizontallinewithmargin_style" />
+
+    <LinearLayout
+        android:id="@+id/loan_personal_identityverfiy_idnum_lin"
+        style="@style/loan_input_layout_style"
+        android:layout_marginBottom="@dimen/loan_20dip"
+        android:background="@color/loan_color_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:text="证件号"
+            android:textColor="@color/loan_current_text_color_black_drak"
+            android:textSize="@dimen/loan_textsize_14sp" />
+
+        <EditText
+            android:id="@+id/loan_personal_identityverfiy_idnum_edi"
+            style="@style/loan_editable_hint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789Xx"
+            android:hint="@string/loan_account_regist_inputidnumtips"
+            android:maxLength="18"
+            android:paddingBottom="@dimen/loan_10dip"
+            android:paddingTop="@dimen/loan_10dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loan_personal_identityverfiy_enterbtn"
+        style="@style/loan_next_click_btn_style"
+        android:text="提交" />
+
+    <TextView
+        style="@style/loan_click_tv_style"
+        android:layout_marginTop="@dimen/loan_30dip"
+        android:gravity="left"
+        android:text="身份信息确认后不能更改,请您务必准确填写."
+        android:textColor="@color/loan_color_btn_normal"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <TextView
+        style="@style/loan_click_tv_style"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:text="您在君融贷的每一笔投资都附有正规电子合同保障您的权益,请告诉我们合同中需要使用到的您真实身份信息."
+        android:textColor="@color/loan_title_bar_textColor"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+</com.jrd.loan.widget.WindowView>

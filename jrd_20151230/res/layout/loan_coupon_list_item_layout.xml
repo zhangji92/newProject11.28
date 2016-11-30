@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/couponLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_20dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvDeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:singleLine="true"
+            android:textColor="#818181"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <TextView
+            android:id="@+id/tvUseRule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginRight="@dimen/loan_25dip"
+            android:layout_marginTop="@dimen/loan_2dip"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#818181"
+            android:textSize="@dimen/loan_textsize_12sp" />
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_5dip"
+            android:layout_marginLeft="@dimen/loan_60dip"
+            android:layout_marginRight="@dimen/loan_25dip"
+            android:layout_marginTop="@dimen/loan_5dip"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textSize="@dimen/loan_textsize_18sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/chooseCoupon"
+        android:layout_width="@dimen/loan_23dip"
+        android:layout_height="@dimen/loan_23dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_2dip" />
+
+</RelativeLayout>

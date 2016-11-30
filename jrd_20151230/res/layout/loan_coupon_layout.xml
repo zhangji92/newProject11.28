@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/windowView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/couponList"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="@dimen/loan_finance_type_margin"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="@dimen/loan_finance_type_margin"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+</com.jrd.loan.widget.WindowView>

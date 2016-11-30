@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loan_100dip"
+        android:src="@drawable/loan_invest_failure_img" />
+
+    <TextView
+        android:id="@+id/loan_investFailureCue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:singleLine="true"
+        android:textColor="@color/loan_color_notset"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:singleLine="true"
+        android:text="如需帮助请通过微信或电话呼叫我们的客服MM"
+        android:textColor="@color/loan_title_txt_color"
+        android:textSize="@dimen/loan_textsize_12sp" />
+
+</com.jrd.loan.widget.WindowView>

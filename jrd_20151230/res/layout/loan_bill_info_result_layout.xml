@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/windowView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@color/loan_color_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="0dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_bill_progress_interval"
+            android:layout_marginTop="@dimen/loan_bill_progress_interval"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/billTypeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="余额转入"
+                    android:textColor="@color/loan_title_txt_color"
+                    android:textSize="@dimen/loan_textsize_16sp" />
+
+                <TextView
+                    android:id="@+id/billDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="2015-12-23 12:23:54"
+                    android:textColor="@color/loan_color_vertical_line"
+                    android:textSize="@dimen/loan_textsize_14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/billMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="+200"
+                android:textColor="@color/loan_color_income"
+                android:textSize="@dimen/loan_textsize_18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View style="@style/loan_vertical_item_style" />
+
+        <!-- 转入成功 -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loan_bill_progress_interval">
+
+            <LinearLayout
+                android:id="@+id/billSuccessLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loan_bill_menu_checked" />
+
+                <View
+                    android:layout_width="@dimen/loan_vertical_line_width"
+                    android:layout_height="@dimen/loan_vertical_line_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/loan_color_btn_normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/billOptType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/billSuccessLayout"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/billSuccessLayout"
+                android:text="转入成功"
+                android:textColor="@color/loan_color_btn_normal"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:id="@+id/billOptName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/billOptType"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/billSuccessLayout"
+                android:text="账户余额"
+                android:textColor="@color/loan_color_vertical_line"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/billOptTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/billOptName"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/billSuccessLayout"
+                android:text="2015-11-18"
+                android:textColor="@color/loan_color_vertical_line"
+                android:textSize="@dimen/loan_textsize_12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/billStartLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/billStartProfitLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/billStartLinetop"
+                    android:layout_width="@dimen/loan_vertical_line_width"
+                    android:layout_height="@dimen/loan_vertical_line_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/loan_color_vertical_line" />
+
+                <ImageView
+                    android:id="@+id/billStartImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loan_profit_start_icon" />
+
+                <View
+                    android:id="@+id/billStartLinebuttom"
+                    android:layout_width="@dimen/loan_vertical_line_width"
+                    android:layout_height="@dimen/loan_vertical_line_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/loan_color_vertical_line" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/billOptDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="@dimen/loan_vertical_line_height"
+                android:layout_toRightOf="@id/billStartProfitLayout"
+                android:text="10-20 星期二"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:id="@+id/billOptTips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/billOptDate"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/billStartProfitLayout"
+                android:text="开始计算收益"
+                android:textColor="@color/loan_color_vertical_line"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/loan_bill_progress_interval">
+
+            <LinearLayout
+                android:id="@+id/billEndProfitLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/billEndLineTop"
+                    android:layout_width="@dimen/loan_vertical_line_width"
+                    android:layout_height="@dimen/loan_vertical_line_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/loan_color_vertical_line" />
+
+                <ImageView
+                    android:id="@+id/billEndImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loan_profit_end_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/billProfitEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="@dimen/loan_vertical_line_height"
+                android:layout_toRightOf="@id/billEndProfitLayout"
+                android:text="10-20 星期二"
+                android:textColor="@color/loan_title_txt_color"
+                android:textSize="@dimen/loan_textsize_16sp" />
+
+            <TextView
+                android:id="@+id/billProfitEndTips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/billProfitEndDate"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_toRightOf="@id/billEndProfitLayout"
+                android:text="收益到账"
+                android:textColor="@color/loan_color_vertical_line"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.jrd.loan.widget.WindowView>

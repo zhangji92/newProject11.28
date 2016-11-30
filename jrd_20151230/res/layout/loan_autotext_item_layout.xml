@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/autoTv"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/loan_50dip"
+    android:background="@drawable/loan_white_to_gray_selector"
+    android:gravity="center_vertical"
+    android:paddingEnd="@dimen/loan_5dip"
+    android:paddingLeft="@dimen/loan_5dip"
+    android:paddingRight="@dimen/loan_5dip"
+    android:paddingStart="@dimen/loan_5dip"
+    android:textColor="@color/loan_color_black"
+    android:textSize="@dimen/loan_textsize_18sp">
+
+</TextView>

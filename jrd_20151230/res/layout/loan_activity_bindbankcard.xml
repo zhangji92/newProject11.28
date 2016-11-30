@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_5dip"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="@string/loan_cardholder_info"
+        android:textColor="@color/loan_current_text_color_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="@string/loan_person_name" />
+
+        <EditText
+            android:id="@+id/loan_bindcard_personNameEdit"
+            style="@style/loan_current_edit_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:hint="@string/loan_cardholder_info"
+            android:inputType="text" />
+
+        <ImageView
+            android:id="@+id/loan_bindcard_personNameImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:padding="@dimen/loan_10dip"
+            android:src="@drawable/loan_edit_hint_image" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_vertical_white_style"
+        android:layout_width="@dimen/loan_15dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="@string/loan_idcard_name" />
+
+        <EditText
+            android:id="@+id/loan_bindcard_personCardNumEdit"
+            style="@style/loan_current_edit_style"
+            android:digits="0123456789Xx"
+            android:hint="@string/loan_input_idcard_name"
+            android:inputType="textWebEmailAddress"
+            android:maxLength="18" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_5dip"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:layout_marginTop="@dimen/loan_5dip"
+        android:text="@string/loan_bankCard"
+        android:textColor="@color/loan_current_text_color_black" />
+
+    <LinearLayout
+        android:id="@+id/loan_bindcard_selectLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@drawable/loan_white_to_gray_selector"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="@string/loan_bankCard_bankName" />
+
+        <LinearLayout
+            android:id="@+id/loan_bindcard_bankLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/loan_5dip"
+            android:paddingTop="@dimen/loan_5dip">
+
+            <ImageView
+                android:id="@+id/loan_bindcard_bankImage"
+                android:layout_width="@dimen/loan_28dip"
+                android:layout_height="@dimen/loan_28dip"
+                android:layout_marginLeft="@dimen/loan_15dip"
+                android:layout_marginStart="@dimen/loan_15dip"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/loan_bindcard_bankName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_10dip"
+                android:layout_marginStart="@dimen/loan_10dip"
+                android:textColor="@color/loan_current_text_color_black"
+                android:textSize="@dimen/loan_textsize_16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loan_bindcard_selectTV"
+            style="@style/loan_current_edit_style"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="@string/loan_warning_select_card_text"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:padding="@dimen/loan_10dip"
+            android:src="@drawable/loan_right_arrow" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_vertical_white_style"
+        android:layout_width="@dimen/loan_15dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_45dip"
+        android:background="@color/loan_color_white"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/loan_current_item_name_style"
+            android:text="@string/loan_bankCard_bankNumber" />
+
+        <EditText
+            android:id="@+id/loan_bindcard_bandcardNumEdit"
+            style="@style/loan_current_edit_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/loan_warning_input_card_number_text"
+            android:inputType="number"
+            android:maxLength="23" />
+
+        <ImageView
+            android:id="@+id/loan_bindcard_bankcardImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:padding="@dimen/loan_10dip"
+            android:src="@drawable/loan_edit_hint_image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/loan_bindcard_agreementLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginStart="@dimen/loan_10dip">
+
+            <ImageView
+                android:id="@+id/loan_bindcard_agreementImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/loan_10dip"
+                android:background="@drawable/loan_check_bg_selector"
+                android:contentDescription="@null" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/loan_bindcard_agreementTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_agreement_text"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loan_bindcard_enterBtn"
+        style="@style/loan_current_next_btn_style"
+        android:text="@string/loan_bindcard_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loan_bindcard_jumpTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_account_regist_jumpidverfiy"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_textsize_14sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include layout="@layout/loan_recharge_pinganyinhang_warning" />
+
+</com.jrd.loan.widget.WindowView>

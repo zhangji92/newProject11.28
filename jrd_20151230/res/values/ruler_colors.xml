@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loan_ruler_line_color_max">#B5B5B5</color>
+    <color name="loan_ruler_line_color_mid_and_min">#E6E6E6</color>
+    <color name="loan_ruler_txt_color">#D1D1D1</color>
+</resources>

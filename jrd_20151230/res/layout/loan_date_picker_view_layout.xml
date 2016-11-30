@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menuIncomeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/loan_left_arrow" />
+
+            <TextView
+                android:id="@+id/prevYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/loan_menu_item_selector"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="5dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nextYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loan_menu_item_selector"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="5dip" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dip"
+            android:src="@drawable/loan_right_arrow" />
+    </LinearLayout>
+
+    <!-- 月份1到6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/monthJanuary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="0"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_january" />
+
+        <TextView
+            android:id="@+id/monthFebruary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_february" />
+
+        <TextView
+            android:id="@+id/monthMarch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_march" />
+
+        <TextView
+            android:id="@+id/monthApril"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="3"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_april" />
+
+        <TextView
+            android:id="@+id/monthMay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="4"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_may" />
+
+        <TextView
+            android:id="@+id/monthJune"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_june" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_alignParentBottom="true" />
+
+    <!-- 月份7到12 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_pop_menu_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/monthJuly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="6"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_july" />
+
+        <TextView
+            android:id="@+id/monthAugust"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="7"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_august" />
+
+        <TextView
+            android:id="@+id/monthSeptember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="8"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_september" />
+
+        <TextView
+            android:id="@+id/monthOctober"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="9"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_october" />
+
+        <TextView
+            android:id="@+id/monthNovember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="10"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_november" />
+
+        <TextView
+            android:id="@+id/monthDecember"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/loan_menu_item_selector"
+            android:tag="11"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/loan_month_december" />
+    </LinearLayout>
+</LinearLayout>

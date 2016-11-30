@@ -1,0 +1,37 @@
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_window_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loan_regist_setloginpsw_lin"
+        style="@style/loan_input_layout_style"
+        android:background="@color/loan_color_white"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/loan_15dip">
+
+        <ImageView
+            style="@style/loan_personal_left_style"
+            android:background="@drawable/loan_personal_loginpsw_icon" />
+
+        <EditText
+            android:id="@+id/loan_regist_setloginpsw_edi"
+            style="@style/loan_editable_hint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loan_account_regist_setloginpsw_hint"
+            android:inputType="textPassword"
+            android:maxLength="32"
+            android:paddingTop="@dimen/loan_10dip"
+            android:paddingBottom="@dimen/loan_10dip" />
+    </LinearLayout>
+
+    <View style="@style/loan_verticalline_style" />
+
+    <Button
+        android:id="@+id/loan_regist_setloginpsw_enterbtn"
+        style="@style/loan_next_click_btn_style"
+        android:text="@string/loan_base_next"
+        android:layout_below="@id/loan_regist_setloginpsw_lin" />
+</com.jrd.loan.widget.WindowView>

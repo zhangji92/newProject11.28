@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="loan_splash_background">#0044a4</color>
+    <color name="loan_text_background_color">#E86D8B</color>
+    <color name="loan_window_background">#F5F5F5</color>
+    <color name="loan_tab_background_normal">#FFFFFF</color>
+    <color name="loan_color_background">#F3F3F3</color>
+    <color name="loan_title_bar_textColor">#818181</color>
+    <color name="loan_divider_line_color">#E4E3E3</color>
+    <color name="loan_color_trans">#80E4E3E3</color>
+    <color name="loan_login_bgcolor">#E4E3E3</color>
+    <color name="loan_color_white">#FFFFFF</color>
+    <color name="loan_color_lightgray">#585757</color>
+    <color name="loan_color_lightsgray">#595757</color>
+    <color name="loan_color_splice">#1d90cf</color>
+    <color name="loan_color_tips_gray">#c0c0bf</color>
+    <color name="loan_color_transtips_gray">#cccbcb</color>
+    <color name="loan_color_black">#000000</color>
+    <color name="loan_color_black_light">#6C6D6D</color>
+    <color name="loan_color_gray">#E7E7E8</color>
+    <color name="loan_gray_text">#bbbbbb</color>
+    <color name="loan_my_account_color">#208FCF</color>
+    <color name="loan_withdraw_bg_color">#3EB3A2</color>
+    <color name="loan_recharge_bg_color">#005BAA</color>
+    <color name="loan_edit_hint_text_color">#C2C2C1</color>
+    <color name="loan_text_color">#9E9F9F</color>
+    <color name="loan_text_color_black">#7A7979</color>
+    <color name="loan_circle_color">#BFC1C0</color>
+    <color name="loan_ring_color">#3CAFFF</color>
+    <color name="loan_title_txt_color">#6B6B6B</color>
+    <color name="loan_color_btn_normal">#0f9be3</color>
+    <color name="loan_color_btn_pressed">#16ADFE</color>
+    <color name="loan_color_redbtn_pressed">#FF4543</color>
+    <color name="loan_color_redbtn_normal">#ff0000</color>
+    <color name="loan_textcolor_red">#ED809C</color>
+    <color name="loan_color_layout_pressed">#0063B0</color>
+    <color name="loan_color_layout_normal">#0054A5</color>
+    <color name="loan_color_notset">#ea6d8d</color>
+    <color name="loan_color_login_bg">#07569f</color>
+    <color name="loan_coupon_expire_color">#DDDDDD</color>
+    <color name="loan_color_red_light">#E86D8B</color>
+    <color name="loan_dialog_color">#FFFFFF</color>
+    <color name="loan_isButton_color">#CECEE3</color>
+    <color name="loan_btn_color_gray">#BFBFBF</color>
+    <color name="loan_color_blue_bg">#0F99E1</color>
+    <color name="loan_color_assets_pink">#EC829A</color>
+    <color name="loan_color_assets_blue">#46BBFF</color>
+    <color name="loan_color_assets_green">#3EB3A2</color>
+    <color name="loan_color_assets_gray">#BEBEBF</color>
+
+    <!-- 我的账户背景颜色 -->
+    <color name="loan_my_account_bg_color">#208FCF</color>
+
+    <!-- 账户未认证的layout 按钮颜色 -->
+    <color name="loan_no_verify_color_normal">#208FCF</color>
+    <color name="loan_no_verify_color_pressed">#3187C8</color>
+
+    <!-- dialog 按钮的颜色 -->
+    <color name="loan_dialog_btn_color_normal">#0f9BE3</color>
+    <color name="loan_dialog_btn_color_pressed">#0068B6</color>
+
+    <!-- 注册成功 -->
+    <color name="loan_color_regist_complete_pinkpressed">#db6985</color>
+    <color name="loan_color_regist_complete_pinknormal">#db6985</color>
+
+    <!-- 活期口袋 -->
+    <color name="loan_color_pocket_normal">#005AA5</color>
+    <color name="loan_color_pocket_pressed">#0054A5</color>
+    <!-- 我的资产 -->
+    <color name="loan_color_asset_normal">#0054A5</color>
+    <color name="loan_color_asset_pressed">#044A95</color>
+    <!-- 投资记录 -->
+    <color name="loan_color_invest_normal">#006CB5</color>
+    <color name="loan_color_invest_pressed">#0063B0</color>
+    <!-- 回款计划 -->
+    <color name="loan_color_plan_normal">#0063B0</color>
+    <color name="loan_color_plan_pressed">#005AA5</color>
+    <!-- 交易记录 -->
+    <color name="loan_color_trade_normal">#187FC2</color>
+    <color name="loan_color_trade_pressed">#0075BC</color>
+    <!-- 优惠券 -->
+    <color name="loan_color_coupon_normal">#0075BC</color>
+    <color name="loan_color_coupon_pressed">#006CB5</color>
+    <!-- 银行卡 -->
+    <color name="loan_color_bankcard_normal">#2287C8</color>
+    <color name="loan_color_bankcard_pressed">#1D84C7</color>
+
+    <!-- 温馨提示颜色值 -->
+    <color name="loan_warm_prompt_color">#2FA8E7</color>
+    <color name="loan_warm_prompt_text_color">#818181</color>
+    <color name="loan_gesture_color_txt_blue">#338FDD</color>
+    <color name="loan_gesture_color_txt_red">#E2304E</color>
+    <color name="loan_gesture_color_txt_gray">#9FA0A0</color>
+    <color name="loan_bagval_color_txt">#3BB6A2</color>
+    <color name="loan_current_text_color_black">#787878</color>
+    <color name="loan_current_text_color_black_drak">#565656</color>
+    <color name="loan_current_text_color_gray">#9F9F9F</color>
+    <color name="loan_current_text_color_blue">#227FD7</color>
+    <color name="loan_current_text_color_orange">#EE7700</color>
+
+    <!-- 活期口袋 -->
+    <color name="loan_current_pocket_ring_color">#E38B4C</color>
+    <color name="loan_color_income">#D86A83</color>
+    <color name="loan_color_outcome">#35A08C</color>
+    <color name="loan_color_vertical_line">#CBCBCB</color>
+
+    <color name="loan_month_text_color">#5F82CF</color>
+
+</resources>

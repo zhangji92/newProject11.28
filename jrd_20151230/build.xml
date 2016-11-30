@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jrd" default="self_channel" >
+    <loadproperties srcFile="local.properties" />
+    
+    <!-- 使用第三方的ant包，使ant支持for循环 -->
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties" >
+        <classpath>
+            <pathelement location="${ANT_HOME}/lib/ant-contrib-1.0b3.jar" />
+        </classpath>
+    </taskdef>
+
+    <property name="out.dir" value="bin" />
+    <property name="out.absolute.dir" location="${out.dir}" />
+    
+    <tstamp><format property="curr_datetime" pattern="yyyyMMddHHmmss" locale="zh"/></tstamp>  
+
+    <!-- 清除上次打的安装包 -->
+    <target name="clearDir">
+        <mkdir dir="${apk.path}"/>
+        
+        <delete includeEmptyDirs="true">
+			<fileset dir="${apk.path}" includes="**/*"/>
+		</delete>
+    </target>
+    
+    <!-- 循环打包 -->
+    <target name="deploy" depends="clearDir">
+        <foreach
+            delimiter=" ,"
+            list="${market_channels}"
+            param="market_channel"
+            target="modify_manifest" />
+    	</target>
+
+    <target name="modify_manifest" >
+        <replaceregexp encoding="utf-8" file="AndroidManifest.xml"
+           match="android:name=&quot;UMENG_CHANNEL&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+           replace="android:name=&quot;UMENG_CHANNEL&quot; android:value=&quot;${market_channel}&quot;"/>
+        
+        <property name="out.final.file" location="${out.absolute.dir}/jrd_${market_channel}.apk" />
+        
+        <antcall target="release" />
+        
+        <!-- 将编译签名后的包,复制指定目录并按渠道名重命名 -->
+        <copy
+            file="${out.absolute.dir}/jrd_${market_channel}.apk"
+            tofile="${apk.path}/${ant.project.name}_${market_channel}_${curr_datetime}_${version}.apk" />
+    </target>
+    
+    <target name="self_channel" depends="clearDir">
+        <replaceregexp encoding="utf-8" file="AndroidManifest.xml"
+           match="android:name=&quot;UMENG_CHANNEL&quot;(\s+)android:value=&quot;[a-zA-Z0-9]+&quot;"
+           replace="android:name=&quot;UMENG_CHANNEL&quot; android:value=&quot;${self_channel}&quot;"/>
+        
+        <property name="out.final.file" location="${out.absolute.dir}/jrd_${self_channel}.apk" />
+        
+        <antcall target="release" />
+        
+        <!-- 将编译签名后的包,复制指定目录并按渠道名重命名 -->
+        <copy
+            file="${out.absolute.dir}/jrd_${self_channel}.apk"
+            tofile="${apk.path}/${ant.project.name}_${self_channel}_${curr_datetime}_${version}.apk" />
+    </target>
+
+    <loadproperties srcFile="project.properties" />
+
+    <fail message="sdk.dir is missing. Make sure to generate local.properties using @apos;android update project&apos;" unless="sdk.dir" />
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+</project>

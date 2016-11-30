@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/loan_window_background"
+    android:orientation="vertical">
+
+    <View style="@style/loan_horizontalline_style" />
+
+    <RelativeLayout
+        android:id="@+id/loan_activity_regist_identityverfiy_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/loan_bottom_bar_height"
+        android:background="@color/loan_color_white">
+
+        <TextView
+            android:id="@+id/loan_account_complete_tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:textColor="@color/loan_title_bar_textColor"
+            android:textSize="@dimen/loan_titlebar_menu_textsize" />
+    </RelativeLayout>
+
+    <View style="@style/loan_horizontalline_style" />
+
+    <RelativeLayout
+        android:id="@+id/loan_activity_account_completelin"
+        android:layout_height="150dip"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_title"
+        android:background="@color/loan_color_background">
+
+        <TextView
+            android:id="@+id/loan_account_complete_tv"
+            style="@style/loan_editable_right_style"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/loan_40dip"
+            android:layout_marginTop="@dimen/loan_55dip"
+            android:drawableLeft="@drawable/loan_regist_complete_pinkarrow"
+            android:padding="@dimen/loan_5dip" />
+    </RelativeLayout>
+
+
+    <View style="@style/loan_horizontalline_style" />
+
+    <Button
+        android:id="@+id/loan_account_complete_enterbtn"
+        style="@style/loan_next_click_btn_style"
+        android:text="@string/loan_base_enter"
+        android:layout_below="@id/loan_activity_account_completelin" />
+
+</RelativeLayout>

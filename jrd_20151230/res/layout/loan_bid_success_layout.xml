@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/windowView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:src="@drawable/loan_regist_complete_pinkarrow"
+            android:layout_marginRight="@dimen/loan_10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/loan_prosit_bid_success"
+            android:textSize="@dimen/loan_textsize_18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/loan_color_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loan_30dip"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/loan_income_from_investment"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <Button
+            android:id="@+id/loan_join_success_Btn"
+            style="@style/loan_circular_enterbtn_style"
+            android:layout_marginTop="@dimen/loan_12dip"
+            android:text="@string/loan_my_account" />
+    </LinearLayout>
+</com.jrd.loan.widget.WindowView>

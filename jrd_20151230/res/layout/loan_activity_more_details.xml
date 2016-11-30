@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_divider_line_height"
+        android:background="@color/loan_divider_line_color" />
+
+    <RadioGroup
+        android:id="@+id/loan_details_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/loan_more_project_details"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_more_project_details"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_40dip"
+            android:background="@color/loan_divider_line_color" />
+
+        <RadioButton
+            android:id="@+id/loan_more_risk_control"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_more_risk_control"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <View
+            android:layout_width="@dimen/loan_divider_line_height"
+            android:layout_height="@dimen/loan_40dip"
+            android:background="@color/loan_divider_line_color" />
+
+        <RadioButton
+            android:id="@+id/loan_more_repayment"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_more_repayment"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/loan_moreLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_above="@+id/main_line"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/loan_details_btn"
+        style="@style/loan_btn_angle_style"
+        android:text="@string/loan_agreement_btn_text"
+        android:visibility="gone" />
+
+</com.jrd.loan.widget.WindowView>

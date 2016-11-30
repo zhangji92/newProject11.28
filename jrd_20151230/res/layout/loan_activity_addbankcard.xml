@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jrd.loan.widget.LoanRefreshScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/loan_color_background"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_15dip"
+                android:layout_marginRight="@dimen/loan_15dip"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:text="持卡人信息"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <View
+                style="@style/loan_vertical_item_style"
+                android:layout_marginTop="@dimen/loan_10dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/loan_color_white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/loan_current_item_name_style"
+                    android:text="@string/loan_bankCard_name" />
+
+                <EditText
+                    android:id="@+id/loan_addcard_cardName_Edit"
+                    style="@style/loan_input_edittext_style"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/loan_vertical_item_style"
+                android:layout_marginLeft="@dimen/loan_10dip" />
+
+            <TextView
+                android:id="@+id/loan_addcard_hint_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/loan_15dip"
+                android:layout_marginRight="@dimen/loan_15dip"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:text="银行卡"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <View
+                style="@style/loan_vertical_item_style"
+                android:layout_marginTop="@dimen/loan_10dip" />
+
+            <LinearLayout
+                android:id="@+id/loan_bindcard_selectLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/loan_45dip"
+                android:background="@drawable/loan_white_to_gray_selector"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/loan_current_item_name_style"
+                    android:text="@string/loan_bankCard_bankName" />
+
+                <LinearLayout
+                    android:id="@+id/loan_bindcard_bankLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/loan_5dip"
+                    android:paddingTop="@dimen/loan_5dip">
+
+                    <ImageView
+                        android:id="@+id/loan_bindcard_bankImage"
+                        android:layout_width="@dimen/loan_28dip"
+                        android:layout_height="@dimen/loan_28dip"
+                        android:layout_marginLeft="@dimen/loan_15dip"
+                        android:layout_marginStart="@dimen/loan_15dip"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/loan_bindcard_bankName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/loan_10dip"
+                        android:layout_marginStart="@dimen/loan_10dip"
+                        android:textColor="@color/loan_current_text_color_black"
+                        android:textSize="@dimen/loan_textsize_16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/loan_bindcard_selectTV"
+                    style="@style/loan_current_edit_style"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/loan_warning_select_card_text"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:padding="@dimen/loan_10dip"
+                    android:src="@drawable/loan_right_arrow" />
+            </LinearLayout>
+
+            <View
+                style="@style/loan_verticalline_style"
+                android:layout_marginLeft="@dimen/loan_15dip"
+                android:layout_marginStart="@dimen/loan_15dip" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/loan_color_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/loan_current_item_name_style"
+                    android:text="@string/loan_bankCard_bankNumber" />
+
+                <!-- 银行卡号 -->
+
+                <EditText
+                    android:id="@+id/loan_addcard_input_cardNum_Edit"
+                    style="@style/loan_input_edittext_style"
+                    android:layout_marginLeft="@dimen/loan_15dip"
+                    android:layout_weight="1"
+                    android:hint="@string/loan_warning_input_card_number_text"
+                    android:inputType="number"
+                    android:maxLength="23" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/loan_arrow_white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loan_addcard_enterBtn"
+                style="@style/loan_circular_enterbtn_style"
+                android:text="@string/loan_addbank_card_text" />
+        </LinearLayout>
+    </com.jrd.loan.widget.LoanRefreshScrollView>
+
+</com.jrd.loan.widget.WindowView>

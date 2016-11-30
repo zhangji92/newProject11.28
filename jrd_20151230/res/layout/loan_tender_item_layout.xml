@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/loan_10dip">
+
+        <TextView
+            android:id="@+id/tender_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:layout_marginStart="@dimen/loan_15dip"
+            android:layout_marginTop="@dimen/loan_10dip"
+            android:textColor="@color/loan_color_black_light"
+            android:textSize="@dimen/loan_textsize_14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tender_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/loan_color_black_light"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <ImageView
+                android:id="@+id/tende_phone_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loan_phone_img"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/tende_quan_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loan_quan_img"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tender_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/loan_15dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:textColor="@color/loan_color_black_light"
+            android:textSize="@dimen/loan_textsize_14sp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/loan_vertical_item_style"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip" />
+
+</LinearLayout>

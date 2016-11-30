@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/loan_20dip"
+        android:layout_marginTop="@dimen/loan_20dip"
+        android:gravity="center"
+        android:text="请选择付款账户"
+        android:textColor="@color/loan_text_color_black"
+        android:textSize="@dimen/loan_textsize_20sp" />
+
+    <View style="@style/loan_verticalline_style" />
+
+    <LinearLayout
+        android:id="@+id/loan_backCardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_10dip">
+
+        <ImageView
+            android:id="@+id/loan_bankCardImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_tvBackCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/loan_text_color_black"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_tvBackCardMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loan_5dip"
+                android:singleLine="true"
+                android:textColor="@color/loan_text_color_black"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/loan_accountSelectedImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_verticalline_style"
+        android:layout_marginLeft="@dimen/loan_10dip" />
+
+    <LinearLayout
+        android:id="@+id/loan_accountBalanceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_10dip">
+
+        <ImageView
+            android:id="@+id/loan_accountBalanceImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_10dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_tvAccountBalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/loan_text_color_black"
+                android:textSize="@dimen/loan_textsize_14sp" />
+
+            <TextView
+                android:id="@+id/loan_tvAccountBalanceMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/loan_5dip"
+                android:singleLine="true"
+                android:textColor="@color/loan_text_color_black"
+                android:textSize="@dimen/loan_textsize_14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/loan_accountSelectedImgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

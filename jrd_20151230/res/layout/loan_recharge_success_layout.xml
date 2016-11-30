@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_color_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_marginTop="@dimen/loan_50dip"
+        android:src="@drawable/iconfont_chenggong" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dip"
+        android:layout_marginLeft="@dimen/loan_10dip"
+        android:layout_marginRight="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:singleLine="true"
+        android:text="@string/loan_RechargeSuccess"
+        android:textColor="#008000"
+        android:textSize="@dimen/loan_textsize_16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:singleLine="true"
+            android:text="@string/loan_TransactionNumber"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_TransactionNumberTV"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/loan_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:singleLine="true"
+            android:text="@string/loan_ExchangeHour"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_ExchangeHourTV"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/loan_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:singleLine="true"
+            android:text="@string/loan_TradingStatus"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="@string/loan_TradingSuccess"
+            android:textColor="@color/loan_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/loan_5dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_15dip"
+            android:singleLine="true"
+            android:text="@string/loan_CurrentBalance"
+            android:textColor="@color/loan_title_txt_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_CurrentBalanceTV"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/loan_10dip"
+            android:layout_marginRight="@dimen/loan_15dip"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/loan_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/loan_AccountDetailsBtn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/loan_40dip"
+            android:layout_marginBottom="@dimen/loan_20dip"
+            android:layout_marginLeft="@dimen/loan_20dip"
+            android:layout_marginRight="@dimen/loan_5dip"
+            android:layout_marginTop="@dimen/loan_20dip"
+            android:layout_weight="1"
+            android:background="@drawable/loan_dialog_left_btn_seletor"
+            android:gravity="center"
+            android:text="@string/loan_AccountDetails"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <Button
+            android:id="@+id/loan_ImmediateInvestmentBtn"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/loan_40dip"
+            android:layout_marginBottom="@dimen/loan_20dip"
+            android:layout_marginLeft="@dimen/loan_5dip"
+            android:layout_marginRight="@dimen/loan_20dip"
+            android:layout_marginTop="@dimen/loan_20dip"
+            android:layout_weight="1"
+            android:background="@drawable/loan_dialog_right_btn_seletor"
+            android:gravity="center"
+            android:text="@string/loan_ImmediateInvestment"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </LinearLayout>
+
+</com.jrd.loan.widget.WindowView>

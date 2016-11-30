@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/loan_color_white" />
+
+            <!-- <corners android:radius="@dimen/length_10dp" /> -->
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/loan_warm_prompt_color" />
+
+                <!-- <corners android:radius="@dimen/length_10dp" /> -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

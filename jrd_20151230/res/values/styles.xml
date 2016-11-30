@@ -1,0 +1,416 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="loan_loginlayout_style">
+        <item name="android:background">@color/loan_color_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="loan_account_logo_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_15dip</item>
+    </style>
+
+    <style name="loan_input_layout_style">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_title_bar_height</item>
+    </style>
+
+    <style name="loan_personal_layout_style">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_65dip</item>
+    </style>
+
+    <!-- 可点击的提示的文本样式 -->
+    <style name="loan_click_tv_style">
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginLeft">@dimen/loan_10dip</item>
+        <item name="android:textColor">@color/loan_title_bar_textColor</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 输入的样式 -->
+    <style name="loan_input_edittext_style">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">@dimen/loan_15dip</item>
+        <item name="android:paddingBottom">@dimen/loan_15dip</item>
+        <item name="android:textSize">@dimen/loan_edittext_textsize</item>
+        <item name="android:textColor">@color/loan_color_black</item>
+        <item name="android:textColorHint">@color/loan_edit_hint_text_color</item>
+        <item name="android:layout_height">@dimen/loan_title_bar_height</item>
+    </style>
+
+    <style name="loan_addcard_textview_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/loan_edittext_textsize</item>
+        <item name="android:textColor">@color/loan_color_black</item>
+        <item name="android:textColorHint">@color/loan_edit_hint_text_color</item>
+        <item name="android:layout_height">@dimen/loan_edittext_height</item>
+    </style>
+
+    <!-- 输入界面右侧提示的文本样式 -->
+    <style name="loan_editable_right_style">
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginLeft">@dimen/loan_10dip</item>
+        <item name="android:textColor">@color/loan_title_bar_textColor</item>
+        <item name="android:textSize">@dimen/loan_titlebar_menu_textsize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 个人信息左侧图标样式 -->
+    <style name="loan_personal_left_style">
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginLeft">@dimen/loan_10dip</item>
+        <item name="android:textColor">@color/loan_title_bar_textColor</item>
+        <item name="android:textSize">@dimen/loan_titlebar_menu_textsize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 带提示的可编辑框样式 -->
+    <style name="loan_editable_hint_style">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/loan_current_text_color_black</item>
+        <item name="android:textColorHint">@color/loan_current_text_color_gray</item>
+        <item name="android:paddingRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 带提示的可编辑框样式 -->
+    <style name="loan_editable_loginhint_style">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textColorHint">@color/loan_color_trans</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 纵隔行样式 -->
+    <style name="loan_horizontalline_style">
+        <item name="android:background">@color/loan_divider_line_color</item>
+        <item name="android:layout_width">@dimen/loan_divider_line_height</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- 纵隔行样式  白色 -->
+    <style name="loan_horizontal_white_style">
+        <item name="android:background">@color/loan_color_white</item>
+        <item name="android:layout_width">@dimen/loan_divider_line_height</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="loan_horizontallinewithmargin_style">
+        <item name="android:background">@color/loan_divider_line_color</item>
+        <item name="android:layout_marginLeft">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_divider_line_height</item>
+    </style>
+
+    <style name="loan_horizontallinewithmargin_light_style">
+        <item name="android:background">@color/loan_divider_line_color</item>
+        <item name="android:layout_marginLeft">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_0.25dip</item>
+    </style>
+
+    <!-- 横隔行样式 -->
+    <style name="loan_verticalline_style">
+        <item name="android:background">@color/loan_divider_line_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_divider_line_height</item>
+    </style>
+    <!-- 横隔行样式   白色 -->
+    <style name="loan_vertical_white_style">
+        <item name="android:background">@color/loan_color_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_divider_line_height</item>
+    </style>
+
+    <style name="loan_verticalline_light_style">
+        <item name="android:background">@color/loan_divider_line_color</item>
+        <item name="android:layout_width">@dimen/loan_0.25dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="loan_btn_bid_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+    </style>
+
+    <style name="loan_current_pocket_btn_bid_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+    </style>
+
+    <!-- 圆角确定按钮的样式 -->
+    <style name="loan_circular_enterbtn_style" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_btn_circular_height</item>
+        <item name="android:background">@drawable/loan_circular_btn_selector</item>
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_15dip</item>
+        <item name="android:layout_marginTop">@dimen/loan_25dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_btn_textsize</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- 已满额 -->
+    <style name="loan_infull_enterbtn_style" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_btn_circular_height</item>
+        <item name="android:background">@drawable/loan_isfull_btn_pressed_shape</item>
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_15dip</item>
+        <item name="android:layout_marginTop">@dimen/loan_25dip</item>
+        <item name="android:textColor">@color/loan_color_black</item>
+        <item name="android:textSize">@dimen/loan_btn_textsize</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- 下一步 / 完成时按钮的样式 -->
+    <style name="loan_next_click_btn_style">
+        <item name="android:background">@drawable/loan_next_selector_blue</item>
+        <item name="android:layout_marginLeft">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginTop">@dimen/loan_25dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_btn_textsize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_40dip</item>
+    </style>
+
+    <!-- 注册成功按钮的样式 -->
+    <style name="loan_regist_complete_style">
+        <item name="android:layout_marginLeft">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/loan_title_bar_btn_margin</item>
+        <item name="android:layout_marginTop">@dimen/loan_25dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_titlebar_menu_textsize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_40dip</item>
+    </style>
+
+    <style name="loan_item_menu_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/loan_title_txt_color</item>
+    </style>
+
+    <style name="loan_my_account_text_style" parent="android:Widget.TextView">
+        <item name="android:layout_marginTop">@dimen/loan_5dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loan_bid_text_style">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/loan_color_black</item>
+    </style>
+
+    <style name="loan_title_text_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/loan_title_txt_color</item>
+    </style>
+
+    <style name="loan_title2_text_style">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/loan_title_txt_color</item>
+    </style>
+
+    <!-- 自定义dialog样式 -->
+    <style name="loan_custom_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 对话框周围背景模糊 -->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!-- 自定义prodialog样式 -->
+    <style name="loan_custom_prodialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 对话框周围背景模糊 -->
+        <item name="android:backgroundDimAmount">0.0</item>
+    </style>
+    <!-- dialog 左边按钮的样式 -->
+    <style name="loan_dialog_left_btn_style" parent="android:Widget.Button">
+        <item name="android:background">@drawable/loan_dialog_left_btn_seletor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/loan_30dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_5dip</item>
+        <item name="android:layout_marginTop">@dimen/loan_20dip</item>
+        <item name="android:layout_marginBottom">@dimen/loan_20dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_40dip</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- dialog 右边按钮的样式 -->
+    <style name="loan_dialog_right_btn_style" parent="android:Widget.Button">
+        <item name="android:background">@drawable/loan_dialog_right_btn_seletor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/loan_5dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_30dip</item>
+        <item name="android:layout_marginTop">@dimen/loan_20dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_40dip</item>
+        <item name="android:layout_marginBottom">@dimen/loan_20dip</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- 温馨提示的内容样式 -->
+    <style name="loan_warm_prompt_text_style" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/loan_warm_prompt_text_color</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 首页banner点儿 -->
+    <style name="loan_home_banner">
+        <item name="android:layout_width">@dimen/loan_8dip</item>
+        <item name="android:layout_height">@dimen/loan_8dip</item>
+        <item name="android:background">@drawable/loan_home_banner_normal_selecter</item>
+        <item name="android:layout_marginLeft">@dimen/loan_4dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_4dip</item>
+    </style>
+
+    <!-- 对话框文字style -->
+    <style name="loan_dialog_msg_style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="loan_vertical_item_style" parent="android:Widget.TextView">
+        <item name="android:background">#E4E3E3</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+
+    <style name="loan_horizontal_item_style" parent="android:Widget.TextView">
+        <item name="android:background">#E4E3E3</item>
+        <item name="android:layout_width">0.5dip</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- 我的账户标签文字样式 -->
+    <style name="loan_my_account_tag_text_style" parent="android:Widget.TextView">
+        <item name="android:layout_marginBottom">@dimen/loan_10dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loan_verticalline_left_right_blank_style" parent="@style/loan_verticalline_style">
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_15dip</item>
+    </style>
+
+    <!-- 每个activity 界面  左边行名的字style -->
+    <style name="loan_current_item_name_style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:textColor">@color/loan_current_text_color_black</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 输入框样式 -->
+    <style name="loan_current_edit_style">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/loan_current_text_color_black</item>
+        <item name="android:textColorHint">@color/loan_current_text_color_gray</item>
+        <item name="android:paddingLeft">@dimen/loan_15dip</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- 每个activity 界面  右边内容的字style -->
+    <style name="loan_current_item_text_values_style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/loan_10dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/loan_current_text_color_black</item>
+        <item name="android:textSize">@dimen/loan_textsize_14sp</item>
+    </style>
+
+    <!-- 纵向 LinearLayout 样式 -->
+    <style name="loan_current_horizontalLayout_style">
+        <item name="android:background">@color/loan_color_white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_45dip</item>
+    </style>
+
+    <!-- 下一步按钮样式 -->
+    <style name="loan_current_next_btn_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_btn_circular_height</item>
+        <item name="android:background">@drawable/loan_circular_btn_selector</item>
+        <item name="android:layout_marginLeft">@dimen/loan_15dip</item>
+        <item name="android:layout_marginRight">@dimen/loan_15dip</item>
+        <item name="android:layout_marginTop">@dimen/loan_25dip</item>
+        <item name="android:layout_marginBottom">@dimen/loan_15dip</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_btn_textsize</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- 直角的按钮样式 -->
+    <style name="loan_btn_angle_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/loan_bid_btn_selector</item>
+        <item name="android:textColor">@color/loan_color_white</item>
+        <item name="android:textSize">@dimen/loan_textsize_16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/loan_50dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_title_bar_height"
+        android:background="@color/loan_tab_background_normal"
+        android:gravity="center"
+        android:text="@string/loan_financial_products"
+        android:textColor="@color/loan_title_bar_textColor"
+        android:textSize="@dimen/loan_titlebar_textsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_divider_line_height"
+        android:background="@color/loan_divider_line_color" />
+
+    <RadioGroup
+        android:id="@+id/loan_finance_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- 直投项目 -->
+        <RadioButton
+            android:id="@+id/loan_finance_direct"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_finance_direct"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <!-- 活期口袋 -->
+        <RadioButton
+            android:id="@+id/currentPocket"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/loan_finance_btn_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/loan_10dip"
+            android:text="@string/loan_current_pocket"
+            android:textColor="@drawable/loan_selector_color"
+            android:textSize="@dimen/loan_textsize_16sp" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/loan_divider_line_height"
+        android:background="@color/loan_divider_line_color" />
+
+    <FrameLayout
+        android:id="@+id/loan_finance_frame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"></FrameLayout>
+
+</LinearLayout>

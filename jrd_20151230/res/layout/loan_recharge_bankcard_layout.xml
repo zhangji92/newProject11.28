@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loan_recharge_bankinfoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/loan_55dip"
+    android:background="@drawable/loan_white_to_gray_selector">
+
+    <ImageView
+        android:id="@+id/loan_recharge_bankiconImg"
+        android:layout_width="@dimen/loan_35dip"
+        android:layout_height="@dimen/loan_35dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/loan_15dip"
+        android:layout_marginStart="@dimen/loan_15dip"
+        android:layout_toEndOf="@+id/loan_recharge_bankiconImg"
+        android:layout_toRightOf="@+id/loan_recharge_bankiconImg"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/loan_recharge_bankNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="建设银行"
+            android:textColor="@color/loan_current_text_color_black"
+            android:textSize="@dimen/loan_textsize_16sp" />
+
+        <TextView
+            android:id="@+id/loan_recharge_bankTailNumTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尾号2587 快捷"
+            android:textColor="@color/loan_current_text_color_gray"
+            android:textSize="@dimen/loan_textsize_12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loan_recharge_arrowImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/loan_15dip"
+        android:layout_marginRight="@dimen/loan_15dip"
+        android:src="@drawable/loan_right_arrow" />
+
+</RelativeLayout>

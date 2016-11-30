@@ -1,0 +1,82 @@
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_window_background"
+    android:orientation="vertical">
+
+    <View style="@style/loan_verticalline_style" />
+
+    <LinearLayout
+        android:id="@+id/loan_activity_regist_identityverfiy_name_lin"
+        style="@style/loan_input_layout_style"
+        android:background="@color/loan_color_white"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/loan_15dip">
+
+        <ImageView
+            style="@style/loan_editable_right_style"
+            android:layout_marginRight="12dip"
+            android:background="@drawable/loan_account_icon" />
+
+        <EditText
+            android:id="@+id/loan_activity_regist_identityverfiy_name_edi"
+            style="@style/loan_editable_hint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loan_account_regist_inputnametips"
+            android:paddingTop="@dimen/loan_10dip"
+            android:paddingBottom="@dimen/loan_10dip" />
+    </LinearLayout>
+
+    <View
+        style="@style/loan_horizontallinewithmargin_style"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_name_lin" />
+
+    <LinearLayout
+        android:id="@+id/loan_activity_regist_identityverfiy_idnum_lin"
+        style="@style/loan_input_layout_style"
+        android:background="@color/loan_color_white"
+        android:orientation="horizontal"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_name_lin">
+
+        <ImageView
+            style="@style/loan_personal_left_style"
+            android:layout_marginRight="9dip"
+            android:background="@drawable/loan_personal_idcheack_icon" />
+
+        <EditText
+            android:id="@+id/loan_activity_regist_identityverfiy_idnum_edi"
+            style="@style/loan_editable_hint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loan_account_regist_inputidnumtips"
+            android:paddingTop="@dimen/loan_10dip"
+            android:paddingBottom="@dimen/loan_10dip" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loan_activity_regist_identityverfiy_enterbtn"
+        style="@style/loan_next_click_btn_style"
+        android:text="@string/loan_account_regist_realnameverfiy"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_idnum_lin" />
+
+    <TextView
+        android:id="@+id/loan_activity_regist_identityverfiy_jump_tv"
+        style="@style/loan_click_tv_style"
+        android:gravity="center"
+        android:padding="@dimen/loan_10dip"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:text="@string/loan_account_regist_jumpidverfiy"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_enterbtn" />
+
+    <TextView
+        android:id="@+id/loan_activity_regist_identityverfiy_tips_tv"
+        style="@style/loan_click_tv_style"
+        android:text="@string/loan_account_identityverfiy_tips"
+        android:layout_marginTop="@dimen/loan_10dip"
+        android:textColor="@color/loan_color_tips_gray"
+        android:textSize="@dimen/loan_textsize_12sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@id/loan_activity_regist_identityverfiy_jump_tv"
+        android:padding="@dimen/loan_10dip" />
+</com.jrd.loan.widget.WindowView>

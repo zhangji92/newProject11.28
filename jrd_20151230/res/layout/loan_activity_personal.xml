@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jrd.loan.widget.WindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loan_divider_line_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_tellin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/loan_15dip"
+            android:layout_marginTop="@dimen/loan_15dip"
+            android:background="@color/loan_color_white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/loan_personal_telimg"
+                style="@style/loan_personal_left_style"
+                android:layout_marginTop="@dimen/loan_13dip"
+                android:src="@drawable/loan_personal_tel_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_telrel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:layout_toRightOf="@id/loan_personal_telimg"
+                android:background="@color/loan_color_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loan_personal_teltv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:text="@string/loan_account_personal_telnum"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_tel_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_vcode_rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan_personal_telrel"
+                android:layout_marginBottom="@dimen/loan_5dip"
+                android:layout_toRightOf="@id/loan_personal_telimg"
+                android:background="@color/loan_color_white"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/loan_personal_invitecodetv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loan_account_personal_invitenum"
+                    android:textColor="@color/loan_title_bar_textColor" />
+
+                <TextView
+                    android:id="@+id/loan_personal_invitecode_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/loan_5dip"
+                    android:layout_toRightOf="@+id/loan_personal_invitecodetv"
+                    android:text="nc12"
+                    android:textColor="@color/loan_title_bar_textColor" />
+            </RelativeLayout>
+
+            <View
+                style="@style/loan_verticalline_style"
+                android:layout_below="@id/loan_personal_vcode_rel"
+                android:layout_marginTop="@dimen/loan_5dip" />
+        </RelativeLayout>
+
+        <View
+            style="@style/loan_horizontalline_style"
+            android:layout_below="@id/loan_personal_tellin" />
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_securitylevellin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loan_personal_tellin"
+            android:background="@color/loan_color_white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/loan_personal_securitylevelimg"
+                style="@style/loan_personal_left_style"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:src="@drawable/loan_personal_security_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_securitylevelrel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:layout_toRightOf="@id/loan_personal_securitylevelimg"
+                android:background="@color/loan_color_white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loan_personal_securityleveltv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:text="@string/loan_account_personal_securitylevel"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_securitylevel_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_securitylevetv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/loan_personal_securityleveltv"
+                    android:layout_marginBottom="@dimen/loan_10dip"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:hint="@string/loan_account_personal_securitylevel_tips" />
+            </RelativeLayout>
+
+            <View
+                style="@style/loan_verticalline_style"
+                android:layout_below="@id/loan_personal_securitylevelrel"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:layout_toRightOf="@id/loan_personal_securitylevelimg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_checklin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_title_bar_height"
+            android:layout_below="@id/loan_personal_securitylevellin"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/loan_personal_idcheackicon_img"
+                style="@style/loan_personal_left_style"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dip"
+                android:layout_marginTop="@dimen/loan_10dip"
+                android:background="@drawable/loan_personal_idcheack_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_checkrel"
+                android:layout_width="match_parent"
+                android:layout_height="49dip"
+                android:layout_toRightOf="@id/loan_personal_idcheackicon_img"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loan_personal_idcheack_tipstv"
+                    style="@style/loan_editable_hint_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/loan_account_personal_identityverfiy"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_idcheack_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:text="@string/loan_setting_state_notset"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/loan_personal_idcheack_notchecktv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:drawableRight="@drawable/loan_personal_right_arrow"
+                    android:textColor="@color/loan_color_notset"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/loan_personal_idcheack_notcheckview"
+                style="@style/loan_verticalline_style"
+                android:layout_below="@id/loan_personal_checkrel"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:layout_toRightOf="@id/loan_personal_idcheackicon_img" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_loginpswlin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_title_bar_height"
+            android:layout_below="@id/loan_personal_checklin"
+            android:background="@drawable/loan_white_to_gray_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/loan_personal_loginpsw_img"
+                style="@style/loan_personal_left_style"
+                android:layout_centerVertical="true"
+                android:background="@drawable/loan_personal_loginpsw_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_loginpswrel"
+                android:layout_width="match_parent"
+                android:layout_height="49dip"
+                android:layout_toRightOf="@id/loan_personal_loginpsw_img"
+                android:background="@drawable/loan_white_to_gray_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loan_personal_loginpsw_tipstv"
+                    style="@style/loan_editable_hint_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/loan_account_personal_loginpsw"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_loginpsw_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:drawableRight="@drawable/loan_personal_right_arrow"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+            </RelativeLayout>
+
+            <View
+                style="@style/loan_verticalline_style"
+                android:layout_below="@id/loan_personal_loginpswrel"
+                android:layout_marginRight="@dimen/loan_10dip"
+                android:layout_toRightOf="@id/loan_personal_loginpsw_img" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/loan_personal_transactionpswlin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_title_bar_height"
+            android:layout_below="@id/loan_personal_loginpswlin"
+            android:background="@drawable/loan_white_to_gray_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/loan_personal_transactionpsw_img"
+                style="@style/loan_personal_left_style"
+                android:layout_centerVertical="true"
+                android:background="@drawable/loan_personal_transactionpsw_icon"
+                tools:ignore="RtlHardcoded" />
+
+            <RelativeLayout
+                android:id="@+id/loan_personal_transactionpswrel"
+                android:layout_width="match_parent"
+                android:layout_height="49dip"
+                android:layout_toRightOf="@id/loan_personal_transactionpsw_img"
+                android:background="@drawable/loan_white_to_gray_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/loan_personal_transactionpsw_tipstv"
+                    style="@style/loan_editable_hint_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/loan_10dip"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:text="@string/loan_account_personal_transactionpsw"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_transactionpsw_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:drawableRight="@drawable/loan_personal_right_arrow"
+                    android:textColor="@color/loan_title_bar_textColor"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize" />
+
+                <TextView
+                    android:id="@+id/loan_personal_transactionpsw_notsettv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/loan_10dip"
+                    android:layout_marginTop="@dimen/loan_10dip"
+                    android:drawableRight="@drawable/loan_personal_right_arrow"
+                    android:text="@string/loan_setting_state_notset"
+                    android:textColor="@color/loan_color_notset"
+                    android:textSize="@dimen/loan_titlebar_menu_textsize"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                style="@style/loan_verticalline_style"
+                android:layout_below="@id/loan_personal_transactionpswrel" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/loan_personal_quitebtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/loan_55dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/loan_next_selector_noroundblue"
+            android:text="@string/loan_account_personal_quite"
+            android:textColor="@color/loan_color_white"
+            android:textSize="@dimen/loan_btn_textsize" />
+    </RelativeLayout>
+
+</com.jrd.loan.widget.WindowView>

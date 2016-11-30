@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/loan_color_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:lineSpacingMultiplier="1.1"
+        android:padding="@dimen/loan_10dip"
+        android:textColor="@color/loan_current_text_color_black"
+        android:textSize="@dimen/loan_textsize_14sp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        style="@style/loan_btn_angle_style"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/loan_10dip"
+        android:text="@string/loan_bindcard_iknow" />
+
+</LinearLayout>
