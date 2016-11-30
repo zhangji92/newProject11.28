@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tool_bar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/ziti"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/ziti" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/r1"
+        android:background="@color/back_all"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/xxkc"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/xkc"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/kcxx"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/kcxx"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t2"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/xsxx"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/xsxx"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t3"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/xxkcxx"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/xxkcx"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t4"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/bz"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/bz"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t5"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:drawableStart="@drawable/tcxt"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/tc"
+            android:textColor="@color/tool_bar"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

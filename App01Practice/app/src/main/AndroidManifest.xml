@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yuekao.app01.com.app01practice">
+
+    <application
+        android:name=".CourseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ElectiveCourse" />
+        <activity android:name=".CourseNumber" />
+        <activity android:name=".MessageNumber" />
+        <activity android:name=".StudentMessage" />
+        <activity android:name=".QueryResult" />
+        <activity android:name=".CourseResult" />
+        <activity android:name=".CourseDetails" />
+        <activity android:name=".DetailResult" />
+        <activity android:name=".Help" />
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">选课</string>
+    <string name="logo">logo</string>
+    <string name="xkc">选修课程</string>
+    <string name="kcxx">课程信息</string>
+    <string name="xsxx">查询学生信息</string>
+    <string name="xxkcx">课程详情信息</string>
+    <string name="bz">帮助</string>
+    <string name="tc">退出</string>
+    <!--选修课程-->
+    <string name="name">姓名：</string>
+    <string name="sex">性别：</string>
+    <string name="age">年龄：</string>
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="prompt">提交信息</string>
+    <string name="elective">选修课程</string>
+    <string name="select">请选择你要选修课程的编号</string>
+    <!--课程信息-->
+    <string name="course">课程信息</string>
+    <string name="course_result">查询结果</string>
+
+    <!--学生信息-->
+    <string name="student">学生信息</string>
+    <string name="card">身份证号：</string>
+    <string name="submit">提交</string>
+    <string name="result">查询结果</string>
+
+    <!--课程详情-->
+    <string name="detail">查询课程详细信息</string>
+    <string name="help">帮助</string>
+    <string name="quit">退出系统</string>
+    <string name="whether">是否退出系统?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>
