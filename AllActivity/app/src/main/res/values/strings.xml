@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">所有项目</string>
+    <string name="weChat">微信</string>
+    <string name="logo">logo</string>
+
+
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addFriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+
+    <string name="tab_contact">通讯录</string>
+    <string name="tab_found">发现</string>
+    <string name="tab_me">我</string>
+
+    <string name="sqLite">SQLite数据库</string>
+    <string name="sqLite2">SQLite数据库2</string>
+
+    <string name="imKit">融云</string>
+    <string name="calendar">自定义日历</string>
+    <string name="day">今</string>
+
+    <string name="webView">WebView</string>
+    <string name="ceShi">图像处理</string>
+    <string name="list">ListView刷新数据</string>
+    <string name="refresh">ListView刷新数据,动画</string>
+    <string name="viewPager">viewPager轮播图</string>
+    <string name="volley">volley框架</string>
+    <string name="speech">演示</string>
+    <string name="loader_img">volley加载图片</string>
+    <string name="sliding_conflict">滑动冲突问题</string>
+    <string name="imooc_viewPager">千变万化的ViewPager</string>
+    <string name="imooc_custom_viewPager">自定义的ViewPager</string>
+    <string name="imooc_async_task">基础的AsyncTask</string>
+    <string name="asynchronous">异步加载AsyncTask</string>
+    <string name="practice">练习11.25</string>
+
+
+</resources>

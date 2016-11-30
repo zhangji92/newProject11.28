@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/left_arrow" />
+
+        <TextView
+            android:id="@+id/text_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/left_arrow"
+            android:background="@color/calendar_back"
+            android:padding="5dp"
+            android:text="@string/day"
+            android:textColor="@color/calendar_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/text_day"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#93C73C"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/week_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/date_text"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="#93C73C"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/text_calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/text_day"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="@color/calendar_moth"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitXY"
+            android:src="@drawable/right_arrow" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.allactivity.custom.calendar.CustomWeekView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <com.allactivity.custom.calendar.MonthView
+            android:id="@+id/monthView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+    </LinearLayout>
+
+</LinearLayout>

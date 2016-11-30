@@ -1,0 +1,23 @@
+
+
+高仿微信6.0主界面
+1、ActionBar
+设置样式，改变overflowButtonStyle;用过反射改变一些设置
+2、ViewPager+Fragment
+
+onPageScrolled(int position, float positionOffset, int positionOffsetPixels)
+从第一页到第二页
+position=0
+positionOffset 0.0-1.0
+从第二页到第一页
+position=0
+positionOffset 1.0-0.0
+
+3、TabIndicator 自定义View
+1、自定义VIew
+1、attr.xml
+2、布局文件中使用
+3、构造方法中获取自定义属性
+4、onMeasure
+5、onDraw
+xfermode的原理DST_IN

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.allactivity.listview.CustomImageView
+            android:id="@+id/adapter_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitXY"
+            app:img="@drawable/www"
+            app:mask="@drawable/chijing"
+            app:mx="100dp"
+            app:my="30dp" />
+
+        <TextView
+            android:id="@+id/adapter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/adapter_image"
+            android:text="@string/day" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/adapter_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/adapter_image"
+        android:text="@string/day" />
+</LinearLayout>

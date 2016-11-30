@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/practice_outer_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/www"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/practice_share"
+        android:text="分享"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/practice_dictation"
+        android:text="听写"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageView
+        android:id="@+id/practice_file_img"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:scaleType="fitXY"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/practice_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/practice_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

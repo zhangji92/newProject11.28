@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/practice"
+        android:showAsAction="never"
+        android:title="@string/practice"
+        tools:ignore="AppCompatResource" />
+
+    <item
+        android:id="@+id/imooc_asynchronous_task"
+        android:showAsAction="never"
+        android:title="@string/asynchronous"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/imooc_async_task"
+        android:showAsAction="never"
+        android:title="@string/imooc_async_task"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/imooc_custom_viewPager"
+        android:showAsAction="never"
+        android:title="@string/imooc_custom_viewPager"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/imooc_viewPager"
+        android:showAsAction="never"
+        android:title="@string/imooc_viewPager"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/sliding"
+        android:showAsAction="never"
+        android:title="@string/sliding_conflict"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/volley_img_loader"
+        android:showAsAction="never"
+        android:title="@string/loader_img"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/speech"
+        android:showAsAction="never"
+        android:title="@string/speech"
+        tools:ignore="AppCompatResource" />
+    <!--微信-->
+    <item
+        android:id="@+id/weChat"
+        android:showAsAction="collapseActionView"
+        android:title="@string/weChat"
+        tools:ignore="AppCompatResource" />
+    <!--SQLite数据库-->
+    <item
+        android:id="@+id/sqLite"
+        android:showAsAction="collapseActionView"
+        android:title="@string/sqLite"
+        tools:ignore="AppCompatResource" />
+    <!--SQLite数据库-->
+    <item
+        android:id="@+id/list_intent"
+        android:showAsAction="collapseActionView"
+        android:title="@string/list"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/sqLite2"
+        android:showAsAction="collapseActionView"
+        android:title="@string/sqLite2"
+        tools:ignore="AppCompatResource" />
+    <!--容云-->
+    <item
+        android:id="@+id/im_kit"
+        android:showAsAction="collapseActionView"
+        android:title="@string/imKit"
+        tools:ignore="AppCompatResource" />
+    <!--自定义日历-->
+    <item
+        android:id="@+id/calendar"
+        android:showAsAction="collapseActionView"
+        android:title="@string/calendar"
+        tools:ignore="AppCompatResource" />
+    <!--android WebViewActivity-->
+    <item
+        android:id="@+id/webView"
+        android:showAsAction="collapseActionView"
+        android:title="@string/webView"
+        tools:ignore="AppCompatResource" />
+
+    <!--android WebViewActivity-->
+    <item
+        android:id="@+id/ceShi"
+        android:showAsAction="collapseActionView"
+        android:title="@string/ceShi"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="collapseActionView"
+        android:title="@string/refresh"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/viewPager"
+        android:showAsAction="collapseActionView"
+        android:title="@string/viewPager"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/volley"
+        android:showAsAction="collapseActionView"
+        android:title="@string/volley"
+        tools:ignore="AppCompatResource" />
+
+
+
+</menu>

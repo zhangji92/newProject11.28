@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allactivity">
+
+    <application
+        android:name=".util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".weChat.WeChatActivity"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".sqlite.SQLiteDome" />
+        <activity android:name=".imkit.IMKit" />
+        <activity
+            android:name=".imkit.HuiHuaListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>  
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="com.com.allactivity"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".imkit.HuiHuaActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>  
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="com.allactivity"
+                    android:pathPrefix="/conversation"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".custom.calendar.CustomCalendar"/>
+        <activity android:name=".sqlite.SQLiteDome2"/>
+        <activity android:name=".Screen.ScreenAdaptation" />
+        <activity android:name=".web.view.WebViewActivity" />
+        <activity android:name=".L11_Graphics.BitmapTestActivity"/>
+        <activity android:name=".L11_Graphics.DrawTestActivity"/>
+        <activity android:name=".L11_Graphics.MainActivity"/>
+        <activity android:name=".L11_Graphics.MatrixTestActivity"/>
+        <activity android:name=".L11_Graphics.TuPianTestActivity"/>
+        <activity android:name=".listview.ListViewActivity"/>
+        <activity android:name=".listview.refresh.ListActivityAnimator" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".volley.VolleyActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity1" />
+        <activity android:name=".conflict.SlidingConflict" />
+        <activity android:name=".viewpager.imooc.changes.ImoocChangesActivity" />
+        <activity android:name=".viewpager.indicator.ImoocIndicator" />
+        <activity android:name=".asynctask.asynchronous.AsynchronousLoading" />
+        <activity android:name=".asynctask.AsyncTaskActivity" />
+        <activity android:name=".pracitic.PracticeActivity" />
+        <activity android:name=".asynctask.ImageTest" />
+        <activity android:name=".pracitic.DictationActivity" />
+        <activity android:name=".asynctask.ProgressBarActivity" />
+    </application>
+
+
+
+    <!--连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!--读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!--允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!--读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!--摄相头权限，拍照需要用到 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+</manifest>
