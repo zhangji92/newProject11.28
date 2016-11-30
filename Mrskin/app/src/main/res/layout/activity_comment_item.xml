@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!-- 头像 -->
+
+        <com.yoka.mrskin.util.RoundImage
+            android:id="@+id/comment_userimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 名字 肤质 年龄 -->
+
+            <RelativeLayout
+                android:id="@+id/comment_age_name_mrsk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/comment_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="一个名字"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text14" />
+
+                    <TextView
+                        android:id="@+id/comment_userskin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="肤质"
+                        android:textColor="@color/grayto" />
+
+                    <TextView
+                        android:id="@+id/comment_userage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="30岁"
+                        android:textColor="@color/grayto" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/comment_userdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="15dp"
+                    android:text="2016、03、16"
+                    android:textColor="@color/grayto" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/comment_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginRight="15dp"
+                android:text="我的我的我的我的我的我的我的我的我的我的我的我的我的我的我的" />
+
+            <LinearLayout
+                android:id="@+id/comment_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/comment_image_one"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/image_def_background"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/comment_image_two"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/image_def_background"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/comment_image_three"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/image_def_background"
+                    android:padding="1dp"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+
+            <!-- 评论  点赞  更多 -->
+
+            <RelativeLayout
+                android:id="@+id/commentsThumbMore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp" >
+
+                <TextView
+                    android:id="@+id/comment_more"
+                    android:layout_width="19dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"/>
+
+                <RelativeLayout
+                    android:id="@+id/thum_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toLeftOf="@+id/comment_more" >
+
+                    <TextView
+                        android:id="@+id/thum_text_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/thum_image"
+                        android:textSize="@dimen/text7" />
+
+                    <ImageView
+                        android:id="@+id/thum_image"
+                        android:layout_width="18dp"
+                        android:layout_height="16dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/commentnew_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/thum_layout" >
+
+                    <TextView
+                        android:id="@+id/commentnew_text_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/commentnew_image"
+                        android:textSize="@dimen/text7" />
+
+                    <ImageView
+                        android:id="@+id/commentnew_image"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:background="@drawable/comment_image" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <!-- 回复再回复 -->
+
+            <LinearLayout
+                android:id="@+id/commentagincomment_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_backgoud"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+            
+            <!-- <TextView 
+                android:id="@+id/comment_listmpre"
+                android:layout_width="25dp"
+                android:layout_height="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/comment_rectangle"/> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/div_setting" />
+
+</RelativeLayout>

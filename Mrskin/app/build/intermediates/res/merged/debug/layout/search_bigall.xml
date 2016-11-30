@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/edit_data"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/home_title"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/home_searchbox" >
+
+            <ImageView
+                android:id="@+id/search_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/home_searchbox_btn"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/serach_edit_intent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@+id/search_image"
+                android:hint="@string/serach_rack"
+                android:textColorHint="@color/gray"
+                android:textSize="@dimen/search_edit" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/search_bigall_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/cancle_cancle"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <LinearLayout
+            android:id="@+id/search_type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/home_title"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <!-- 品牌 -->
+
+            <LinearLayout
+                android:id="@+id/search_bigall_brand_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/search_bigall_brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/search_brand_title"
+                    android:textColor="@color/grayto"
+                    android:textSize="@dimen/text16" />
+
+                <View
+                    android:id="@+id/search_view_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <!-- 分类 -->
+
+            <LinearLayout
+                android:id="@+id/search_bigall_type_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/search_bigall_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/search_type_title"
+                    android:textColor="@color/grayto"
+                    android:textSize="@dimen/text16" />
+
+                <View
+                    android:id="@+id/search_view_two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <!-- 功效 -->
+
+            <LinearLayout
+                android:id="@+id/search_bigall_effect_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/search_bigall_effect"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/search_effect_title"
+                    android:textColor="@color/grayto"
+                    android:textSize="@dimen/text16" />
+
+                <View
+                    android:id="@+id/search_view_three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+            <!-- 心得 -->
+
+            <LinearLayout
+                android:id="@+id/search_bigall_experience_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/search_bigall_experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/search_experience_title"
+                    android:textColor="@color/grayto"
+                    android:textSize="@dimen/text16" />
+
+                <View
+                    android:id="@+id/search_view_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+            <!-- 资讯 -->
+
+            <LinearLayout
+                android:id="@+id/search_bigall_read_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/search_bigall_read"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/search_read_title"
+                    android:textColor="@color/grayto"
+                    android:textSize="@dimen/text16" />
+
+                <View
+                    android:id="@+id/search_view_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="47dp"
+            android:background="#11000000" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/search_tag_layoutone"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/home_title"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/search_tag_text_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/search_tag_text_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/search_tag_text_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_tag_layouttwo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/home_title"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/search_tag_text_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/search_tag_text_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/search_tag_text_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <!-- information -->
+
+    <com.xlistview.XListView
+        android:id="@+id/search_bigall_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- category efficacy -->
+
+    <ScrollView
+        android:id="@+id/search_home_category_efficacy_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/search_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- brand -->
+
+    <FrameLayout
+        android:id="@+id/search_sour_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/search_bigall_listtwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:divider="@null" />
+
+        <com.yoka.mrskin.util.SideBar
+            android:id="@+id/search_sour_sidrbar"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:background="@color/white" />
+    </FrameLayout>
+
+</LinearLayout>

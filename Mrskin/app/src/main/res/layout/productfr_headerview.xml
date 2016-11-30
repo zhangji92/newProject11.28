@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 小编精选 -->
+
+    <LinearLayout
+        android:id="@+id/view_nodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/product_select"
+            android:textColor="#666666" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/product_title_imageleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/product_title_imageright"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#F7F7F7" />
+
+        <!-- 品牌 -->
+
+        <RelativeLayout
+            android:id="@+id/product_brand_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/produc_cover_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/product_fragment_brand_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="@string/search_brand_title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <com.yoka.mrskin.util.MyGallery
+                android:id="@+id/product_brand_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/produc_cover_layout"
+                android:layout_marginTop="-50dp"
+                android:spacing="15dp" />
+
+            <!--
+                 <com.yoka.mrskin.util.UIScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_brand_gallery"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" >
+
+                    <GridView
+                        android:id="@+id/product_brand_gridview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:numColumns="auto_fit"
+                        android:stretchMode="spacingWidthUniform" />
+           </LinearLayout>
+            </com.yoka.mrskin.util.UIScrollView>
+
+
+            -->
+
+            <include
+                android:id="@+id/product_more_layout"
+                android:layout_width="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_brand_gallery"
+                android:layout_alignParentRight="true"
+                layout="@layout/product_more_button"
+                android:visibility="gone"/>
+
+            <com.yoka.mrskin.util.MyGridView
+                android:id="@+id/product_brand_gridview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_brand_gallery"
+                android:layout_marginLeft="5dp"
+                android:layout_toLeftOf="@+id/product_more_layout"
+                android:background="@color/white"
+                android:numColumns="3" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#F7F7F7" />
+
+        <TextView
+            android:id="@+id/product_type_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/search_type_title"
+            android:textColor="#666666" />
+
+        <com.yoka.mrskin.util.MyGridView
+            android:id="@+id/product_type_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:numColumns="4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#F7F7F7" />
+
+        <TextView
+            android:id="@+id/product_type_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/search_effect_title"
+            android:textColor="#666666" />
+
+        <com.yoka.mrskin.util.MyGridView
+            android:id="@+id/product_efficacies_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_brand_gallery"
+            android:background="@color/white"
+            android:numColumns="4" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#F7F7F7" />
+    </LinearLayout>
+    <!-- </ScrollView> -->
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/skin_detail_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/skin_detail_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text16" />
+
+        <RelativeLayout
+            android:id="@+id/skin_detail_done_layout"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/skin_detail_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/skin_detail_done"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text14" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/skin_detail_top_layout"
+        android:background="@color/head_view_color" />
+
+    <com.yoka.mrskin.util.ProgressWebView
+        android:id="@+id/skin_detail_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/skin_detail_top_layout" />
+
+</RelativeLayout>

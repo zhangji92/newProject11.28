@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/add_city_location"
+        android:layout_width="@dimen/add_city_grid_item_location_width"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/tv_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/add_city_location"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textColor="#FF999999"
+        android:textSize="18sp" />
+   <!--  <TextView
+        android:id="@+id/tv_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/add_city_location"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="35dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_centerVertical="true"
+        android:text="布局"
+        android:textColor="#FF999999"
+        android:textSize="18sp" /> -->
+    <ImageView
+        android:id="@+id/img_checked"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/add_city_grid_item_checked_padding_right"
+        android:layout_toRightOf="@id/tv_cityname"
+        android:contentDescription="@null"
+         />
+
+</RelativeLayout>

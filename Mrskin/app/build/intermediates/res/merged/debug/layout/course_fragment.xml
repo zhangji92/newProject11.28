@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/location_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/location_title" >
+
+        <TextView
+            android:id="@+id/courseTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/location_location"/>
+
+        <LinearLayout
+            android:id="@+id/courseTitleLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/beautyMakeupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_news_left_press"
+                android:text="@string/read_read"
+                android:textColor="@color/location_title"
+                android:textSize="@dimen/popupwindow_subtitle" />
+
+            <Button
+                android:id="@+id/beautyInformationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_news_right_default"
+                android:text="@string/read_news"
+                android:textColor="@color/white"
+                android:textSize="@dimen/popupwindow_subtitle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/read_back_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/location_back"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@color/location_title"
+                android:src="@drawable/common_toolbar_back"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:text="@string/location_back"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <!--
+             <TextView
+            android:id="@+id/read_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/read_refresh"
+            android:textColor="@color/white" />
+
+        -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.yoka.mrskin.util.ProgressWebView
+            android:id="@+id/webView_read"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.yoka.mrskin.util.ProgressWebView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/courseErrorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                layout="@layout/intent_error"
+                android:visibility="gone" />
+
+            <com.xlistview.XListView
+                android:id="@+id/coursexListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/setting_bg"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent" >
+            </com.xlistview.XListView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+         <WebView
+        android:id="@+id/webView_read"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="wrap_content" />
+
+
+    -->
+
+</LinearLayout>

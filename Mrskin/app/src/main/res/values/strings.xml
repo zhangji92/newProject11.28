@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- <string name="app_name">肤君</string> -->
+    <string name="app_name">肤君美容护肤神器</string> 
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Calenda -->
+    <string name="day_name_format">EEE</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="month_name_format">MMMM yyyy</string>
+
+    <!-- 我的化装包 -->
+    <string name="mybag_price">暂无报价</string>
+    <string name="location_back">返回</string>
+
+    <!-- 首页 -->
+    <string name="home_title">肤君</string>
+    <string name="task_info_today">今日完成</string>
+    <string name="task_info_history">历史</string>
+    <string name="task_info_setting">设置</string>
+    <string name="task_info_delete">取消计划</string>
+    <string name="task_info_open">开启提醒</string>
+    <string name="task_info_settime">时间设置</string>
+    <string name="me_have_plan">我要更多美丽计划</string>
+    <string name="home_wintask">已完成该计划</string>
+    <string name="home_losttask">该计划已被忽略</string>
+    <string name="exit_hint">再按一次退出</string>
+    <string name="beauty_experience">美妆心得</string>
+    <string name="beauty_rating">美妆榜单</string>
+    <string name="home_jijijij">每一个新的一天都是一个改变你自己命运的机会</string>
+
+    <!-- XListView内容 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载</string>
+    <string name="xlistview_footer_hint_normal">加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="click">点击进入</string>
+    <string name="space"></string>
+
+    <!-- 搜索 -->
+    <string name="search_detalis_price">价格</string>
+    <string name="search_detalis_classify">分类</string>
+    <string name="search_search">搜索</string>
+    <string name="product_product">妆品库</string>
+    <string name="serach_rack">搜妆品，心得，资讯</string>
+    <string name="cancle_cancle">取消</string>
+    <string name="search_result">搜索结果页</string>
+
+    <!-- 提醒 -->
+    <string name="setting_remind_yes">接收新通知提醒</string>
+    <string name="setting_setting_sound">声音</string>
+    <string name="setting_setting_shake">震动</string>
+
+    <!-- 设置 -->
+    <string name="setting_setting">我的</string>
+    <string name="setting_back">返回</string>
+    <string name="setting_update">版本更新</string>
+    <string name="setting_advice">意见反馈</string>
+    <string name="setting_advice_hint">吐槽产品或提意见</string>
+    <string name="setting_contact_hint">联系方式(选填,邮箱或联系电话)</string>
+    <string name="setting_advice_commit">发送</string>
+    <string name="setting_version_code">当前版本：</string>
+    <string name="setting_login_message">未登录</string>
+    <string name="setting_new">NEW</string>
+    <string name="setting_update_password">修改密码</string>
+    <string name="setting_update_message">更改信息</string>
+    <string name="fragment_setting_message">编辑资料</string>
+    <string name="setting_input_pass_name">密码或账号错误</string>
+    <string name="setting_input_name">用户名不能为空</string>
+    <string name="setting_input_pass">密码不能为空</string>
+    <string name="setting_clear">清理缓存</string>
+    <string name="setting_remind">提醒设置</string>
+    <string name="quit_login">退出登录</string>
+    <string name="quit_login_success">退出成功</string>
+    <string name="about_about">关于肤君</string>
+    <string name="login_login">登录</string>
+    <string name="setting_success">缓存清理成功</string>
+    <string name="setting_edit_send">保存</string>
+    <string name="setting_edit_image">头像</string>
+    <string name="setting_edit_name">昵称</string>
+    <string name="setting_edit_gender">性别</string>
+    <string name="setting_edit_day">生日</string>
+    <string name="beautiful_beautiful">美丽计划</string>
+    <string name="more_updata">软件升级</string>
+    <string name="more_version_info">版本信息:</string>
+    <string name="more_updata_load">立即升级</string>
+    <string name="more_updata_error">升级失败</string>
+    <string name="more_updata_lvlv">升级失败，请稍候再试</string>
+    <string name="more_updata_exit">稍后再说</string>
+    <string name="setting_sex">女</string>
+    <string name="task_gain_plan">获取计划信息失败</string>
+    <string name="more_more_current">已是最新版本</string>
+    <string name="intent_no">亲爱哒你现在木有网吖</string>
+    <string name="intent_error">网络异常，不要捉急，休息一下再试</string>
+    <string name="more_logout_intent">退出失败</string>
+    <string name="setting_pelease_login">请</string>
+    <string name="setting_have_loain">已登陆</string>
+    <string name="setting_bag">我的化妆包</string>
+    <string name="setting_fav_bag">我长草的化妆品</string>
+    <string name="setting_beauty_comments">我的美妆心得</string>
+    <string name="setting_beauty_task">我的美丽计划</string>
+
+    <!-- xxxx -->
+    <string name="advice_suggestions">意见反馈</string>
+    <string name="advice_customer_submit">确定提交</string>
+    <string name="advice_suggestions_content">亲，对产品有什么改进建议，欢迎告诉我们</string>
+    <string name="advice_phone_number">您的联系方式：</string>
+    <string name="activity_composition_header_view_include">含有该成分的产品</string>
+    <string name="activity_composition_none_text">暂时为收录......</string>
+    <string name="search_label">xxxs</string>
+    <string name="task_brief_todayfinish">今日完成情况</string>
+    <string name="plan_detalis_reding"> 相关阅读</string>
+    <string name="plan_detalis_prodact"> 相关产品</string>
+    <string name="updata_message_cram">请选择相机或者图库</string>
+    <string name="updata_message_cramone">相机</string>
+    <string name="updata_message_pict">图库</string>
+    <string name="updata_message_nosucc">修改信息失败</string>
+    <string name="activiry_composition_take_photo_error">图片保存失败，请重新尝试拍照</string>
+    <string name="updata_message_success">信息修改成功</string>
+    <string name="plan_have">已经参加</string>
+    <string name="new_product_valuating">新品评测</string>
+    <string name="new_product_option">优选</string>
+    <string name="write_nonice_image">不能超过9张图片</string>
+    <string name="aenior_nonice_image">不能超过3张图片</string>
+
+    <!-- 用户名 -->
+    <string name="user_name">用户名</string>
+    <string name="user_pass">密码</string>
+    <string name="user_login">登录</string>
+    <string name="user_register">注册</string>
+    <string name="user_qq">QQ登录</string>
+    <string name="user_wei">微信登录</string>
+    <string name="user_sina">微博登录</string>
+
+    <!-- 卡片popupWindow -->
+    <string name="home_popupwindow_shake">忽略</string>
+    <string name="home_popupwindow_success">完成</string>
+    <string name="home_popupwindow_setting">设置</string>
+
+    <!-- 跳转分享 -->
+    <string name="course_class">彩妆课堂</string>
+    <string name="e">完成</string>
+    <string name="home_popxzczcupwindow_setting">设置</string>
+
+    <!-- homefragment -->
+    <string name="home_plan_elide">忽略</string>
+    <string name="detalis_detalis">肤君</string>
+    <string name="home_detalis_t1">美丽指数</string>
+    <string name="home_detalis_t3">分</string>
+    <string name="moisturize_to">每日一文</string>
+    <string name="moisturize_product">详情</string>
+    <string name="home_button_title">肤君</string>
+    <string name="home_button_course">妆品库</string>
+    <string name="home_button_read">教程</string>
+    <string name="home_button_task">计划</string>
+    <string name="home_button_try">我的试用</string>
+    <string name="home_button_more">我的</string>
+    <string name="plan_detalis_addtask">参加计划</string>
+
+    <!-- 关于页面 -->
+    <string name="about_law_statement">免责声明</string>
+    <string name="about_detail_introduce">详细介绍</string>
+    <string name="about_law_item_one">第一条</string>
+    <string name="about_law_item_two">第二条</string>
+    <string name="about_law_item_three">第三条</string>
+    <string name="about_law_item_four">第四条</string>
+    <string name="about_law_title">用户在接受肤君APP服务之前，请务必仔细阅读本条款并同意本声明。</string>
+    <string name="about_law_one_content">任何通过肤君跳转链接到的第三方页面均为他人制作或提供，您可以从该第三方页面上获得资讯及享用服务，肤君对其合法性概不负责，亦不承担任何法律责任。</string>
+    <string name="about_law_two_content">产品成分与功效均来源于产品检验报告，以及成分说明。如您对肤君所提供的成分说明有任何异议，可邮件至肤君官方邮箱。
+fujun@yoka.com</string>
+    <string name="about_law_three_content">用户以各种方式使用肤君服务和数据（包括但不限于发表、宣传介绍、转载、浏览及利用附近或肤君用户发布内容）的过程中，不得以任何方式利用肤君直接或间接从事违反中国法律、以及社会公德的行为。</string>
+    <string name="about_law_four_content">用户直接或通过各类方式（如站外API引用等）间接使用肤君服务和数据的行为，都将被视作已无条件接受本声明所涉全部内容；若用户对本声明的任何条款有异议，请停止使用肤君所提供的全部服务。</string>
+    <string name="about_law_end">对免责声明的解释、修改及更新权均属于肤君APP所有。</string>
+    <string name="setting_about_text">肤君，陪你每一天美一点\n 追潮流：前沿美妆资讯带你看 \n 抢试用：海量时髦新品疯狂试 \n 圈美粉：权威美妆达人陪你玩转美妆 \n</string>
+
+    <!-- 美丽任务 -->
+    <string name="beautiful_subtitle">已添加的美丽计划</string>
+    <string name="addbeautiful_addbeautiful">添加美丽计划</string>
+    <string name="beautiful_task_listing_addimage">添加成功了</string>
+    <string name="beautiful_task_add_renew">恢复默认</string>
+    <string name="task_title">计划</string>
+    <string name="task_title_day">今日计划</string>
+    <string name="add_task">添加计划</string>
+    <string name="setting_add_task">我的计划</string>
+    <string name="setting_plan_detalis">时间表</string>
+    <string name="setting_plan_seedetalis">查看详情</string>
+    <string name="setting_plan_detaliss">计划详情</string>
+    <string name="remove_task">取消计划</string>
+    <string name="add_taskback">返回</string>
+    <string name="task_cancelled">取消参加</string>
+    <string name="task_finished">已完成</string>
+    <string name="task_undergoing">待完成</string>
+    <string name="task_fail">未完成</string>
+    <string name="task_day">天</string>
+    <string name="task_sun">共</string>
+    <string name="task_experience">经历</string>
+    <string name="task_everyday">每天</string>
+    <string name="task_order">次的小计划</string>
+    <string name="task_order_c">次</string>
+    <string name="task_have">已有</string>
+    <string name="task_beautiful_mon">位美女参加</string>
+    <string name="task_beautiful_numdesc">美女已参加该计划</string>
+    <string name="task_surplus">还剩</string>
+    <string name="task_aggregate">计划总进度</string>
+    <string name="task_brief_text">计划明细（添加后可设置提醒时间）</string>
+    <string name="taskbrief_taskbrief">计划简介</string>
+    <string name="task_finish">计划完成度</string>
+    <string name="task_everydayhave">每天1次</string>
+    <string name="add_task_c">参加</string>
+    <string name="add_today_have">今天还有</string>
+    <string name="add_today_taskgo">个计划,加油</string>
+    <string name="task_d">第</string>
+    <string name="task_today_success">今天已完成</string>
+    <string name="task_nape">项</string>
+    <string name="task_add_sucess">添加计划成功</string>
+    <string name="task_add_planfaile">取消计划成功</string>
+    <string name="task_add_succc">计划已经添加</string>
+    <string name="task_remove_sucess">计划添加成功</string>
+    <string name="task_weizhi">位</string>
+    <string name="task_loading">加载中.......</string>
+    <string name="task_plan">我的计划</string>
+    <string name="task_onaddtask">怎么可以没计划？快点这里添加！</string>
+    <string name="task_synchroniznonono">计划同步失败，请重新登录。</string>
+    <string name="task_detalis_add">计划已经添加</string>
+    <string name="task_no_task">没有更多数据了</string>
+
+    <!-- 美丽指数切换文案 -->
+    <string name="beautiful_topic_one">在变美的路上默默耕耘…[GO!]</string>
+    <string name="beautiful_topic_two">已经没人能阻挡你变美了，加油哇</string>
+    <string name="beautiful_topic_three">天了噜，颜值又升高了呢</string>
+    <string name="beautiful_topic_four">天了噜，颜值又又升高了呢</string>
+    <string name="beautiful_topic_five">你已经打败全国99%的懒女人，女神就要诞生啦</string>
+    <string name="beautiful_topic_six">已经美到没天理 快让你身边小伙伴来膜拜你</string>
+
+    <!-- 产品详情 -->
+    <string name="product_detalis_product_detalis">产品详情</string>
+    <string name="product_detalis_product_xin">心得详情</string>
+    <string name="course_detalis">护肤课堂</string>
+    <string name="product_comment_product_comment">评论</string>
+    <string name="share_share">分享</string>
+    <string name="feelings_feelings">心得体会</string>
+    <string name="product_more_button">查看更多成分</string>
+    <string name="product_parameter">产品参数</string>
+    <string name="product_methob">使用方法</string>
+    <string name="product_genuine">如何鉴别真伪</string>
+    <string name="product_detail_product_detail">成分详情</string>
+    <string name="no_connected">网络连接失败，请设置网络后重试 </string>
+    <string name="pro_pro">产品</string>
+    <string name="xin_xin">心得</string>
+    <string name="new_new">资讯</string>
+
+    <!-- 退出对话框 -->
+    <string name="dialog_title">肤君提示您</string>
+    <string name="dialog_titletwo">真的要离开我吗</string>
+    <string name="dialog_confirm">狠心离开</string>
+    <string name="dialog_cancle">还是等等吧</string>
+
+    <!-- 删除任务对话框 -->
+    <string name="dialog_delete_title">确认取消计划?</string>
+    <string name="dialog_delete_confirm">确定</string>
+    <string name="dialog_delete_exit">不保存</string>
+    <string name="dialog_delete_cancle">取消</string>
+    <string name="mybag_title">操作</string>
+    <string name="mybag_delete">删除</string>
+    <string name="mybag_delete_success">删除成功</string>
+
+    <!-- 成分列表 -->
+    <string name="composition_composition">成分列表</string>
+    <string name="composition_more">更多></string>
+
+    <!-- 登录 -->
+    <string name="login_sucess">登录成功</string>
+    <string name="login_enroll">注册成功</string>
+    <string name="login_username">用户名/手机号/邮箱</string>
+    <string name="login_userpass">密码</string>
+    <string name="login_queer"> 快速注册</string>
+    <string name="login_faile">登录失败</string>
+    <string name="auth_error_again">授权失败，再试一次吧</string>
+    <string name="newuser_newuser">注册</string>
+    <string name="login_obtain">获取验证码</string>
+    <string name="login_resobtain">重新获取验证</string>
+    <string name="login_second">秒</string>
+    <string name="login_nullphone">输入不正确，请检查手机号</string>
+    <string name="login_havephone">信息已下发，请根据短信填写验证码</string>
+    <string name="login_please">请登录</string>
+
+    <!-- 阅读 -->
+    <string name="read_read">美妆课堂</string>
+    <string name="read_news">热门资讯</string>
+    <string name="read_refresh">刷新</string>
+    <string name="webview_cannot_back">已经到首页不能返回了</string>
+
+    <string-array name="home_popup">
+        <item>美丽计划</item>
+        <item>测一测</item>
+        <item>意见反馈</item>
+        <item>设置</item>
+    </string-array>
+
+    <!-- 登录 -->
+
+    <string name="uninstall_weixin">未安装微信客户端</string>
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+
+    <!-- 注册 -->
+    <string name="login_enrolled_username">用户名：4~14字符,不能以数字开头</string>
+    <string name="login_enrolled_nickname">输入手机号</string>
+    <string name="login_enrolled_password">密码：6~20字符</string>
+    <string name="login_enrolled_success">填好了，去注册吧！</string>
+    <string name="login_enrolled_enterpassword">输入验证码</string>
+    <string name="login_enrolled_promptyes">输入的密码不相同</string>
+    <string name="share_sina">新浪微博</string>
+    <string name="share_qzone">QQ空间</string>
+    <string name="share_wx">微信</string>
+    <string name="share_wxq">朋友圈</string>
+    <string name="login_sina">新浪微博登录</string>
+    <string name="get_sina">获取微博用户信息</string>
+    <string name="share_successed">分享成功</string>
+    <string name="share_error">分享失败</string>
+    <string name="share_cancle">取消分享</string>
+    <string name="share_popuptext">分享到 &#046; &#046; &#046;</string>
+    <string name="auth_successed">授权成功</string>
+    <string name="auth_error">授权失败</string>
+    <string name="auth_cancle">取消授权</string>
+    <string name="weibosdk_demo_logout_failed">注销失败</string>
+    <string name="weibosdk_demo_access_token_is_empty">Access Token 不存在，请先登录</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+    <string name="weibosdk_demo_token_to_string_format_1">Token：%1$s \n有效期：%2$s</string>
+    <string name="weibo_user_info">User：%1$s \nImage_Url：%2$s</string>
+    <string name="weibosdk_demo_logout_success">已注销</string>
+    <string name="weixin_not_installed">暂未安装微信</string>
+    <string name="qq_not_installed">你还没有安装QQ哦</string>
+    <string name="share_split">//</string>
+    <string name="net_error">网络连接超时,请重试</string>
+    <string name="net_error_test">亲，网络延迟啦~~</string>
+    <string name="net_error_button">刷新一下</string>
+    <string name="please_enroll_youname">请填写用户名</string>
+    <string name="please_enroll_youpass">请填写密码</string>
+    <string name="please_enroll_youphone">请填写手机号</string>
+    <string name="please_enroll_youcode">请填写验证码</string>
+
+    <!-- 搜索 -->
+    <string name="search_brand_title">品牌</string>
+    <string name="search_type_title">按分类</string>
+    <string name="search_effect_title">按功效</string>
+    <string name="search_experience_title">心得</string>
+    <string name="search_read_title">资讯</string>
+
+    <!-- 新首页 -->
+    <string name="home_cosmetics">妆品库</string>
+    <string name="home_hot">热门</string>
+    <string name="home_subject">我的计划</string>
+    <string name="home_four_url">文章</string>
+
+    <!-- 妆品库 -->
+    <string name="product_select">小编精选</string>
+
+    <!-- shareFour -->
+    <string name="home_topic_h">护肤评测</string>
+    <string name="home_topic_be">美容</string>
+
+    <!-- 引导页 -->
+    <string name="guide_title">定制我的肤君</string>
+    <string name="guide_jump">跳过</string>
+    <string name="guide_scanning">自动扫描</string>
+
+    <!-- 肌肤测试页 -->
+    <string name="skin_test_cancel">返回</string>
+    <string name="skin_test_check_course">教程</string>
+    <string name="skin_test_text1">请使用后置摄像头对准脸部进行扫描</string>
+    <string name="skin_test_text2">手机震动2次提示完成扫描。</string>
+
+    <!-- 肌肤测试结果页 -->
+    <string name="skin_result_retest">重新测试</string>
+    <string name="skin_result_title">肌肤测试中</string>
+    <string name="skin_result_give_up">放弃</string>
+    <string name="skin_result_test_ing">正在分析皮肤数据，请稍后......</string>
+
+    <!-- 肌肤测试报告页 -->
+    <string name="skin_report_retest">重新测试</string>
+    <string name="skin_report_title">晒我的报告</string>
+    <string name="skin_report_share">分享</string>
+    <string name="skin_report_check_report">查看详细报告</string>
+
+    <!-- 肌肤详情页 -->
+    <string name="skin_detail_title">报告详情</string>
+    <string name="skin_detail_done">完成</string>
+    <string name="skin_detail_dialog_title">登陆后将保存您的测试结果，是否需要登陆</string>
+    <string name="skin_detail_dialog_yes">是</string>
+    <string name="skin_detail_dialog_no">否</string>
+
+    <!-- 试用列表 -->
+    <string name="probation_center_title">免费试用</string>
+    <string name="probation_detail_back">返回</string>
+    <string name="probation_detail_titile">试用申请</string>
+    <string name="probation_detail_dialog_message">请先登录</string>
+    <string name="probation_center_item_yes">已申请</string>
+    <string name="probation_center_item_no">立刻申请</string>
+    <string name="probation_center_request_failed">请求失败</string>
+    <string name="probation_center_no_data">没有更多数据了</string>
+    <string name="probation_center_fen">份</string>
+    <string name="probation_center_is">正装</string>
+    <string name="probation_center_is_not">试用装</string>
+
+    <!-- 我的试用页 -->
+    <string name="probation_back">返回</string>
+    <string name="probation_title">我的试用</string>
+    <string name="probation_filter">筛选</string>
+    <string name="probation_no_product">暂无相关试用数据</string>
+    <string name="probation_no_net">网络不给力吖</string>
+    <string name="probation_go">去申请</string>
+    <string name="probation_filter_all">全部</string>
+    <string name="probation_filter_success">申请成功</string>
+    <string name="probation_filter_send">化妆品已寄出</string>
+    <string name="probation_filter_report">等待提交报告</string>
+    <string name="probation_filter_done">已完成</string>
+    <string name="probation_filter_ing">正在审核</string>
+    <string name="probation_filter_failed">申请失败</string>
+
+    <!-- 提交报告页 -->
+    <string name="commit_report_cencel">取消</string>
+    <string name="commit_report_title">试用报告</string>
+    <string name="commit_report_commit">提交</string>
+    <string name="commit_report_title_hint">你对这款产品印象如何</string>
+    <string name="commit_report_score">评分：</string>
+    <string name="commit_report_look">产品外观：</string>
+    <string name="commit_report_feel">使用感受：</string>
+    <string name="commit_report_back">功能效果：</string>
+    <string name="commit_report_very_good">非常好</string>
+    <string name="commit_report_good">好</string>
+    <string name="commit_report_fine">一般</string>
+    <string name="commit_report_bad">略差</string>
+    <string name="commit_report_very_bad">差评</string>
+    <string name="commit_report_upload_img">上传图片</string>
+    <string name="commit_report_comment_hint">多说几句吧</string>
+
+    <!-- 我的肌肤管理 -->
+    <string name="myskin_manager_title">我的肌肤管理</string>
+    <string name="myskin_manager_back">返回</string>
+    <string name="myskin_manager_retest">重测</string>
+    <string name="myskin_manager_nodata">无肌肤测试，快去测试皮肤吧！</string>
+    <string name="myskin_manager_go">测试肌肤</string>
+
+    <!-- 撰写心得 -->
+    <string name="write_except">撰写心得</string>
+    <string name="write_default_title">标题（6&#8211;25字符）</string>
+    <string name="write_text">文字</string>
+    <string name="write_image">图片</string>
+    <string name="write_product">状品</string>
+    <string name="write_addtext_image">添加图片</string>
+    <string name="write_photo">照片</string>
+    <string name="write_photograph">拍照</string>
+    <string name="photoalbum_photoalbum">相册</string>
+    <string name="edittext_edittext">编辑文本</string>
+    <string name="bodytext_bodytext">正文文字</string>
+    <string name="write_publish_success">心得发布成功</string>
+
+    <!-- 心得列表 -->
+    <string name="experience_null">无发表的心得</string>
+    <string name="experience_conmment">&#160;&#160;&#160;%1$s</string>
+    <string name="experience_tpye_mixed">&#160;混合性</string>
+    <string name="experience_tpye_dry">干性</string>
+    <string name="experience_tpye_oily">油性</string>
+    <string name="experience_tpye_sensitive">敏感</string>
+    <string name="experience_tpye_neutral">中性</string>
+    <string name="experience_tpye_unknown">未知</string>
+    <string name="experience_age">岁</string>
+    <string name="my_experience">我发表的</string>
+    <string name="my_collection">我收藏的</string>
+    <string name="my_reply">我回复的</string>
+    <string name="null_collection">无收藏心得</string>
+    <string name="null_reply">无回复心得</string>
+
+    <!-- 评论列表 -->
+    <string name="comment_title">评论</string>
+    <string name="comment_hint">发表评论</string>
+
+    <!-- 个人中心 -->
+    <string name="menu_skin">肌肤管理</string>
+    <string name="menu_bag">化妆包</string>
+    <string name="menu_zhang">长草化妆品</string>
+
+    <!-- 完善个人信息 -->
+    <string name="update_user_info_title">完善个人信息</string>
+    <string name="update_user_info_head">头像</string>
+    <string name="update_user_info_name">用户名</string>
+    <string name="update_user_info_sex">性别</string>
+    <string name="update_user_info_ulevel">用户等级</string>
+    <string name="update_user_info_hlevel">荣誉等级</string>
+    <string name="update_user_info_skin">肤质</string>
+    <string name="update_user_info_hobby">美妆偏好</string>
+    <string name="update_user_info_buy">美妆月消费</string>
+    <string name="update_user_info_age">年龄区间</string>
+    <string name="update_user_info_area">地区</string>
+    <string name="update_user_info_phone">手机号</string>
+    <string name="update_user_info_email">邮箱</string>
+    <string name="update_user_info_address">地址管理</string>
+
+    <!-- 美妆偏好 -->
+    <string name="update_hobby_title">美妆偏好</string>
+
+    <!-- 美容月消费 -->
+    <string name="update_buy_title"></string>
+
+    <!-- 年龄区间 -->
+    <string name="update_age_title"></string>
+
+    <!-- 地区 -->
+    <string name="update_area_title"></string>
+
+    <!-- 手机号 -->
+    <string name="update_phone_title">填写手机号</string>
+    <string name="update_phone_number">手机号码</string>
+    <string name="update_phone_number_hint">11位手机号码</string>
+    <string name="update_phone_check">验证码</string>
+    <string name="update_phone_check_hint">6位验证码</string>
+    <string name="update_phone_get">获取</string>
+    <string name="update_phone_save">保存</string>
+
+    <!-- 邮箱 -->
+    <string name="update_email_title">填写邮箱</string>
+    <string name="update_email_email">邮箱</string>
+    <string name="update_email_hint">填写邮箱</string>
+
+    <!-- 地址管理 -->
+    <string name="update_address_title">修改地址</string>
+    <string name="update_address_name">收货人</string>
+    <string name="update_address_name_hint">姓名</string>
+    <string name="update_address_phone">手机号码</string>
+    <string name="update_address_phone_hint">11位手机号码</string>
+    <string name="update_address_area">所在地区</string>
+    <string name="update_address_detail">详细地址</string>
+    <string name="update_address_detail_hint">街道门牌信息</string>
+    <string name="update_address_number">邮政编码</string>
+    <string name="update_address_save">保存</string>
+    <string name="alert">提醒</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="please_open_gps">请打开GPS设置</string>
+
+    <!-- 首页投票 -->
+    <string name="vote_introduce">肤君调查</string>
+
+</resources>

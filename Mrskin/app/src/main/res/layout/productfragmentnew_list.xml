@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EEF7"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <com.yoka.mrskin.model.image.YKMultiMediaView
+            android:id="@+id/productfragmentnew_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/productfragmentnew_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text17" />
+
+        <LinearLayout
+            android:id="@+id/price_ml_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/productfragmentnew_title"
+            android:gravity="center|left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/newproduct_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text17" />
+
+            <TextView
+                android:id="@+id/newproduct_ml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/product_ml"
+                android:textSize="@dimen/text15" />
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/newproduct_bar"
+            style="@style/MyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:paddingBottom="8dp"
+            android:stepSize="0.7" />
+    </RelativeLayout>
+
+</LinearLayout>

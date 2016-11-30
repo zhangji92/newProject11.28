@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EEF7" >
+
+    <!-- 标题 -->
+
+    <RelativeLayout
+        android:id="@+id/probation_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/probation_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text18" />
+
+        <LinearLayout
+            android:id="@+id/probation_back_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/blck_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location_back"
+                android:textColor="@color/location_city_gps"
+                android:textSize="@dimen/text12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/probation_filter_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/probation_filter"
+            android:textColor="@color/red"
+            android:textSize="@dimen/text16" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/probation_top_layout"
+        android:background="@color/head_view_color" />
+
+    <com.xlistview.XListView
+        android:id="@+id/probation_xlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/probation_top_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:dividerHeight="5dp"
+        android:divider="@null" />
+
+    <LinearLayout
+        android:id="@+id/probation_no_product_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/probation_top_layout"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@null"
+            android:src="@drawable/trial_noproduct_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/probation_no_product"
+            android:textColor="#000000"
+            android:textSize="@dimen/text14" />
+
+        <RelativeLayout
+            android:id="@+id/probation_no_product_go_layout"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/skin_test_scan_bg" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/probation_go"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text16" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

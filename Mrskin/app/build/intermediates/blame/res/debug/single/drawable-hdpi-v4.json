@@ -1,0 +1,714 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_rec_small.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\shape_rec_small.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_socialize_wxcircle.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\umeng_socialize_wxcircle.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_vbg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\about_vbg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\icon1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myplan_icon1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\myplan_icon1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\image_def_background.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\image_def_background.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_layout.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\search_layout.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\task_undone_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\task_undone_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_image.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\comment_image.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_detllent.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\comment_detllent.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_report.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\comment_report.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aenior_image.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\aenior_image.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grass_bug_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\grass_bug_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_5.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_5.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_socialize_wechat.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\umeng_socialize_wechat.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\star.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error_release_plan.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\error_release_plan.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_searchbox.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_searchbox.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\intent_error.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\intent_error.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_rectangle.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\comment_rectangle.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_07.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_07.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\reg_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\reg_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_23.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_23.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shape_rec_big.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\shape_rec_big.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_4.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_4.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\task_progress_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\task_progress_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\right_out.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\right_out.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_7.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_7.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_08.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_08.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\trial_noproduct_image.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\trial_noproduct_image.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\share_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\share_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_19.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_19.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\task_completeness_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\task_completeness_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_10.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_10.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\return_top.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\return_top.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon2.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\icon2.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_24.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_24.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_21.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_21.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_underway_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\list_underway_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_vote.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_vote.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_05.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_05.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\state_2.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\state_2.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_shipin.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_shipin.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\loading_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\myplan_icon2.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\myplan_icon2.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\details_score_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\details_score_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_zhuanti.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_zhuanti.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_done_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\list_done_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\loading_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\loading_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_04.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_04.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\task_progress_pink_.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\task_progress_pink_.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\page_back_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\page_back_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\history_add_header_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\history_add_header_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shadow_bottom.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\shadow_bottom.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_27.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_27.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_more_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\about_more_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\comment_more.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\comment_more.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\picture_unselected.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\picture_unselected.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\dir_choose.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\dir_choose.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\newhome_menubg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\newhome_menubg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\state_3.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\state_3.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\exclamation.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\exclamation.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_20.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_20.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\location.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\location.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ovil.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ovil.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skin_test_course_tag.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\skin_test_course_tag.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_26.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_26.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_normal.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\star_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\more.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\more.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error_release_btn_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\error_release_btn_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error_release_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\error_release_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\newhome_tit_icon1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\newhome_tit_icon1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_add_experience.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_add_experience.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_versionbottom_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\about_versionbottom_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\details_score_undone.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\details_score_undone.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_pingce.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_pingce.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_card_white_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_card_white_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_33.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_33.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skin_test_text.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\skin_test_text.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mytrial_new.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\mytrial_new.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\calendar_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\calendar_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_done_red_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_done_red_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_17.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_17.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_14.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_14.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_on_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\setting_on_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_30.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_30.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_highlighted.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\star_highlighted.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\right_setting.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\right_setting.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_11.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_11.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_top_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\about_top_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ad_logo.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ad_logo.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_task_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\add_task_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_user_head.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\default_user_head.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_6.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_6.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sina_web_default.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\sina_web_default.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_3.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_3.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shadow_right.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\shadow_right.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_card_red_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_card_red_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\error_release_img.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\error_release_img.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_9.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_9.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_01.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_01.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pictures_selected.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\pictures_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xlistview_arrow.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\xlistview_arrow.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_border.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\login_border.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\thum_image_n.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\thum_image_n.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_29.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_29.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_user_v.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_user_v.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_0.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_0.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_32.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_32.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\gyu4.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\gyu4.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_pp.jpg",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\login_pp.jpg"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_done_white_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_done_white_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\thum_image_y.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\thum_image_y.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_31.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_31.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skin_test_scan_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\skin_test_scan_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_sogo.jpg",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\login_sogo.jpg"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_11.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_11.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_15.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_15.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_normal.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\search_bar_edit_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_skin_test_bg_2.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_skin_test_bg_2.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_card_orange_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_card_orange_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\details_score_clock.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\details_score_clock.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_default_bg.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\list_default_bg.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\umeng_socialize_wxcircle_gray.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_360.jpg",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\login_360.jpg"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic_dir.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\pic_dir.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\edit.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_13.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_13.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ad_close.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ad_close.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\hook.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\hook.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skin_test_gril.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\skin_test_gril.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_16.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_16.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_close.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\arrow_close.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_10.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_10.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_02.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_02.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_xinde.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_xinde.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_18.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_18.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_12.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_12.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\show_content_false.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\show_content_false.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_8.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_8.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_2.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_2.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\login_anim.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\login_anim.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_remen.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_remen.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\default_video_poster.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\default_video_poster.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_34.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_34.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_searchbox_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_searchbox_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_selected.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\checkbox_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_back_light.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_back_light.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plan_imgtag_done.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\plan_imgtag_done.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_toolbar_back.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\common_toolbar_back.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\aenior_image_camera.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\aenior_image_camera.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\spinner_1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\state_1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\state_1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_22.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_22.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_off_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\setting_off_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_28.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_28.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\me_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\me_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_25.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_25.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\show_content_true.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\show_content_true.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\home_done_orange_btn.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\home_done_orange_btn.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_03.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_03.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\state_4.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\state_4.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_06.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_06.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\shadow_left.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\shadow_left.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\star_selected.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\star_selected.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_u_shop.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\ic_u_shop.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_ketang.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_ketang.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\weather_09.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\weather_09.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\text_shape.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\text_shape.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\search_bar_edit_pressed.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\search_bar_edit_pressed.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_zhuangpin.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_zhuangpin.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\task_clock_icon.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\task_clock_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\details_score_done.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\details_score_done.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\plan_imgtag_undone.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\plan_imgtag_undone.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_normal.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\umeng_socialize_wechat_gray.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tag_task.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-hdpi\\tag_task.png"
+    }
+]

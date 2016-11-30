@@ -1,0 +1,207 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ant.properties
+* antLib\
+* antLib\ant-contrib-1.0b3.jar
+* antLib\apache-ant-1.9.4\
+* antLib\apache-ant-1.9.4\INSTALL
+* antLib\apache-ant-1.9.4\KEYS
+* antLib\apache-ant-1.9.4\LICENSE
+* antLib\apache-ant-1.9.4\NOTICE
+* antLib\apache-ant-1.9.4\README
+* antLib\apache-ant-1.9.4\WHATSNEW
+* antLib\apache-ant-1.9.4\bin\
+* antLib\apache-ant-1.9.4\bin\ant
+* antLib\apache-ant-1.9.4\bin\ant.bat
+* antLib\apache-ant-1.9.4\bin\ant.cmd
+* antLib\apache-ant-1.9.4\bin\antRun
+* antLib\apache-ant-1.9.4\bin\antRun.bat
+* antLib\apache-ant-1.9.4\bin\antRun.pl
+* antLib\apache-ant-1.9.4\bin\antenv.cmd
+* antLib\apache-ant-1.9.4\bin\complete-ant-cmd.pl
+* antLib\apache-ant-1.9.4\bin\envset.cmd
+* antLib\apache-ant-1.9.4\bin\lcp.bat
+* antLib\apache-ant-1.9.4\bin\runant.pl
+* antLib\apache-ant-1.9.4\bin\runant.py
+* antLib\apache-ant-1.9.4\bin\runrc.cmd
+* antLib\apache-ant-1.9.4\etc\
+* antLib\apache-ant-1.9.4\etc\ant-bootstrap.jar
+* antLib\apache-ant-1.9.4\etc\changelog.xsl
+* antLib\apache-ant-1.9.4\etc\checkstyle\
+* antLib\apache-ant-1.9.4\etc\checkstyle\checkstyle-frames.xsl
+* antLib\apache-ant-1.9.4\etc\checkstyle\checkstyle-text.xsl
+* antLib\apache-ant-1.9.4\etc\checkstyle\checkstyle-xdoc.xsl
+* antLib\apache-ant-1.9.4\etc\coverage-frames.xsl
+* antLib\apache-ant-1.9.4\etc\jdepend-frames.xsl
+* antLib\apache-ant-1.9.4\etc\jdepend.xsl
+* antLib\apache-ant-1.9.4\etc\junit-frames-xalan1.xsl
+* antLib\apache-ant-1.9.4\etc\junit-frames.xsl
+* antLib\apache-ant-1.9.4\etc\junit-noframes.xsl
+* antLib\apache-ant-1.9.4\etc\log.xsl
+* antLib\apache-ant-1.9.4\etc\maudit-frames.xsl
+* antLib\apache-ant-1.9.4\etc\mmetrics-frames.xsl
+* antLib\apache-ant-1.9.4\etc\tagdiff.xsl
+* antLib\apache-ant-1.9.4\fetch.xml
+* antLib\apache-ant-1.9.4\get-m2.xml
+* antLib\apache-ant-1.9.4\lib\
+* antLib\apache-ant-1.9.4\lib\README
+* antLib\apache-ant-1.9.4\lib\ant-antlr.jar
+* antLib\apache-ant-1.9.4\lib\ant-antlr.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-bcel.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-bcel.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-bsf.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-bsf.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-log4j.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-log4j.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-oro.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-oro.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-regexp.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-regexp.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-resolver.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-resolver.pom
+* antLib\apache-ant-1.9.4\lib\ant-apache-xalan2.jar
+* antLib\apache-ant-1.9.4\lib\ant-apache-xalan2.pom
+* antLib\apache-ant-1.9.4\lib\ant-commons-logging.jar
+* antLib\apache-ant-1.9.4\lib\ant-commons-logging.pom
+* antLib\apache-ant-1.9.4\lib\ant-commons-net.jar
+* antLib\apache-ant-1.9.4\lib\ant-commons-net.pom
+* antLib\apache-ant-1.9.4\lib\ant-contrib-1.0b3.jar
+* antLib\apache-ant-1.9.4\lib\ant-jai.jar
+* antLib\apache-ant-1.9.4\lib\ant-jai.pom
+* antLib\apache-ant-1.9.4\lib\ant-javamail.jar
+* antLib\apache-ant-1.9.4\lib\ant-javamail.pom
+* antLib\apache-ant-1.9.4\lib\ant-jdepend.jar
+* antLib\apache-ant-1.9.4\lib\ant-jdepend.pom
+* antLib\apache-ant-1.9.4\lib\ant-jmf.jar
+* antLib\apache-ant-1.9.4\lib\ant-jmf.pom
+* antLib\apache-ant-1.9.4\lib\ant-jsch.jar
+* antLib\apache-ant-1.9.4\lib\ant-jsch.pom
+* antLib\apache-ant-1.9.4\lib\ant-junit.jar
+* antLib\apache-ant-1.9.4\lib\ant-junit.pom
+* antLib\apache-ant-1.9.4\lib\ant-junit4.jar
+* antLib\apache-ant-1.9.4\lib\ant-junit4.pom
+* antLib\apache-ant-1.9.4\lib\ant-launcher.jar
+* antLib\apache-ant-1.9.4\lib\ant-launcher.pom
+* antLib\apache-ant-1.9.4\lib\ant-netrexx.jar
+* antLib\apache-ant-1.9.4\lib\ant-netrexx.pom
+* antLib\apache-ant-1.9.4\lib\ant-parent.pom
+* antLib\apache-ant-1.9.4\lib\ant-swing.jar
+* antLib\apache-ant-1.9.4\lib\ant-swing.pom
+* antLib\apache-ant-1.9.4\lib\ant-testutil.jar
+* antLib\apache-ant-1.9.4\lib\ant-testutil.pom
+* antLib\apache-ant-1.9.4\lib\ant.jar
+* antLib\apache-ant-1.9.4\lib\ant.pom
+* antLib\apache-ant-1.9.4\lib\libraries.properties
+* bom.xml
+* build.xml
+* certificate\
+* certificate\certificate.keystore
+* certificate\keystore
+* certificate\pwd.txt
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\AdsameCubeMaxSDK_v1.4.2.5.jar => app\libs\AdsameCubeMaxSDK_v1.4.2.5.jar
+* libs\AMap_Location_V2.5.0_20160526.jar => app\libs\AMap_Location_V2.5.0_20160526.jar
+* libs\android-support-v7-recyclerview.jar => app\libs\android-support-v7-recyclerview.jar
+* libs\armeabi-v7a\libfaceppapi.so => app\src\main\jniLibs\armeabi-v7a\libfaceppapi.so
+* libs\armeabi-v7a\libjpush175.so => app\src\main\jniLibs\armeabi-v7a\libjpush175.so
+* libs\armeabi-v7a\libofflineapi.so => app\src\main\jniLibs\armeabi-v7a\libofflineapi.so
+* libs\armeabi-v7a\libweibosdkcore.so => app\src\main\jniLibs\armeabi-v7a\libweibosdkcore.so
+* libs\armeabi\libfaceppapi.so => app\src\main\jniLibs\armeabi\libfaceppapi.so
+* libs\armeabi\libjpush175.so => app\src\main\jniLibs\armeabi\libjpush175.so
+* libs\armeabi\libofflineapi.so => app\src\main\jniLibs\armeabi\libofflineapi.so
+* libs\armeabi\libweibosdkcore.so => app\src\main\jniLibs\armeabi\libweibosdkcore.so
+* libs\BDAutoUpdateSDK_20150605_V1.2.0.jar => app\libs\BDAutoUpdateSDK_20150605_V1.2.0.jar
+* libs\commons-lang3-3.1.jar => app\libs\commons-lang3-3.1.jar
+* libs\hirondelle-date4j-1.5.1.jar => app\libs\hirondelle-date4j-1.5.1.jar
+* libs\jpush-sdk-release1.7.5.jar => app\libs\jpush-sdk-release1.7.5.jar
+* libs\libapshare.jar => app\libs\libapshare.jar
+* libs\MarsorUtils-1.0.0-SNAPSHOT.jar => app\libs\MarsorUtils-1.0.0-SNAPSHOT.jar
+* libs\mips64\libjpush175.so => app\src\main\jniLibs\mips64\libjpush175.so
+* libs\mips64\libweibosdkcore.so => app\src\main\jniLibs\mips64\libweibosdkcore.so
+* libs\mips\libjpush175.so => app\src\main\jniLibs\mips\libjpush175.so
+* libs\mips\libweibosdkcore.so => app\src\main\jniLibs\mips\libweibosdkcore.so
+* libs\mta-sdk-1.6.2.jar => app\libs\mta-sdk-1.6.2.jar
+* libs\need_lib.jar => app\libs\need_lib.jar
+* libs\nineoldandroids-library-2.4.0.jar => app\libs\nineoldandroids-library-2.4.0.jar
+* libs\open_sdk_r5509.jar => app\libs\open_sdk_r5509.jar
+* libs\patchupdate.jar => app\libs\patchupdate.jar
+* libs\pinyin4j-2.5.0.jar => app\libs\pinyin4j-2.5.0.jar
+* libs\skinfacedetect.jar => app\libs\skinfacedetect.jar
+* libs\skinfacedetectoffline.jar => app\libs\skinfacedetectoffline.jar
+* libs\skinpicture.jar => app\libs\skinpicture.jar
+* libs\skintestlibfull-1510251437.jar => app\libs\skintestlibfull-1510251437.jar
+* libs\SocialSDK_alipay.jar => app\libs\SocialSDK_alipay.jar
+* libs\SocialSDK_QQZone_3.jar => app\libs\SocialSDK_QQZone_3.jar
+* libs\SocialSDK_Sina.jar => app\libs\SocialSDK_Sina.jar
+* libs\SocialSDK_tencentWB_1.jar => app\libs\SocialSDK_tencentWB_1.jar
+* libs\SocialSDK_tencentWB_2.jar => app\libs\SocialSDK_tencentWB_2.jar
+* libs\SocialSDK_tencentWB_3.jar => app\libs\SocialSDK_tencentWB_3.jar
+* libs\SocialSDK_WeiXin_1.jar => app\libs\SocialSDK_WeiXin_1.jar
+* libs\SocialSDK_WeiXin_2.jar => app\libs\SocialSDK_WeiXin_2.jar
+* libs\umeng-analytics-v5.2.4.jar => app\libs\umeng-analytics-v5.2.4.jar
+* libs\umeng_social_sdk.jar => app\libs\umeng_social_sdk.jar
+* libs\universal-image-loader-1.9.5.jar => app\libs\universal-image-loader-1.9.5.jar
+* libs\volley.jar => app\libs\volley.jar
+* libs\weiboSDKCore_3.1.4.jar => app\libs\weiboSDKCore_3.1.4.jar
+* libs\x86\libjpush175.so => app\src\main\jniLibs\x86\libjpush175.so
+* libs\x86\libweibosdkcore.so => app\src\main\jniLibs\x86\libweibosdkcore.so
+* libs\x86_64\libjpush175.so => app\src\main\jniLibs\x86_64\libjpush175.so
+* libs\x86_64\libweibosdkcore.so => app\src\main\jniLibs\x86_64\libweibosdkcore.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

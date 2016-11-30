@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ad_logo.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\ad_logo.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_skin_test_bg_1.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\ic_skin_test_bg_1.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\product_more.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\product_more.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arraw_open.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\arraw_open.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\view_three.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\view_three.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrow_up.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\arrow_up.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ad_close.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\ad_close.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\view_two.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\view_two.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\view_four.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\view_four.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\view_one.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xxhdpi\\view_one.png"
+    }
+]

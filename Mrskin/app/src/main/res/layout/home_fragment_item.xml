@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- shijan -->
+
+    <LinearLayout
+        android:id="@+id/experience_data_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/home_date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0efef"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/home_fragment_imagedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/home_date_image"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="3dp" />
+
+                <TextView
+                    android:id="@+id/home_fragment_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text18" />
+
+                <TextView
+                    android:id="@+id/home_fragment_date_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="27dp"
+                    android:textSize="@dimen/text7" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/home_fragment_slogan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/home_fragment_imagedate"
+                android:gravity="left"
+                android:maxLines="2"
+                android:textColor="#C9C9C9"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/home_fragment_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/home_fragment_imagedate"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="14dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 头条 -->
+
+    <TextView
+        android:id="@+id/home_fragment_toparticle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/meilixiawucha" />
+
+    <ListView
+        android:id="@+id/experience_fragment_toutiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!-- 晒物质 show -->
+
+    <TextView
+        android:id="@+id/shaiwuzhi_title"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/meilixiawucha" />
+
+    <ListView
+        android:id="@+id/experience_fragment_shaiwuzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

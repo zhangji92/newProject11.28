@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="170dp"
+    android:layout_gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/brand_grid_item_img"
+            android:layout_width="70dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/brand_grid_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brand_grid_item_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:maxWidth="90dp"
+            android:textColor="#999999" />
+
+        <RatingBar
+            android:id="@+id/brand_grid_item_ratingbar"
+            style="@style/brandRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:stepSize="0.1"
+            android:isIndicator="true"
+            android:numStars="5" />
+    </RelativeLayout>
+
+</RelativeLayout>

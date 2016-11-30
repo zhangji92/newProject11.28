@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tre.core.demo.activity.face.detector.FaceppOnlineStaticActivity" >
+
+    <RelativeLayout
+        android:id="@+id/skin_result_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F06151" >
+
+        <RelativeLayout
+            android:id="@+id/skin_result_retest_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="15dp" >
+
+            <TextView
+                android:id="@+id/skin_result_retest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/skin_result_retest"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text16" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/skin_result_title"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text18" />
+
+        <RelativeLayout
+            android:id="@+id/skin_result_give_up_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="15dp" >
+
+            <TextView
+                android:id="@+id/skin_result_give_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/skin_result_give_up"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text16" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/probation_top_layout"
+        android:paddingBottom="20dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/skin_test_gril" />
+
+        <RelativeLayout
+            android:id="@+id/skin_result_progress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" >
+
+            <ProgressBar
+                android:id="@+id/skin_result_progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:progressDrawable="@drawable/progressbar_bg" />
+
+            <TextView
+                android:id="@+id/skin_retule_progress_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="#BFC2C6"
+                android:textSize="@dimen/text14" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/skin_result_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/skin_result_progress_layout"
+            android:layout_centerHorizontal="true"
+            android:textColor="#BFC2C6"
+            android:textSize="@dimen/text16" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/skin_result_loading_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/skin_result_loading_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/loading_icon" />
+
+        <ImageView
+            android:id="@+id/skin_result_loading_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/loading_bg" />
+    </RelativeLayout>
+
+</RelativeLayout>

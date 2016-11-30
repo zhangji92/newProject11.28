@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- date 日期 -->
+
+    <include
+        android:id="@+id/home_flag_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/home_date_layout"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/home_vote_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/home_vote_item"
+        android:visibility="gone" />
+    <!-- 标题 -->
+
+    <include
+        android:id="@+id/home_title_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/home_title_item"
+        android:visibility="gone" />
+    <!-- 头条 -->
+
+    <include
+        android:id="@+id/home_topic_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/home_toutiao_layout"
+        android:visibility="gone" />
+    <!-- 晒物志 -->
+
+    <include
+        android:id="@+id/home_expert_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/home_saiwuzhi_layout"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/home_ad_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+    </LinearLayout>
+
+</LinearLayout>

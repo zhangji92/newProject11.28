@@ -1,0 +1,7 @@
+#Thu Nov 24 15:33:23 CST 2016
+base.0=D\:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3351d9952563ea495394ad684909031f55dbf81d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5c683e34c9b1169c779065165ade851bf33ccaa4\\classes.dex
+base.1=D\:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5c683e34c9b1169c779065165ade851bf33ccaa4
+file.0=D\:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3351d9952563ea495394ad684909031f55dbf81d\\classes.dex

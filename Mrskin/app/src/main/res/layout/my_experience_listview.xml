@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <include
+        android:id="@+id/experienceErrorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/intent_error"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/experienceno_null_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/experience_null_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@null"
+            android:src="@drawable/trial_noproduct_image" 
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/experience_null_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/experience_null_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/experience_null"
+            android:textColor="#000000"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/experience_go_test_layout"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/experience_null_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/skin_test_scan_bg"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/experience_go_null_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/write_except"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text16" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <com.xlistview.XListView
+        android:id="@+id/experienceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_my_experience_list"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" >
+    </com.xlistview.XListView>
+    
+
+</LinearLayout>

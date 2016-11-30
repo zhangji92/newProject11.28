@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Calendar -->
+    <dimen name="calendar_day_headers_paddingbottom">4dp</dimen>
+    <dimen name="calendar_month_topmargin">16dp</dimen>
+    <dimen name="calendar_month_title_bottommargin">4dp</dimen>
+    <dimen name="calendar_text_medium">18sp</dimen>
+    <dimen name="calendar_text_small">14sp</dimen>
+
+    <!-- 定位 -->
+    <dimen name="location_location">20sp</dimen>
+    <!-- 主页标题 -->
+    <dimen name="home_title">20sp</dimen>
+    <!-- 主页卡片 -->
+    <dimen name="card_title">17sp</dimen>
+    <dimen name="card_subtitle">15sp</dimen>
+    <dimen name="popupwindow_title">19sp</dimen>
+    <dimen name="popupwindow_subtitle">17sp</dimen>
+    <dimen name="home_beautifunum">30sp</dimen>
+    <dimen name="home_butttom_title">18sp</dimen>
+    <dimen name="left19">19dp</dimen>
+    <dimen name="right16">16dp</dimen>
+    <dimen name="top14">14dp</dimen>
+    <dimen name="top12">12dp</dimen>
+    <!-- popupwindow -->
+    <dimen name="left2">2dp</dimen>
+    <dimen name="right2">2dp</dimen>
+    <dimen name="right15">15dp</dimen>
+    <dimen name="left12">12dp</dimen>
+    <dimen name="left15">15dp</dimen>
+    <dimen name="top23">23dp</dimen>
+    <dimen name="top15">15dp</dimen>
+    <dimen name="right12">12dp</dimen>
+
+    <!-- 搜索框 -->
+    <dimen name="search_edit">10sp</dimen>
+    <dimen name="search_detalis_lv_title">25sp</dimen>
+
+    <!-- 设置 -->
+    <dimen name="setting_setting">25sp</dimen>
+    <dimen name="textversion">16sp</dimen>
+    <dimen name="textcode">12sp</dimen>
+    <dimen name="textnew">10sp</dimen>
+    <dimen name="textdear">15sp</dimen>
+
+    <!-- xxxx -->
+    <dimen name="composition_activity_layout_margin">15dp</dimen>
+    <dimen name="product_composition_list_item">18sp</dimen>
+    <dimen name="text29">13sp</dimen>
+    <dimen name="navigation">22sp</dimen>
+    <dimen name="product_composition_name">20sp</dimen>
+    <dimen name="product_composition_description">16sp</dimen>
+    <dimen name="search_function">16sp</dimen>
+    <dimen name="product_composition_list_include">20sp</dimen>
+    <dimen name="slidingmenu_offset">120dp</dimen>
+    <dimen name="shadow_width">10dp</dimen>
+    
+    <dimen name="xlistview_text12">12sp</dimen>
+    <dimen name="listview_header_text">18sp</dimen>
+    <dimen name="listview_text">16sp</dimen>
+    <dimen name="listview_look">24sp</dimen>
+
+    <!-- homefragment -->
+    <dimen name="home_plan_title_buttom">17sp</dimen>
+    <dimen name="home_plan_subtitle_buttom">12sp</dimen>
+    <dimen name="number">50sp</dimen>
+    <dimen name="numberh">15sp</dimen>
+    <dimen name="homebackcity">17sp</dimen>
+    <dimen name="homeweathz">10sp</dimen>
+    <dimen name="top5">5dp</dimen>
+    <dimen name="left5">5dp</dimen>
+    <dimen name="left3">3dp</dimen>
+    <dimen name="left20">20dp</dimen>
+     <dimen name="left25">25dp</dimen>
+    <dimen name="left35">35dp</dimen>
+    <dimen name="right20">20dp</dimen>
+    <dimen name="right32">32dp</dimen>
+    <dimen name="right22">22dp</dimen>
+    <dimen name="right10">10dp</dimen>
+    <dimen name="top16">16dp</dimen>
+    <dimen name="left10">10dp</dimen>
+    <dimen name="top3">3dp</dimen>
+    <dimen name="top10">10dp</dimen>
+    <dimen name="top18">18dp</dimen>
+    <dimen name="top50">50dp</dimen>
+    <dimen name="beaut_text">10dip</dimen>
+    
+
+    <!-- 成分列表 -->
+    <dimen name="composition_title">25sp</dimen>
+    <dimen name="search_popupwindow">16sp</dimen>
+    <dimen name="search_product_button">18sp</dimen>
+    <dimen name="text14">14sp</dimen>
+    <dimen name="text15">15sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text17">17sp</dimen>
+    <dimen name="text18">18sp</dimen>
+    <dimen name="text20">20sp</dimen>
+    <dimen name="text22">22sp</dimen>
+    <dimen name="text24">24sp</dimen>
+    <!-- 任务 -->
+    <dimen name="text12">12sp</dimen>
+    <dimen name="text10">10sp</dimen>
+    <dimen name="text9">9sp</dimen>
+    <dimen name="text7">7sp</dimen>
+    <!-- 布局dp -->
+    <dimen name="px15">15px</dimen>
+    <dimen name="px10">10px</dimen>
+    
+    
+    <dimen name="add_city_header_bar_height">45dp</dimen>
+    <dimen name="add_city_header_bar_back_font_size">16dp</dimen>
+    
+    <dimen name="add_city_grid_item_padding_left">0dp</dimen>
+    <dimen name="add_city_grid_item_padding_right">0dp</dimen>
+    <dimen name="add_city_grid_item_checked_padding_right">3dp</dimen>
+	<dimen name="add_city_grid_item_location_width">25dp</dimen>
+
+</resources>

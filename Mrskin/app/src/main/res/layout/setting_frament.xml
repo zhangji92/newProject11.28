@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <RelativeLayout
+        android:id="@+id/home_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_setting"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text18"/>
+
+        <TextView
+            android:id="@+id/rigth_setting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="@string/task_info_setting"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <!-- 登录 -->
+<LinearLayout
+        android:id="@+id/setting_no_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/login_textlogo" />
+
+        <EditText
+            android:id="@+id/loginsetting_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/reg_inputbg"
+            android:hint="@string/login_username"
+            android:paddingLeft="20dp"
+            android:maxLines="1"
+            android:textSize="@dimen/text12" />
+
+        <EditText
+            android:id="@+id/loginsetting_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/reg_inputbg"
+            android:hint="@string/login_userpass"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:maxLines="1"
+            android:textSize="@dimen/text12" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/loginsetting_enter"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login_btn"
+                android:gravity="center"
+                android:text="@string/login_login"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/quick_loginsetting_enroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp"
+                android:paddingBottom="10dp"
+                android:text="@string/login_queer" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/sina"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/login_weibo_btn" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- 清除缓存 -->
+    <!--
+    <RelativeLayout
+        android:id="@+id/fragment_setting_layout_clear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/setting_clear_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/clear_icon" />
+
+        <TextView
+            android:id="@+id/setting_clear_right_btn"
+            style="@style/fragment_setting_text_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/setting_clear_img"
+            android:text="@string/setting_clear" />
+
+        <TextView
+            android:id="@+id/setting_clear_bigsmall"
+            style="@style/fragment_setting_gray_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/setting_clear_img"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="52dp" />
+    </RelativeLayout>
+
+    -->
+    <!-- 登录 -->
+
+    <RelativeLayout
+        android:id="@+id/setting_have_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <!-- 编辑资料 -->
+        <!--
+        <RelativeLayout
+            android:id="@+id/fragment_setting_layout_updatemessage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/setting_message_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/mine_modi_info" />
+
+            <TextView
+                style="@style/fragment_setting_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/setting_message_img"
+                android:text="@string/fragment_setting_message" />
+        </RelativeLayout> 
+
+        <View
+            android:id="@+id/information_viewdata"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/thin_split_line" />
+
+        -->
+        <!-- 修改密码 -->
+        <!--
+        <RelativeLayout
+            android:id="@+id/fragment_setting_layout_updatepass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/setting_pass_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/mine_modi_pass" />
+
+            <TextView
+                style="@style/fragment_setting_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/setting_pass_img"
+                android:text="@string/setting_update_password" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/information_viewpass"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/thin_split_line" />
+
+        -->
+
+        <View
+            android:id="@+id/view_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/imageView1"
+            android:layout_marginTop="40dp"
+            android:background="@color/thin_split_line" />
+
+        <!-- 我的计划 -->
+
+        <RelativeLayout
+            android:id="@+id/activity_setting_layout_plan"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/view_view"
+            android:layout_marginTop="10dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/setting_about_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/myplan_icon1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/fragment_setting_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/setting_about_img"
+                android:text="@string/task_plan" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/thin_split_line" />
+
+            <TextView
+                android:id="@+id/setting_task_number"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/textView1"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView1"
+                android:layout_marginRight="22dp"
+                android:gravity="center"
+                android:textColor="@color/location_title"
+                android:background="@drawable/home_msgnum" />
+
+        </RelativeLayout>
+
+        <com.yoka.mrskin.util.RoundImage
+            android:id="@+id/setting_login"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignBottom="@+id/view_view"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/loading_icon" />
+        <!-- 退出登录 -->
+
+        <RelativeLayout
+            android:id="@+id/activity_setting_layout_logout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/activity_setting_layout_plan"
+            android:layout_marginTop="10dp"
+            android:background="@color/white" >
+
+            <ImageView
+                android:id="@+id/setting_logout_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="5dp"
+                android:contentDescription="@null"
+                android:src="@drawable/myplan_icon2" />
+
+            <TextView
+                style="@style/fragment_setting_text_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@id/setting_logout_img"
+                android:text="@string/quit_login" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/thin_split_line" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/setting_login_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/setting_login"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

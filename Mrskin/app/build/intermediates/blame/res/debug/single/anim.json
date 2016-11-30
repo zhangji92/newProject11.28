@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\sign_num.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\sign_num.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spinner.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\spinner.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_in.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left_none.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\slide_in_left_none.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\probation_filter_dialog_out_anim.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\probation_filter_dialog_out_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_shareboard_animation_out.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_shareboard_animation_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\sidebar_background.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\sidebar_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\spinner_butterfly.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\spinner_butterfly.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_fade_out.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tip.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\tip.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\home_show_number.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\home_show_number.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\refresh_img_rotate_anim.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\refresh_img_rotate_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\probation_filter_dialog_in_anim.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\probation_filter_dialog_in_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_out_from_bottom.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_slide_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\translate.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\umeng_socialize_slide_in_from_bottom.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\umeng_socialize_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left_none.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\anim\\slide_out_left_none.xml"
+    }
+]

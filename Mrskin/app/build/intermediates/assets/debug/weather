@@ -1,0 +1,6 @@
+{
+"city":{"name":"北京","id":"101010100"},
+"weather":{"weather_code":1, "high_temp":36, "low_temp":25  },
+"today":[{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  }],
+"days":[{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  },{"weather_code":1, "high_temp":36, "low_temp":25  }],
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+        android:id="@+id/homeExperienceLeftLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/experienceImageView1"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_experience_layer" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <FrameLayout
+                    android:id="@+id/experienceHeadFrameLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <com.yoka.mrskin.util.RoundImage
+                        android:id="@+id/experienceHeadImageView1"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/experienceHeadVipImageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/ic_user_v" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/experienceHeadFrameLayout1"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="8dp" >
+
+                    <TextView
+                        android:id="@+id/experienceNameTextView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="8"
+                        android:text="11111"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:id="@+id/experienceAgeTextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text10" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/experienceTitleTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:paddingBottom="5dp"
+                android:text="【你好好好人】"
+                android:textColor="@color/setting_text"
+                android:textSize="@dimen/text15" />
+
+            <TextView
+                android:id="@+id/experienceHeadTimeTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/location_city_gps"
+                android:textSize="@dimen/text10" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/homeExperienceRightLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <ImageView
+                android:id="@+id/experienceImageView2"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_experience_layer" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <FrameLayout
+                    android:id="@+id/experienceHeadFrameLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <com.yoka.mrskin.util.RoundImage
+                        android:id="@+id/experienceHeadImageView2"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/experienceHeadVipImageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/ic_user_v" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/experienceHeadFrameLayout2"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="8dp" >
+
+                    <TextView
+                        android:id="@+id/experienceNameTextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLength="8"
+                        android:text="11111"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text12" />
+
+                    <TextView
+                        android:id="@+id/experienceAgeTextView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text10" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/experienceTitleTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:maxLines="2"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textColor="@color/setting_text"
+                android:textSize="@dimen/text15" />
+
+            <TextView
+                android:id="@+id/experienceHeadTimeTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/location_city_gps"
+                android:textSize="@dimen/text10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

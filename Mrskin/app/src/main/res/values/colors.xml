@@ -1,0 +1,154 @@
+<!-- Copyright 2012 Square, Inc. -->
+<resources>
+
+    <!-- calendar -->
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <!-- calendar -->
+
+
+    <!-- 定位 -->
+    
+    <color name="location_title">#F06151</color>
+    <color name="location_search">#F8F8F8</color>
+    <color name="location_city">#F0F0F0</color>
+    <color name="location_city_gps_text">#FF5B90</color>
+    <color name="location_city_gps">#CCCCCC</color>
+
+    <!-- 主页 -->
+    <color name="home_title">#F06151</color>
+    <color name="home_title_left_city">#FF5B90</color>
+    <color name="home_color_layout">#FFF8EE</color>
+    <color name="home_color_button_layout">#474747</color>
+
+    <!-- 主页卡片 -->
+    <color name="home_window_title">#F45491</color>
+    <color name="home_window_layout">#FCFCFC</color>
+    <color name="home_window_subtitle">#B5B5B5</color>
+
+    <!-- 设置 -->
+    <color name="setting_title">#FF5B90</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="net_error_text">#AEAEAE</color>
+    <color name="setting_fragment_version_new">#FF0000</color>
+    <color name="thin_split_line">#E5E5E5</color>
+    <color name="edit_data">#E1E1E1</color>
+    <color name="edit_edit_y">#F2F2F2</color>
+    <color name="beautiful_add">#1079FE</color>
+    <color name="task_finish_yellow">#FFD087</color>
+    <color name="setting_bg">#F7F7F7</color>
+    <color name="setting_text">#666666</color>
+    <color name="div_setting">#e3e3e3</color>
+    <color name="home_list_selected">#ffe0e0e0</color>
+
+    <!-- xxxx -->
+    <color name="dark_white">#F2F2F2</color>
+    <color name="use_green">#44C082</color>
+    <color name="net_error_background">#EEEEEE</color>
+    <color name="tab_line">#C9C9C9</color>
+    <color name="plan_task_view">#161213</color>
+    <color name="home_listcolor">#F5F5F5</color>
+    <color name="home_listtime">#B1B1B1</color>
+    <color name="plan_detalis_view">#F1F1F1</color>
+    <color name="login_enroll_text">#A2A2A2</color>
+    <color name="login_two_text">#979797</color>
+    <color name="red">#F06151</color>
+    <color name="grayto">#D3D3D3</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="bule">#4169E1</color>
+    <color name="meilixiawucha">#666666</color>
+    <color name="head_view_color">#BEBEBE</color>
+    
+    
+    <!-- 首页XListView点击颜色 home_activity -->
+    <color name="color_default_image_background">#f0f0f0</color>
+    <color name="gray_e4">#e4e4e4</color>
+    
+
+    <string name="advice_customer_info">选填，以便我们回复您的处理结果</string>
+
+    <color name="important_title">#000000</color>
+    <color name="more_feed_back_phone_text">#A6A6A6</color>
+    <color name="more_fragment_version_new">#43C081</color>
+    <color name="bold_split_line">#F8F8F8</color>
+
+    <!-- HomeFragment -->
+    <color name="home_rays">#F0F0F0</color>
+    <color name="home_plan_title">#0066FF</color>
+    <color name="home_detalis_subtitle">#FF2A90</color>
+    <color name="home_detalis_card">#FFFF66</color>
+
+    <!-- product -->
+    <color name="product_parameter">#C6C6C6</color>
+    <color name="product_ml">#C8CDCF</color>
+    
+
+    <!-- Composition -->
+    <color name="composition_title">#FF5B90</color>
+    <color name="composition_popupwindow">#F0F0F0</color>
+    <color name="composition_titlex">#000000</color>
+    <color name="composition_imagecolor">#0D7FFF</color>
+    <color name="composition_more">#7CD3A8</color>
+
+    <!-- 搜索 -->
+    <color name="search_detalis_remark">#F0F0F0</color>
+    <color name="view">#E1E1E1</color>
+    <color name="search_listtext">#AAAAAA</color>
+    <color name="search_button_color">#DAE6F2</color>
+    <color name="search_sour_view">#CACED1</color>
+    <color name="search_sour_title">#626365</color>
+    
+
+    <!-- 美丽详情页 -->
+    <color name="beautiful_detalis_title">#989898</color>
+    <color name="beautiful_detalis_layoutn">#F0F0F0</color>
+    <color name="beautiful_detalis_task">#F4F4F4</color>
+    <color name="beautiful_background_layout">#F5F5F5</color>
+    <color name="red_f30">#ff3300</color>
+    <color name="gray_6c6d">#6C6D6D</color>
+
+    <!-- 任务 -->
+    <color name="task_text">#8E8E8E</color>
+    <color name="task_text_person">#fffe81</color>
+    <color name="task_finish_day">#F66399</color>
+    <color name="task_year_data_layout">#F4F4F4</color>
+    <color name="task_background_layout">#F5F5F5</color>
+    <color name="task_brief_text">#F57AA9</color>
+    <color name="task_view_line">#FAFAFA</color>
+    <color name="task_finish_task">#F9F9F9</color>
+    
+
+    <!-- 提醒 -->
+    <color name="setting_remind_text">#909090</color>
+    
+    <!-- 登录 -->
+    <color name="setting_updatemessage_background">#FDF9F0</color>
+    
+    <!-- 提交报告页 -->
+    <color name="commit_report_radio_selected">#F06151</color>
+    
+    <!-- 透明 -->
+    <color name="android_android_transparency">#66000000</color>
+    <color name="transparent">#00000000</color>
+    
+     <!-- 心得 -->
+    <color name="bg_my_experience_list">#f0efef</color>
+    <color name="div_my_experience_tab">#ff0000</color>
+    <color name="text_my_experience_tab_default">#999999</color>
+    <color name="text_my_experience_tab_press">#ff4a1a</color>
+    <color name="text_login_button">#ff3300</color>
+    
+    <color name="update_edit_hint_color">#dedede</color>
+    <color name="get_code_btn_bg">#FF9377</color>
+
+</resources>

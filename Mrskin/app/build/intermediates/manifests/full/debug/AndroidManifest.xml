@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yoka.mrskin"
+    android:versionCode="18"
+    android:versionName="2.7.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+    <!-- 公共权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 微信需要权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 其他 -->
+    <uses-permission android:name="android.permission.PERMISSION_NAME" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_MOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 激光 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 定位权限 -->
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- renren sso Permission for Unit Test -->
+    <!-- QQ、QQ空间所需权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <!-- Required -->
+    <permission
+        android:name="com.yoka.mrskin.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required -->
+    <uses-permission android:name="com.yoka.mrskin.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- since 1.6.0 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 传漾 v2.7.0 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.yoka.mrskin.main.MrSkinApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService" >
+        </service>
+
+        <!-- 传漾 所需activity -->
+
+        <activity android:name="com.yoka.mrskin.login.AdWebViewActivity" />
+        <activity
+            android:name="com.yoka.mrskin.login.FullAdActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.login.FullBannerAdActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.login.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateUserInfoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateCityActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateCityActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateBrandHobbyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateEmailActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdatePhoneNumberActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.UpdateAddressActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.CommentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SelectAlbumActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SelectPictureActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.CalendarActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.main.MainActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AboutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AboutLawActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AboutDetalisActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AddBeautifulTaskActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.TaskSettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SettingRemindActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ChopTopicActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.TaskBriefActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.TaskFinishActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.login.LoginenrollActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.MeFragmentSettingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 意见反馈 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.SettingAdviceActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.MePlanActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.PlanDetailsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SearchRackActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.HomeFourTopic"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.HomeTopShare"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ProductFourActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SearchLayoutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme"
+            android:windowSoftInputMode="stateVisible|adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SearchAllActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.PlanFragmentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.CourseFragmentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SildingMenuGrassActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SildingMenuMyBagActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SkinTest2Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.SkinResult2Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.WriteExperienceActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AlbumActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ImageListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.WriteSearchProductActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.WriteTextLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.VideoListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.NewProductValuatingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ProductItemActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ShowBigImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.YKWebViewActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.login.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AeniorReplyActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.AeniorReplayActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+
+        <!-- 引导页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.GuideActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 查看教程页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.TestCourseActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 肌肤测试页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.SkinTestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 测试结果页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.SkinResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 肌肤测试结果详情页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.SkinWebViewActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 我的试用页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.MeProbationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 试用报告页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.CommitReportActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <!-- 产品&心得&试用底层页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.YKWebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!--
+             <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        -->
+        <!-- 我的肌肤管理页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.MySkinManagerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ShareTestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 心得列表 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.ExperienceListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.MyExperienceListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 美妆榜单 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.BeautyRankingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 单品列表 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.SingleProductTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <!-- 品牌落地 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.BrandTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+
+        <!-- 开机屏广告页 -->
+        <activity
+            android:name="com.yoka.mrskin.activity.AdBootActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.activity.ShopWebviewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/OtherActivityTheme" >
+        </activity>
+
+        <!-- line -->
+        <!-- 登录回调 -->
+        <activity
+            android:name="jp.line.android.sdk.activity.LineAuthCompleteActivity"
+            android:configChanges="keyboard|orientation"
+            android:exported="true"
+            android:screenOrientation="sensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="line.1471474450" />
+            </intent-filter>
+        </activity>
+        <!-- 没安装客户端下登录 -->
+        <activity
+            android:name="jp.line.android.sdk.activity.WebLoginActivity"
+            android:configChanges="keyboard|orientation"
+            android:exported="false"
+            android:screenOrientation="sensor" >
+        </activity>
+        <!-- 统计 -->
+        <provider
+            android:name="com.yoka.mrskin.track.YokaTrackProvider"
+            android:authorities="com.yoka.mrskin.track_debug.provider" >
+        </provider>
+
+        <!--
+        <receiver
+            android:name="com.yoka.mrskin.receiver.AlarmReceiver"
+            android:process=":remote" />
+        -->
+        <receiver android:name="com.yoka.mrskin.receiver.AlarmReceiver" />
+        <!-- 友盟统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54992283fd98c57ecf000aa0" > <!-- 正 -->
+        </meta-data>
+
+        <!-- 渠道号 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="111129101" />
+        <!-- 定位 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="0be308d4c925c9d9f6a95b7c9f40f33c" >
+        </meta-data>
+
+        <!-- QQ空间和QQ SSO 授权的 Activity注册 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID  1104359272 -->
+                <data android:scheme="tencent1104359272" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 必须注册在微博授权，分享微博时候用到 -->
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.yoka.mrskin.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.yoka.mrskin.WBShareActivity.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.sina.weibo.sdk.net.DownloadService"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.yoka.mrskin" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <!-- Required  显示通知栏 -->
+                <category android:name="com.yoka.mrskin" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.yoka.mrskin.receiver.MyReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.yoka.mrskin" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required  . Enable it you can get statistics data with yoka_web -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="0f01f009962e859731e8cded" />
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
+        <uses-library android:name="android.test.runner" />
+        <!-- 测试 -->
+        <!-- 27ef82851f4a12482bbe09dd -->
+        <!-- 正式 -->
+        <!-- 0f01f009962e859731e8cded -->
+        <!-- </>值来自开发者平台取得的AppKey -->
+    </application>
+
+</manifest>

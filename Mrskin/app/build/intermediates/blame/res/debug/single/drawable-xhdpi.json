@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\login_btn.9.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xhdpi\\login_btn.9.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\login_obtain.9.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xhdpi\\login_obtain.9.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_login.9.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xhdpi\\bg_login.9.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_login_in.9.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable-xhdpi\\bg_login_in.9.png"
+    }
+]

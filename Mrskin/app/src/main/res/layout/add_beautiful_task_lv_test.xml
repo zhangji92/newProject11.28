@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/beautiful_task_listing_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        tools:ignore="UselessParent" >
+
+        <com.yoka.mrskin.util.RoundImage
+            android:id="@+id/beautiful_task_listing_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/beautiful_task_listing_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/beautiful_task_listing_image"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/beautiful_task_listing_image"
+            android:textColor="@color/home_plan_title" />
+
+        <TextView
+            android:id="@+id/beautiful_task_listing_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/beautiful_task_listing_image"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@+id/beautiful_task_listing_image"
+            android:textColor="@color/home_rays" />
+
+        <Button
+            android:id="@+id/beautiful_task_listing_addimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:background="@drawable/ic_launcher" />
+    </RelativeLayout>
+
+</LinearLayout>

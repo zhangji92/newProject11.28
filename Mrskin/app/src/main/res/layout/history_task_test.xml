@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/history_task_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/history_add_header_bg"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/history_task_timeyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/home_title" />
+
+    <View
+        android:id="@+id/view_vvvv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/thin_split_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="UselessParent" >
+
+        <ImageView
+            android:id="@+id/history_task_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_underway_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/history_task_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/history_task_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/history_task_image"
+            android:layout_toRightOf="@+id/history_task_time"
+            android:maxLines="2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/history_task_imagetest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/history_task_image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="14dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

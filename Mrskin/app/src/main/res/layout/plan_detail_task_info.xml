@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+    <com.yoka.mrskin.util.RoundImage
+        android:id="@+id/plan_detail_task_info_status_background"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/task_to_finish"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/task_today_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/task_today_title"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/red_f30"
+        android:textSize="@dimen/text14" />
+
+    <TextView
+        android:id="@+id/task_today_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/task_today_time"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/plan_detail_task_info_status_background"
+        android:lineSpacingExtra="20px"
+        android:textColor="@color/text_my_experience_tab_default"
+        android:textSize="@dimen/text14" />
+
+    <TextView
+        android:id="@+id/plan_detail_task_info_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/task_today_title"
+        android:layout_alignRight="@+id/plan_detail_task_info_status_background"
+        android:layout_marginRight="3dp"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/plan_detalis_view" />
+
+</RelativeLayout>

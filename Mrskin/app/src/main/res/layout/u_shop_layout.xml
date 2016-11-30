@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:orientation="horizontal" >
+    
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可用优币:" />
+
+        <TextView
+            android:id="@+id/uShopNumTextView"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_login_button"
+            android:text="2000" />
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:drawableLeft="@drawable/ic_u_shop"
+            android:drawableRight="@drawable/ic_u_shop_more"
+            android:id="@+id/uShopMoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="赚优币" />
+</LinearLayout>

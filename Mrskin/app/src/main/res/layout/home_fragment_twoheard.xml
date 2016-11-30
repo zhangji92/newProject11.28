@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- <RelativeLayout
+            android:id="@+id/serach_layout_rack"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/home_title" >
+
+            <TextView
+                android:id="@+id/serach_and_serach"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/home_searchbox"
+                android:gravity="center_vertical"
+                android:hint="@string/serach_rack"
+                android:paddingLeft="50dp" />
+
+            <TextView
+                android:id="@+id/search_magnifier"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBaseline="@+id/serach_and_serach"
+                android:layout_alignBottom="@+id/serach_and_serach"
+                android:layout_alignLeft="@+id/serach_and_serach"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/home_searchbox_btn" />
+        </RelativeLayout> -->
+
+        <!-- <android.support.v4.view.ViewPager -->
+        <!-- android:id="@+id/viewpager" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="170dp" -->
+        <!-- android:layout_marginTop="10dp" /> -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.yoka.mrskin.viewpager.InfiniteViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="225dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/point_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/line_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white" >
+            
+            <TextView
+                android:id="@+id/home_fragment_afternoon"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="美丽下午茶"
+                android:gravity="center_vertical"
+                android:textColor="@color/meilixiawucha"
+                android:textSize="@dimen/text14" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:fillViewport="true"
+                android:scrollbars="none"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/home_fragment_afternoon" />
+
+            <!-- 美妆资讯 -->
+
+            <!-- <LinearLayout
+                android:id="@+id/home_cosmetics_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/cosmetics_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/meizhuang" />
+
+                <TextView
+                    android:id="@+id/cosmetics_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="美妆课堂"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout> -->
+
+            <!-- 美妆心得 -->
+
+            <!-- <LinearLayout
+                android:id="@+id/home_tips_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tips_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/meizhuang_xinde" />
+
+                <TextView
+                    android:id="@+id/tips_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="美妆心得"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout>
+ -->
+            <!-- 美妆榜单 -->
+
+            <!-- <LinearLayout
+                android:id="@+id/home_beautylist_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/beautylist_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/meizhuang_bangdan" />
+
+                <TextView
+                    android:id="@+id/beautylist_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="美妆榜单"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout> -->
+
+            <!-- 肌肤检测 -->
+
+            <!-- <LinearLayout
+                android:id="@+id/home_hot_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/hot_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/meizhuang_jifu" />
+
+                <TextView
+                    android:id="@+id/hot_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="肌肤测试"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout> -->
+
+            <!-- 美丽计划 -->
+            <!--
+            <LinearLayout
+                android:id="@+id/home_subject_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/subject_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/me_task" />
+
+                <TextView
+                    android:id="@+id/subject_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="美丽计划"
+                    android:textColor="#B1B1B1" />
+            </LinearLayout>
+            -->
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

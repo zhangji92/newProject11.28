@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.xlistview.XListView
+            android:id="@+id/home_fragment_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F1F5F8"
+            android:divider="@color/home_listcolor" >
+        </com.xlistview.XListView>
+
+    </FrameLayout>
+
+</LinearLayout>

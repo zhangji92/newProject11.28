@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fullad_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/ad_logo_img"
+            android:layout_width="143dp"
+            android:layout_height="59dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ad_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ad_logo_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="Copyright 2006-2016 Yoka.com,All right reserved"
+            android:textColor="#C5C5C5"
+            android:textSize="@dimen/text10" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fullad_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fullad_bottom" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.3"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "com.yoka.mrskin"
+        minSdkVersion 12
+        targetSdkVersion 19
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.2.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/AdsameCubeMaxSDK_v1.4.2.5.jar')
+    compile files('libs/AMap_Location_V2.5.0_20160526.jar')
+    compile files('libs/android-support-v7-recyclerview.jar')
+    compile files('libs/BDAutoUpdateSDK_20150605_V1.2.0.jar')
+    compile files('libs/commons-lang3-3.1.jar')
+    compile files('libs/hirondelle-date4j-1.5.1.jar')
+    compile files('libs/jpush-sdk-release1.7.5.jar')
+    compile files('libs/libapshare.jar')
+    compile files('libs/MarsorUtils-1.0.0-SNAPSHOT.jar')
+    compile files('libs/mta-sdk-1.6.2.jar')
+    compile files('libs/need_lib.jar')
+    compile files('libs/nineoldandroids-library-2.4.0.jar')
+    compile files('libs/open_sdk_r5509.jar')
+    compile files('libs/patchupdate.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/skinfacedetect.jar')
+    compile files('libs/skinfacedetectoffline.jar')
+    compile files('libs/skinpicture.jar')
+    compile files('libs/skintestlibfull-1510251437.jar')
+    compile files('libs/SocialSDK_alipay.jar')
+    compile files('libs/SocialSDK_QQZone_3.jar')
+    compile files('libs/SocialSDK_Sina.jar')
+    compile files('libs/SocialSDK_tencentWB_1.jar')
+    compile files('libs/SocialSDK_tencentWB_2.jar')
+    compile files('libs/SocialSDK_tencentWB_3.jar')
+    compile files('libs/SocialSDK_WeiXin_1.jar')
+    compile files('libs/SocialSDK_WeiXin_2.jar')
+    compile files('libs/umeng-analytics-v5.2.4.jar')
+    compile files('libs/umeng_social_sdk.jar')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/weiboSDKCore_3.1.4.jar')
+}

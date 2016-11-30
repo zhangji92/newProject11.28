@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/beautiful_fragment_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/home_title"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/task_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/home_title" />
+
+        <ImageView
+            android:id="@+id/task_fragment_top_add_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:background="@drawable/add_task_icon" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/beautiful_plan_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/beautiful_fragment_top_layout"
+        android:background="@color/beautiful_background_layout" />
+
+    <Button
+        android:id="@+id/hidd_addtask"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:textSize="@dimen/text12"
+        android:background="@drawable/about_vbg"
+        android:textColor="@color/white"
+        android:text="@string/task_onaddtask"/>
+
+</RelativeLayout>

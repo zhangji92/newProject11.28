@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/listRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" >
+
+        <RadioButton
+            android:id="@+id/leftRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_my_experience_tab"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/my_experience"
+            android:textColor="@color/tab_text_selector"
+            android:textSize="@dimen/text14" />
+
+        <RadioButton
+            android:id="@+id/centerRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_my_experience_tab"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/my_collection"
+            android:textColor="@color/tab_text_selector"
+            android:textSize="@dimen/text14" />
+
+        <RadioButton
+            android:id="@+id/rightRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_my_experience_tab"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/my_reply"
+            android:textColor="@color/tab_text_selector"
+            android:textSize="@dimen/text14" />
+    </RadioGroup>
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/head_view_color" /> -->
+
+    <com.yoka.mrskin.viewpager.NoScrollViewPager
+        android:id="@+id/noScrollViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8F8" >
+
+        <RelativeLayout
+            android:id="@+id/serach_layout_rack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="20dp" >
+
+            <EditText
+                android:id="@+id/serach_and_search"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/home_searchbox"
+                android:gravity="center_vertical"
+                android:hint="@string/serach_rack"
+                android:imeOptions="actionSearch"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/text12" />
+
+            <TextView
+                android:id="@+id/search_magnifier"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignRight="@+id/serach_and_search"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/home_searchbox_btn" />
+
+            <TextView
+                android:id="@+id/search_rack_back"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/page_back_btn" />
+        </RelativeLayout>
+    </LinearLayout>
+<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/head_view_color" />
+        <com.yoka.mrskin.util.ProgressWebView
+            android:id="@+id/search_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</LinearLayout>

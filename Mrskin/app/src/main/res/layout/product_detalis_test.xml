@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/product_composition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/product_detalis_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/product_detalis_detalis"
+            android:layout_alignLeft="@+id/product_detalis_remark"/>
+
+        <TextView
+            android:id="@+id/product_detalis_specs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/product_detalis_price"
+            android:layout_alignBottom="@+id/product_detalis_price"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/product_detalis_lv_title"/>
+
+        <TextView
+            android:id="@+id/product_detalis_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_detalis_lv_title"
+            android:layout_toRightOf="@+id/product_detalis_specs"/>
+
+        <ImageView
+            android:id="@+id/product_detalis_remark"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/product_detalis_specs"
+            android:layout_toLeftOf="@+id/product_detalis_price"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/product_detalis_gran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_detalis_like"
+            android:layout_toRightOf="@+id/product_detalis_Like_image"/>
+
+        <ImageView
+            android:id="@+id/product_detalis_gran_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/product_detalis_gran"
+            android:layout_toLeftOf="@+id/product_detalis_like"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/product_detalis_Like_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/product_detalis_like"
+            android:layout_toLeftOf="@+id/product_detalis_like"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/product_detalis_lv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="22dp"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:textSize="@dimen/search_detalis_lv_title"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/product_detalis_detalis"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/product_detalis_lv_title"
+            android:layout_alignTop="@+id/product_detalis_specs"
+            android:background="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+    <com.yoka.mrskin.view.calendar.HotwordsViewgroup
+        android:id="@+id/product_detalis_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    
+
+</LinearLayout>

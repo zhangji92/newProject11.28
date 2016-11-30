@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/popup_big_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/share_popuptext" />
+
+        <LinearLayout
+            android:id="@+id/share_four_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_friend"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_weixin_timeline"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_wei"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_weixin_friend"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_sina"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_weibo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_qzone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_qzone"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 第二排 -->
+
+        <LinearLayout
+            android:id="@+id/share_twofour_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_qqfriend"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_qqfrend"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/popup_copyurl"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_copy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" >
+
+                <Button
+                    android:id="@+id/popup_wwww"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_weixin_friend"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" >
+
+                <Button
+                    android:id="@+id/popup_qqqq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/share_qzone"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/popup_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/home_title"
+            android:gravity="center"
+            android:text="@string/dialog_delete_cancle"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

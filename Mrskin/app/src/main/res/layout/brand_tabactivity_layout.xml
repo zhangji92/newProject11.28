@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/brand_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:alpha="0"
+        android:background="@color/white" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/head_view_color" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brand_title_layout"
+        android:background="@color/white"
+        android:visibility="gone" >
+
+        <RadioGroup
+            android:id="@+id/tab_group_new"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_left_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="@dimen/text18" />
+
+            <RadioButton
+                android:id="@+id/rb_center_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="@dimen/text18" />
+
+            <RadioButton
+                android:id="@+id/rb_right_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/tab_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:textColor="@drawable/tab_text_selector"
+                android:textSize="@dimen/text18" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/brand_back"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/blck_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/location_back"
+            android:textColor="@color/location_city_gps"
+            android:textSize="@dimen/text12" />
+    </LinearLayout>
+
+    <com.yoka.mrskin.util.RoundImage
+        android:id="@+id/lv_to_top"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/return_top"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+</RelativeLayout>

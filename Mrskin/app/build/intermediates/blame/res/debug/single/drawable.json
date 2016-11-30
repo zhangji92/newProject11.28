@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_layout_tag_center.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_layout_tag_center.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_mini.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\progressbar_mini.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\task_number.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\task_number.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_me_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_me_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_listview_nocolor.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\selector_listview_nocolor.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_toggle2.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\bg_toggle2.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\get_code_btn_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\get_code_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_task_seletor.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_task_seletor.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sina_web_default.png",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\sina_web_default.png"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_focused_center.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_focused_center.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_toggle.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\bg_toggle.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\brand_ratingbar_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\brand_ratingbar_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\push_time_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\push_time_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_focused.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\point_focused.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_focused_left.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_focused_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\more_fragment_new_shape.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\more_fragment_new_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commit_report_radio_selected_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\commit_report_radio_selected_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\giftest_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\giftest_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\giftest_selected_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\giftest_selected_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\product_grid_selecter.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\product_grid_selecter.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_me_new_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_me_new_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xing_xing.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\xing_xing.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_search_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_search_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_advice.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\shape_advice.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\trial_event_count_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\trial_event_count_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_brand.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\shape_brand.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\brand_like_checkbox_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\brand_like_checkbox_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_seletor.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_home_seletor.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_normal.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\point_normal.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commit_report_edit_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\commit_report_edit_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_search_detalis.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\selector_search_detalis.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commit_report_radio_selecter.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\commit_report_radio_selecter.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_activity_listview_item_shape.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_activity_listview_item_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\point_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vote_percent_bar.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\vote_percent_bar.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_me_selector_new.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_me_selector_new.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_layout_center.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_layout_center.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_normal_left.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_normal_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_home_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_home_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar_edit_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_bar_edit_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_layout_tag_right.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_layout_tag_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_exper_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_exper_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\progressbar_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\calendar_bg_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\calendar_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_normal_center.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_normal_center.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\downbutton_corner.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\downbutton_corner.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bar_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\rating_bar_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\probation_filter_dialog_choose_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\probation_filter_dialog_choose_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_normal_right.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_normal_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_point_focused_right.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_point_focused_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_rectangle_shape.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\text_rectangle_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sidebar_background.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\sidebar_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rectangle_with_corners_top.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\bg_rectangle_with_corners_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_border_shape.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\text_border_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_text_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_text_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\tab_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\commit_report_radio_normal_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\commit_report_radio_normal_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_layout_tag_left.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\search_layout_tag_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_my_experience_tab.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\drawable\\bg_my_experience_tab.xml"
+    }
+]

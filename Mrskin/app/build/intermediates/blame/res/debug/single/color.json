@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\color\\calendar_text_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\color\\calendar_text_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\color\\tab_text_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\color\\tab_text_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\color\\search_text_selector.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\color\\search_text_selector.xml"
+    }
+]

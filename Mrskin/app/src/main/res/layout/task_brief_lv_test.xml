@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/task_background_layout"
+    android:orientation="vertical" >
+
+    <!-- one -->
+
+    <View
+        android:id="@+id/task_brief_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/thin_split_line"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/task_brief_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/plan_detalis_view"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/image_color"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/task_clock_icon"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/task_brief_daytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="第1天"
+            android:textColor="@color/home_title"
+            android:textSize="@dimen/text14" />
+
+        <TextView
+            android:id="@+id/task_brief_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/home_title"
+            android:textSize="@dimen/text14" />
+    </RelativeLayout>
+
+    <!-- two -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="50dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/task_brief_timebrief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/text_my_experience_tab_default"
+            android:lineSpacingExtra="4dp"
+            android:textSize="@dimen/text14" />
+    </LinearLayout>
+
+</LinearLayout>

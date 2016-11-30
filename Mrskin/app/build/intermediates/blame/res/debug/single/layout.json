@@ -1,0 +1,762 @@
+[
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_gridview_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_gridview_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\homefragment_top_shar.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\homefragment_top_shar.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_four_topic.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_four_topic.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_experience_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_experience_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_remind_setting.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\task_remind_setting.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\probation_center_listview_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\probation_center_listview_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_fragment_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_fragment_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\write_popupwindow.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\write_popupwindow.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_tag_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_tag_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beautifultopicul.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\beautifultopicul.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\write_text_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\write_text_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\write_experience_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\write_experience_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin_result.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_skin_result.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\uncertainty.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\uncertainty.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_probation_listview_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\new_probation_listview_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chop_topic.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\chop_topic.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\intent_error.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\intent_error.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_meplan_text.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_meplan_text.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\information_list_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\information_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_search_comment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_search_comment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_nocard.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\card_nocard.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_week.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\calendar_week.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\video_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_title_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_title_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_item_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_item_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ad_boot_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\ad_boot_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_dir_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\list_dir_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_fragment_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_task_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\add_task_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_detalis_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_detalis_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_popupwindow_main.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_popupwindow_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\write_experience_listview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\write_experience_listview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\anim_anim_anim.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\anim_anim_anim.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_info.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\residemenu_info.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_enroll.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\login_enroll.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_vote_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_vote_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_full_ad.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_full_ad.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_login_updatamessage.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_login_updatamessage.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_custom.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\progress_custom.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item_picture.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\grid_item_picture.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_product_tabactivity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\single_product_tabactivity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_detalis.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\about_detalis.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commmen_tab_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\commmen_tab_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment_twoheard.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_fragment_twoheard.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\share_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\right_me_grass_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\right_me_grass_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_task.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\history_task.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout_itemxin.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_layout_itemxin.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\history_task_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\history_task_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_email.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_email.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aenior_reply_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\aenior_reply_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_phonenumber.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_phonenumber.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_comment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_new_valuating_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_new_valuating_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\grid_view_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beautiful_task.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\beautiful_task.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\right_me_bug.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\right_me_bug.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_all_result.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_all_result.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\guide_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plan_detalis_foottest.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\plan_detalis_foottest.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\user_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_user_info.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_user_info.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_list_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\video_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_more_button.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_more_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_edit_data.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_edit_data.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_skin_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\update_brand_hobbt_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\update_brand_hobbt_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_kaka.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\popupwindow_kaka.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\calendar.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_edit_data_time.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_edit_data_time.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_guide.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\welcome_guide.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_toutiao_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_toutiao_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout_itemnew.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_layout_itemnew.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_frament.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_frament.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\probation_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\probation_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\right_me_grass.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\right_me_grass.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_album_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\select_album_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_viewfour.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\welcome_viewfour.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\imagelist_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\imagelist_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aenior_reply_main.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\aenior_reply_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_experience_listview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\my_experience_listview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_finish.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\task_finish.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_popupwindow.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\share_popupwindow.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_info_listitem.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_info_listitem.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commit_report_gridview_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\commit_report_gridview_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_splash.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\start_splash.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_picture_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\select_picture_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_fragment_grid_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_fragment_grid_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\commit_report_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\commit_report_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_fragment_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_fragment_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\productfr_headerview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\productfr_headerview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_experience_list_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\my_experience_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipeback_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_remind_setting_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\task_remind_setting_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_product_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\single_product_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_sour_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_sour_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_advice.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_setting_advice.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\probation_listview_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\probation_listview_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plan_details_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\plan_details_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_popupwindow_items.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_popupwindow_items.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_bigall.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_bigall.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_viewone.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\welcome_viewone.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_beautiful_task_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\add_beautiful_task_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_loginversiontwo.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_loginversiontwo.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plan_detail_task_info.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\plan_detail_task_info.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\u_shop_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\u_shop_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_experience_listitem.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_experience_listitem.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_data_listviewlayout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_data_listviewlayout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment_twolist.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_fragment_twolist.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_butterfly.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\spinner_butterfly.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_brief.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\task_brief.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_imageview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\choose_imageview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_brief_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\task_brief_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_law.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\about_law.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\show_image.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\show_image.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_beautiful_task.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\add_beautiful_task.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_screen.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\custom_screen.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_experience.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\my_experience.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_date_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_date_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\composition_detalis_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\composition_detalis_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\productfragmentnew_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\productfragmentnew_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_city.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_city.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_comment_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_saiwuzhi_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_saiwuzhi_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_album.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_album.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\yk_webview_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\yk_webview_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\brand_tabactivity_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\brand_tabactivity_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_detalis_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_detalis_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_menu.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\item_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_bg.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\toast_bg.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_listviewheader_task_brief.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\add_listviewheader_task_brief.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_fragment_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_fragment_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_fragment_list_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_fragment_list_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_listview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\tab_listview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skin_result_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\skin_result_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beautiful_plan_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\beautiful_plan_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_list_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauty_ranking_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\beauty_ranking_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_meplan.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_meplan.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\no_net_header_view.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\no_net_header_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reply_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_reply_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aenior_replay_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\aenior_replay_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_detalis_composition_lvone_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_detalis_composition_lvone_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\iamgelist_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\iamgelist_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_four.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_four.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\beauty_detalis_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\beauty_detalis_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_loginactivity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\login_loginactivity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_loading_progress.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\video_loading_progress.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_window.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\popup_window.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_login_updatepassword.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_login_updatepassword.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_fragment_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_fragment_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_about.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_about.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_viewtwo.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\welcome_viewtwo.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\experience_fragment_list.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\experience_fragment_list.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skin_detail_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\skin_detail_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_layout_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_layout_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_remind.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\setting_remind.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\afternoon_tea_item_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\afternoon_tea_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ad_webview_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\ad_webview_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_viewthree.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\welcome_viewthree.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\probation_filter_dialog_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\probation_filter_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\brand_headview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\brand_headview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\course_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\course_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skin_test_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\skin_test_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\card.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\skin_webview_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\skin_webview_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_popupwindow_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_popupwindow_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_rack.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\search_rack.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_new_valuating.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_new_valuating.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\write_search_product_layout.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\write_search_product_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_address.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_address.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_fragment_two.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_fragment_two.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plan_product.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\plan_product.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_imageview.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\select_imageview.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_task.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\add_task.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_skin_manager_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\my_skin_manager_activity.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_serach_header.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_serach_header.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_brand_hobby.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\activity_update_brand_hobby.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_detalis_composition_lv_test.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\product_detalis_composition_lv_test.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\home_list_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_month.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\calendar_month.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\city_gridlayout_item.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\city_gridlayout_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\probation_center_fragment.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\probation_center_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android\\android-workspace\\Mrskin\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_course_activity.xml",
+        "source": "D:\\Android\\android-workspace\\Mrskin\\app\\src\\main\\res\\layout\\test_course_activity.xml"
+    }
+]

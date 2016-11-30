@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.yoka.mrskin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <!--
+             <ImageView
+            android:id="@+id/update_user_info_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/blck_back" />
+        -->
+
+        <LinearLayout
+            android:id="@+id/update_user_info_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/blck_back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location_back"
+                android:textColor="@color/location_city_gps"
+                android:textSize="@dimen/text12" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/update_user_info_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text18" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0EFEF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_head"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_head"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_head_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <com.yoka.mrskin.util.RoundImage
+                    android:id="@+id/update_user_info_head_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_head_more"
+                    android:scaleType="centerCrop" 
+                    app:border_width="0dp"
+                    app:border_color="#00000000"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_name"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <TextView
+                    android:id="@+id/update_user_info_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_sex"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_sex"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_sex_img"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_sex_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_ulevel"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_ulevel"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <TextView
+                    android:id="@+id/update_user_info_ulevel_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_hlevel"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_hlevel"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <TextView
+                    android:id="@+id/update_user_info_hlevel_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_skin"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_skin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_skin_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_skin_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_skin_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_hobby"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_hobby"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_hobby_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_hobby_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_hobby_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_buy"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_buy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_buy_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_buy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_buy_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_age"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_age"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_age_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_age_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_age_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_area"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_area"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_area_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_area_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_area_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_phone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_phone"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_phone_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_phone_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/update_user_info_phone_more"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_email"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:id="@+id/email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_email"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_email_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+
+                <TextView
+                    android:id="@+id/update_user_info_email_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/update_user_info_email_more"
+                    android:layout_toRightOf="@id/email_text"
+                    android:gravity="right"
+                    android:textColor="#e0e0e0"
+                    android:textSize="@dimen/text16" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#F0EFEF" />
+
+            <RelativeLayout
+                android:id="@+id/update_user_info_address"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/update_user_info_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text16" />
+
+                <ImageView
+                    android:id="@+id/update_user_info_address_more"
+                    android:layout_width="7dp"
+                    android:layout_height="13dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/more" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#F0EFEF" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

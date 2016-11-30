@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+    <!--
+    <RelativeLayout
+        android:id="@+id/product_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/product_product"
+            android:textColor="@color/black"
+            android:textSize="@dimen/home_title" />
+
+        <RelativeLayout
+            android:id="@+id/product_slidingimage_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/product_slidingimage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/product_edit_white"
+                android:contentDescription="@null" />
+        </RelativeLayout>
+    </RelativeLayout>
+    -->
+
+
+    <!-- GridView header -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#eeeeee" >
+
+        <TextView
+            android:id="@+id/serach_and_searchlayout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@+id/product_slidingimage"
+            android:background="@drawable/home_searchbox"
+            android:gravity="center_vertical"
+            android:hint="@string/serach_rack"
+            android:maxLines="1"
+            android:paddingLeft="40dp" />
+
+        <TextView
+            android:id="@+id/search_image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/serach_and_searchlayout"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/home_searchbox_btn" />
+
+        <RelativeLayout
+            android:id="@+id/product_slidingimage_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center" >
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/product_slidingimage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_add_experience"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/head_view_color" /> -->
+    <!-- GridView title -->
+    
+    <com.xlistview.XListView 
+        android:id="@+id/product_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        ></com.xlistview.XListView>
+
+</LinearLayout>

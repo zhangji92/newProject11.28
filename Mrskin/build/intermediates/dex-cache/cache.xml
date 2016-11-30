@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="12b40458075441c1a66d3fe16e72217ee7472a47">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-recyclerview_493878768f6ce8fb1ae4666ecae23032de8debd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\AdsameCubeMaxSDK_v1.4.2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4df2e50d8054c64b55e94c4ee6797daf39f337b5">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\AdsameCubeMaxSDK_v1.4.2.5_ba0e2d963b14c9a9a0a23b7701fb1889e1f898f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\jpush-sdk-release1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c10bf1a834e7a2caa3832c29b530e1ae7cfad0a2">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\jpush-sdk-release1.7.5_3e9ab49522c0bf3d2422d72327369a1529baeb90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\umeng-analytics-v5.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-analytics-v5.2.4_6663dd2a755aa9b750cdee0c8eaae01e2ec44744\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\BDAutoUpdateSDK_20150605_V1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5b5e4923e09dda3f3e98026c1c8c1c2ed7d04541">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\BDAutoUpdateSDK_20150605_V1.2.0_ebe070c403139a2d92159898c1e7b51704b433ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\commons-lang3-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-lang3-3.1_772bd0d518c7f903458bedbd7974a7f26d70d618\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e89ae558009972e03195d31c35ec0d957121d393">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_2_65c72c92bfa497f8609f35d338eb786d02182528\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.5_0b68056e033ad9d070661cee3971b495d433ed06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\nineoldandroids-library-2.4.0_119e23fb395a3d8bc39b019a5da624f734bed971\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d89e516ac97dd2e0a009c9515b22621a452024ee">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_tencentWB_3_55f707b4854bf463f47d5693e8c850b0e9f92d5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\skinfacedetect.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d3384595c699a5be231ad099b07b96741806750a">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\skinfacedetect_9d4e3348f7d74891aaf24de94aa0f39fe199be41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_tencentWB_2_ecb773394f56c088a88ccac97dede07beb9b1556\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\hirondelle-date4j-1.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7b52de513f87ae4d9ff5d17518def0a1e9bc3df0">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\hirondelle-date4j-1.5.1_488f72fd818d9837a35698d391dd243588f251f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c4c0b8d237757dce06738a695d8b5c09d0ea2574">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_b363a1e577868a2cfcf89d7c83da1187cc3b542d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\open_sdk_r5509.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\open_sdk_r5509_973ff43ae22f794eb0707899ebe6fd0d0b3924e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\MarsorUtils-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6d18db5a240828a0a32c04f5d96a4a5cb1efd282">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\MarsorUtils-1.0.0-SNAPSHOT_a4938f969d65cbdcae1b90919d58fec7a41bbf1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="83c47af04fc11efde2fd577f5279e2d80a902344">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3351d9952563ea495394ad684909031f55dbf81d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\skinfacedetectoffline.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="061598c78276e7ade404f14e909b762f7037fba8">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\skinfacedetectoffline_46a64f24ff4527d00aaf54fb65cfb7243afd3bd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ba6c5f68f18404fe12f2e530283efd486fcf3df5">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5c683e34c9b1169c779065165ade851bf33ccaa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\skinpicture.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="989d5adee34f18be7aaa8a0b430285a34b01edbb">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\skinpicture_9b210b98e657cc88c7c715cf47339e4859f234c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_tencentWB_1_dccff52bc86be5654a877560c76610d483408ef6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_3b78df2f6d8ce59be227aac1bcee26ce0d1d9a60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\libapshare.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="18847ccd171b966c0e05319a709420e87f8fd5c3">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\libapshare_cf1929d1b610fd4006d7c04922c0e71264c8e8be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="666c505ae69803049cd3fbd22347d56ab0047ce5">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_QQZone_3_0de71412452de5f66a3bb38a40b991f62ab6be7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\weiboSDKCore_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f3617ce51258bf3ec0fe2503e3c0a920040b1b53">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\weiboSDKCore_3.1.4_97ae814cda24565b3916df99a7cf5845a72b2d4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_alipay.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbe7440c080e4da2a89f12c652d2f9ce4e94bb6d">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_alipay_b12600da07e437e99e8919fbbab6038b7b0311a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_3261238d46a5b0b6b62002f866ea4d3b43d6dc86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_bdf9d8cebcc5230e34e07d0d5382768a5c7fd47e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\AMap_Location_V2.5.0_20160526.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e40dff75c4b37eca9eea22c450369b0e09518e1d">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V2.5.0_20160526_3fc9353fba06b2ae700fbb9b0e31c6fa825bdd9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\pinyin4j-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\pinyin4j-2.5.0_2121aa7702a82d1f2e6f879e94cf1aeac8ca3331\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_Sina.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="030390d125e0980b66973844d2cfa27b59c3e7bf">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_Sina_6ddd5155cd00681ed788fe5e010e7727c0574d90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\patchupdate.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="311e10769e9bf8db15f166b8196e8c18b6238c27">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\patchupdate_0daca069bdc2cbada111eb7a7949eba8b7d1c6fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\skintestlibfull-1510251437.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf0394b463931224d040762a90a8d3f9eb88704d">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\skintestlibfull-1510251437_37aef5625cec40832c32b68537c1638303a8fc2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\mta-sdk-1.6.2_a6cf64a27a68364589234f504910717daf73c63a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_1_3c5233b9b21460424518c8dd69d3a95ff9530348\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_00a708cd9d18200915ed1e73c256890459e9937e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8fc99dcc063c0b2c7f70ae8919f3f5496baabb1f">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_dfcd5ae15bdc4b536397c20af7d6f35746d0c280\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\android-workspace\Mrskin\app\libs\need_lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="D:\Android\android-workspace\Mrskin\app\build\intermediates\transforms\dex\debug\folders\1000\2\need_lib_57d284b234a70c00f2e75210fd6177f2e8335cd9\classes.dex" />
+    </item>
+
+</items>
