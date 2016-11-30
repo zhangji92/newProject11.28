@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text">
+
+        <TextView
+            android:id="@+id/toolBar_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_cancel"
+            android:textColor="@color/first_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toolBar_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/play_table"
+            android:textColor="@color/first_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/toolBar_release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:text="@string/play_release"
+            android:textColor="@color/first_text"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/table_add_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/first_text"
+            android:hint="@string/play_name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/table_add_juvenile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/first_text"
+            android:hint="@string/play_juvenile"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/first_text">
+
+
+
+            <ImageView
+                android:id="@+id/table_add_add"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:contentDescription="@string/logo"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add" />
+
+            <TextView
+                android:id="@+id/table_add_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/table_add_add" />
+
+            <TextView
+                android:id="@+id/table_add_single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table_add_title"
+                android:layout_toEndOf="@id/table_add_add" />
+
+            <TextView
+                android:id="@+id/table_add_address"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table_add_single"
+                android:layout_toEndOf="@id/table_add_add"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/table_add_location"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table_add_single"
+                android:layout_toEndOf="@id/table_add_address"
+                android:drawablePadding="5dp"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/table_add_content"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/table_add_location"
+                android:layout_toEndOf="@id/table_add_add"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/table_add_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/play_prompt"
+            android:padding="10dp"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

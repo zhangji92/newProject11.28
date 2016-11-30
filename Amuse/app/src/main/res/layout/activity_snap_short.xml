@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_snap_short"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/play_back">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/snap_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/text"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/snap_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/arrow_f" />
+
+        <TextView
+            android:id="@+id/snap_toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.94"
+            android:gravity="center_horizontal"
+            android:text="@string/play_snapshot"
+            android:textColor="@color/first_text"
+            android:textSize="30sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/snap_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/snap_tool"
+        android:layout_marginTop="20dp"
+        android:background="@color/text"
+        android:paddingBottom="5dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:text="@string/play_recommend"
+        android:textColor="@color/first_text" />
+
+    <ImageView
+        android:id="@+id/snap_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/snap_recommend"
+        android:contentDescription="@string/logo" />
+
+    <GridView
+        android:id="@+id/snap_gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/snap_img"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp" />
+
+</RelativeLayout>
