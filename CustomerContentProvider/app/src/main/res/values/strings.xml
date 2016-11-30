@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomerContentProvider</string>
+    <string name="add">添加数据</string>
+    <string name="query">查询数据</string>
+    <string name="upData">修改数据</string>
+    <string name="delete">删除数据</string>
+    <string name="one">查询一条数据</string>
+</resources>
