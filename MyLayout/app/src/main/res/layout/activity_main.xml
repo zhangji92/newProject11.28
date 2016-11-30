@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mylayout.MainActivity">
+
+    <Button
+        android:id="@+id/linear_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:text="LinearLayout"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/relative_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:text="RelativeLayout"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/frame_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:text="FrameLayout"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/absolute_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:text="AbsoluteLayout"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/table_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:text="TableLayout"
+        android:textSize="20sp"/>
+</LinearLayout>

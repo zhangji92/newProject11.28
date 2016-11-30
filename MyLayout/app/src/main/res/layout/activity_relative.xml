@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mylayout.layout.RelativeActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/one"
+        android:gravity="right|center_vertical"
+        android:text="hello"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/hello2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@id/hello"
+        android:layout_toRightOf="@id/hello"
+        android:background="@color/two"
+        android:gravity="center_vertical"
+        android:text="22222"
+        android:textSize="25sp"/>
+</RelativeLayout>

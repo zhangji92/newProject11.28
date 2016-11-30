@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="1,2"
+    android:stretchColumns="0,1"
+    tools:context="com.example.mylayout.layout.TableActivity">
+
+    <TableRow>
+
+        <TextView
+            android:background="@color/one"
+            android:text="第一行第一列"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:text="第一行第二列"
+            android:background="@color/two"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:background="@color/three"
+            android:text="第一行第三列145222225"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="第二行第一列"
+            android:layout_column="1"
+            android:background="@color/one"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <!--<TextView-->
+            <!--android:text="第二行第二列"-->
+            <!--android:background="@color/two"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:visibility="gone"-->
+            <!--android:textSize="20sp"/>-->
+
+        <TextView
+            android:text="第二行第三列"
+            android:background="@color/three"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </TableRow>
+
+</TableLayout>
